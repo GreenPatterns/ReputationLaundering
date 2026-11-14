@@ -1,0 +1,2 @@
+[taskpool] task=e2_scem_phi05_clean_wiki-rfa_s9 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T03:05:04Z
+[E2 wiki-rfa s=9 clean scem_phi05] test MCC 0.20859127594058852 learned phi 0.5 (634.6 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e2/e2_scem_phi05_clean_wiki-rfa_s9.json

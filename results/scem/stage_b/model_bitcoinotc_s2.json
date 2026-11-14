@@ -1,0 +1,50 @@
+{
+ "ds": "bitcoinotc",
+ "seed": 2,
+ "ordinary_mcc": 0.3562060187733084,
+ "ordinary_auroc": 0.7548115965567647,
+ "n_test": 1071,
+ "ece10": 0.10781628453154482,
+ "train_seconds": 378.6,
+ "train_peak_mib": 583.3046875,
+ "infer_peak_mib": 132.16455078125,
+ "latency_us_per_event": 31.080091587316474,
+ "scem_horizon_A": 53.10681654395049,
+ "provenance": {
+  "host": "kc-sse-ml-rn02.umad.umsystem.edu",
+  "utc": "2026-10-17T11:43:04Z",
+  "argv": [
+   "claude_changes_2026-10-16/runs_original_code/stageB_eval.py",
+   "model",
+   "--ds",
+   "bitcoinotc",
+   "--seed",
+   "2"
+  ],
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA RTX A6000",
+  "cuda_visible_devices": "0",
+  "torch": "2.4.0",
+  "cuda_runtime": "12.4",
+  "deterministic": true,
+  "cublas_workspace": ":4096:8",
+  "code_sha256": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "code_sha256_at_write": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "dataset": "bitcoinotc",
+  "data_md5": {
+   "data_path": "eb3a7bd27f8d18028a9e47d8e6bd212d",
+   "edge_path": "a82ce7112b0fdd1dfb4851c601d7c418"
+  },
+  "signed_meta": {
+   "n_raw": 35592,
+   "n_zero_dropped": 0,
+   "n_self_loops": 0,
+   "n_self_loops_dropped": 0,
+   "zero_policy": "drop",
+   "self_loop_policy": "drop",
+   "id_source": "rating_file",
+   "rating_min": -10.0,
+   "rating_max": 10.0
+  }
+ }
+}

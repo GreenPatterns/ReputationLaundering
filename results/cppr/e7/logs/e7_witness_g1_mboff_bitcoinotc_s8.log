@@ -1,0 +1,2 @@
+[taskpool] task=e7_witness_g1_mboff_bitcoinotc_s8 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=0 utc=2026-11-12T07:36:58Z
+[E7 witness bitcoinotc s=8 g1 M-B off] test MCC 0.35023583788046025 (372.5 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e7/e7_witness_g1_mboff_bitcoinotc_s8.json

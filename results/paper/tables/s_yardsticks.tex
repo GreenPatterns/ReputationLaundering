@@ -1,0 +1,17 @@
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Amplification of the retraining gain over four counting yardsticks: the mean gain divided by the mean shift of a yardstick computed from the target's remaining ratings, namely Laplace (add-one smoothed positive share), Raw (positive share), Base rate (a prior at the network's positive share) or Logreg (a degree-feature logistic regression). Edgeless and Keeping split the Laplace amplification into targets left without ratings and the others. Above 1: the gain exceeds the yardstick's shift.}
+\label{tab:s_s_yardsticks}
+\begin{tabular}{@{}lrrrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Laplace} & \textbf{Raw} & \textbf{Base rate} & \textbf{Logreg} & \textbf{Edgeless} & \textbf{Keeping} \\
+\midrule
+Bitcoin-Alpha & 1.38 [1.13, 1.67] & 0.41 [0.34, 0.49] & 0.86 [0.71, 1.03] & 2.14 [1.73, 2.61] & 1.79 [1.28, 2.38] & 1.17 [0.95, 1.42] \\
+Bitcoin-OTC & 1.29 [1.06, 1.54] & 0.38 [0.32, 0.43] & 0.84 [0.70, 0.98] & 1.83 [1.51, 2.18] & 1.68 [1.31, 2.11] & 1.11 [0.85, 1.41] \\
+Wiki-RfA & 2.02 [1.84, 2.20] & 0.67 [0.61, 0.73] & 1.44 [1.31, 1.57] & 2.09 [1.90, 2.28] & 2.19 [1.80, 2.57] & 1.89 [1.79, 2.00] \\
+Epinions-Dated & 1.43 [1.21, 1.67] & 0.41 [0.36, 0.47] & 0.96 [0.83, 1.11] & 1.65 [1.41, 1.90] & 2.22 [1.89, 2.55] & 1.02 [0.86, 1.19] \\
+\bottomrule
+\end{tabular}
+\end{table*}

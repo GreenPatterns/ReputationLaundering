@@ -1,0 +1,3 @@
+[taskpool] task=e7_cppr_g1_bitcoinotc_s9 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T07:39:01Z
+[bitcoinotc s=9 SCEM] Inject-Erase WW: VPE=0.1382 -> CP-VPE=0.1056 (1108.5s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e7/e7_cppr_g1_bitcoinotc_s9.json

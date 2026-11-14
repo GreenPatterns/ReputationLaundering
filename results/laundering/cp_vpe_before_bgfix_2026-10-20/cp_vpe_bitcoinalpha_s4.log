@@ -1,0 +1,2 @@
+[bitcoinalpha s=4 SCEM] Direct laundering: plain=0.2282 -> VPE=0.0762 -> CP-VPE=0.0554 | Inject-Erase WW: VPE=0.1130 -> CP-VPE=0.0855 | Inject-Erase BM: VPE=-0.0689 -> CP-VPE=-0.0423 | CP-VPE AUC=0.618 (2331.3s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/laundering/results/cp_vpe_bitcoinalpha_s4.json

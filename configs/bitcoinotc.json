@@ -1,0 +1,40 @@
+{
+  "dataset": "bitcoinotc",
+  "edge_path": "data/cyberdata/bitcoinotc-rating.txt",
+  "data_path": "data/cyberdata/bitcoinotc.csv",
+  "num_nodes": 5881,
+
+  "n_heads": 16,
+  "input_dim": 32,
+  "layers": [32, 64, 32],
+
+  "lr": 0.005,
+  "weight_decay": 1e-5,
+  "dropout": 0.0,
+  "seed": 42,
+
+  "fl": {
+    "n_clients": 4,
+    "time_slots": 22,
+    "rounds": 50,
+    "local_epochs": 2,
+    "sample_ratio": 1.0
+  },
+
+  "centralized": {
+    "n_heads": 16,
+    "input_dim": 32,
+    "layers": [32, 64, 32],
+    "epochs_per_step": 50,
+    "fresh_model_per_t": true
+  },
+
+  "compression": {
+    "target_sparsity": 0.9,
+    "num_bits": 8,
+    "dp_epsilon": 8.0,
+    "adaef_K": 5,
+    "byzantine_z": 1.0,
+    "shared_secret": 98765
+  }
+}

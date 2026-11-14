@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "keeper"
+version = "0.2.0"
+description = "KEEPER: clean-data reputation laundering, SCEM and CPPR (code for the TDSC paper)"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+include = ["keeper*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["gpu: needs a CUDA GPU (the NVIDIA RTX A6000 runs of Task 1.6)"]

@@ -1,0 +1,33 @@
+[05:22:16 launch GPU 0] snapshot wiki-rfa s0
+[05:22:16 launch GPU 1] snapshot wiki-rfa s1
+[05:22:16 launch GPU 2] snapshot wiki-rfa s2
+[05:22:16 launch GPU 3] snapshot wiki-rfa s3
+[05:22:16 launch GPU 0] snapshot wiki-rfa s4
+[05:22:16 launch GPU 1] snapshot bitcoinotc s0
+[05:22:16 launch GPU 2] snapshot bitcoinotc s1
+[05:22:16 launch GPU 3] snapshot bitcoinotc s2
+[05:22:16 launch GPU 0] snapshot bitcoinotc s3
+[05:22:16 launch GPU 1] snapshot bitcoinotc s4
+[05:22:16 launch GPU 2] snapshot bitcoinalpha s0
+[05:22:16 launch GPU 3] snapshot bitcoinalpha s1
+[06:00:57 launch GPU 0] snapshot bitcoinalpha s2
+[06:00:57 launch GPU 1] snapshot bitcoinalpha s3
+[06:01:17 launch GPU 2] snapshot bitcoinalpha s4
+[06:01:17 launch GPU 3] count wiki-rfa s0
+[06:01:37 launch GPU 0] count wiki-rfa s1
+[06:01:37 launch GPU 1] count wiki-rfa s2
+[06:01:57 launch GPU 2] count wiki-rfa s3
+[06:02:17 launch GPU 3] count wiki-rfa s4
+[06:02:37 launch GPU 0] count bitcoinotc s0
+[06:02:37 launch GPU 1] count bitcoinotc s1
+[06:03:17 launch GPU 2] count bitcoinotc s2
+[06:03:17 launch GPU 3] count bitcoinotc s3
+[06:39:38 launch GPU 0] count bitcoinotc s4
+[06:39:38 launch GPU 1] count bitcoinalpha s0
+[06:39:38 launch GPU 2] count bitcoinalpha s1
+[06:40:58 launch GPU 3] count bitcoinalpha s2
+[06:41:38 launch GPU 0] count bitcoinalpha s3
+[06:42:18 launch GPU 1] count bitcoinalpha s4
+Wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/laundering/results/cp_vpe_gpu_aggregate.json
+Wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/laundering/results/cpgate_count_aggregate.json
+[07:19:06] STAGE C BGFIX DONE

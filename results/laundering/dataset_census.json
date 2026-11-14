@@ -1,0 +1,68 @@
+[
+  {
+    "ds": "bitcoinalpha",
+    "edges": 24186,
+    "nodes": 3783,
+    "T": 22,
+    "tt": 21,
+    "train_window_edges": 23090,
+    "distrust_share": 0.0606,
+    "nodes_with_neg_in": 577,
+    "distrust_majority": 174,
+    "majority_le3": 135,
+    "honest_cohort": 29,
+    "distrust_edges": 1400,
+    "top20_raters_distrust_share": 0.398,
+    "top20_targets_distrust_share": 0.286,
+    "honest_npos_hist": {
+      "1": 25,
+      "2": 4
+    },
+    "c3_candidates_median": 5,
+    "c3_zero_candidate_targets": 4
+  },
+  {
+    "ds": "bitcoinotc",
+    "edges": 35592,
+    "nodes": 5881,
+    "T": 22,
+    "tt": 21,
+    "train_window_edges": 33975,
+    "distrust_share": 0.1,
+    "nodes_with_neg_in": 1197,
+    "distrust_majority": 528,
+    "majority_le3": 398,
+    "honest_cohort": 85,
+    "distrust_edges": 3396,
+    "top20_raters_distrust_share": 0.363,
+    "top20_targets_distrust_share": 0.17,
+    "honest_npos_hist": {
+      "1": 70,
+      "2": 15
+    },
+    "c3_candidates_median": 20,
+    "c3_zero_candidate_targets": 6
+  },
+  {
+    "ds": "epinions-dated",
+    "edges": 840799,
+    "nodes": 131828,
+    "T": 22,
+    "tt": 21,
+    "train_window_edges": 832634,
+    "distrust_share": 0.147,
+    "nodes_with_neg_in": 31405,
+    "distrust_majority": 17088,
+    "majority_le3": 12949,
+    "honest_cohort": 904,
+    "distrust_edges": 122409,
+    "top20_raters_distrust_share": 0.133,
+    "top20_targets_distrust_share": 0.04,
+    "honest_npos_hist": {
+      "1": 789,
+      "2": 115
+    },
+    "c3_candidates_median": 36,
+    "c3_zero_candidate_targets": 57
+  }
+]

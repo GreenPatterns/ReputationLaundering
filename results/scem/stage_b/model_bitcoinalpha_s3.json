@@ -1,0 +1,50 @@
+{
+ "ds": "bitcoinalpha",
+ "seed": 3,
+ "ordinary_mcc": 0.35256348405013554,
+ "ordinary_auroc": 0.753863177512036,
+ "n_test": 642,
+ "ece10": 0.12120335672131953,
+ "train_seconds": 333.0,
+ "train_peak_mib": 410.4755859375,
+ "infer_peak_mib": 107.20751953125,
+ "latency_us_per_event": 36.34478014338424,
+ "scem_horizon_A": 53.10681654395049,
+ "provenance": {
+  "host": "kc-sse-ml-rn02.umad.umsystem.edu",
+  "utc": "2026-10-17T11:54:58Z",
+  "argv": [
+   "claude_changes_2026-10-16/runs_original_code/stageB_eval.py",
+   "model",
+   "--ds",
+   "bitcoinalpha",
+   "--seed",
+   "3"
+  ],
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA RTX A6000",
+  "cuda_visible_devices": "0",
+  "torch": "2.4.0",
+  "cuda_runtime": "12.4",
+  "deterministic": true,
+  "cublas_workspace": ":4096:8",
+  "code_sha256": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "code_sha256_at_write": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "dataset": "bitcoinalpha",
+  "data_md5": {
+   "data_path": "2bad4b43ebfb1e3e63f86a4e5359c24a",
+   "edge_path": "fb6d4b161d3374996d90a713ad51d833"
+  },
+  "signed_meta": {
+   "n_raw": 24186,
+   "n_zero_dropped": 0,
+   "n_self_loops": 0,
+   "n_self_loops_dropped": 0,
+   "zero_policy": "drop",
+   "self_loop_policy": "drop",
+   "id_source": "rating_file",
+   "rating_min": -10.0,
+   "rating_max": 10.0
+  }
+ }
+}

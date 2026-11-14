@@ -1,0 +1,70 @@
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Calibration and admission guarantee of the credibility layer, per network and BTP variant: capped (KEEPER's default; an endorsement carries at most a fixed multiple of the per-step trust) or uncapped. $\varepsilon$: tolerance chosen on honest data; $K$: propagation steps; $n_\mathrm{ref}$: reference accounts; Seeds: seed accounts; Retention: percent of legacy Tier $\ge 1$ accounts kept in Tier $\ge 1$; Guarantee: proved bound on fakes admitted per attack edge; Max: largest star of fakes admitted in the probe ($\ge$: lower bound, the probe did not reach the end of the star).}
+\label{tab:s_s_credibility_calibration}
+\begin{tabular}{@{}llrrrrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Variant} & \textbf{$\varepsilon$} & \textbf{$K$} & \textbf{$n_\mathrm{ref}$} & \textbf{Seeds} & \textbf{Retention (\%)} & \textbf{Guarantee} & \textbf{Max} \\
+\midrule
+Bitcoin-Alpha & capped & 0.02 & 12 & 3629 & 1188 & 92.1 & 24 & 21 \\
+Bitcoin-Alpha & uncapped & 0.05 & 12 & 3629 & 1188 & 95.1 & n/a & $\ge$ 350 \\
+Bitcoin-OTC & capped & 0.01 & 13 & 5684 & 1621 & 92.4 & 26 & 23 \\
+Bitcoin-OTC & uncapped & 0.05 & 13 & 5684 & 1621 & 94.1 & n/a & $\ge$ 750 \\
+Wiki-RfA & capped & 0.50 & 14 & 10152 & 627 & 94.5 & 28 & 25 \\
+Wiki-RfA & uncapped & 0.50 & 14 & 10152 & 627 & 95.9 & n/a & $\ge$ 200 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Tier shares of active accounts (percent) under the legacy breadth-first tiers or capped BTP. Tier 0 holds unendorsed, possibly fake accounts; Tiers 1 to 3 are the terciles of the endorsed accounts.}
+\label{tab:s_s_credibility_tiers}
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Rule} & \textbf{Tier 0} & \textbf{Tier 1} & \textbf{Tier 2} & \textbf{Tier 3} \\
+\midrule
+Bitcoin-Alpha & legacy & 7.2 & 36.3 & 25.8 & 30.6 \\
+Bitcoin-Alpha & capped BTP & 14.5 & 28.5 & 28.5 & 28.5 \\
+Bitcoin-OTC & legacy & 12.9 & 36.9 & 23.9 & 26.2 \\
+Bitcoin-OTC & capped BTP & 19.5 & 26.8 & 26.8 & 26.8 \\
+Wiki-RfA & legacy & 84.3 & 5.3 & 5.2 & 5.2 \\
+Wiki-RfA & capped BTP & 83.8 & 5.4 & 5.4 & 5.4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Demotion census: free fake accounts bad-mouth a credible victim, per network and tiering method (BTP variants as in the calibration table; ``all raters'' counts every rater's negative ratings, the default only trusted raters'). For $k = 1, 5, 10$ fresh accounts each rating one of 100 victims from the method's own Tier $\ge 2$: Drop, percent of victims whose tier falls; Tier 0, percent that land in Tier 0.}
+\label{tab:s_s_credibility_demotion}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Method} & \multicolumn{3}{c}{\textbf{Drop (\%)}} & \multicolumn{3}{c}{\textbf{Tier 0 (\%)}} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+ & & $k{=}1$ & $k{=}5$ & $k{=}10$ & $k{=}1$ & $k{=}5$ & $k{=}10$ \\
+\midrule
+Bitcoin-Alpha & Legacy BFS & 2.0 & 70.0 & 77.0 & 2.0 & 66.0 & 77.0 \\
+Bitcoin-Alpha & BTP uncapped & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+Bitcoin-Alpha & BTP capped & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+Bitcoin-Alpha & BTP uncapped, all raters & 37.0 & 68.0 & 80.0 & 37.0 & 68.0 & 80.0 \\
+Bitcoin-Alpha & BTP capped, all raters & 38.0 & 69.0 & 81.0 & 38.0 & 69.0 & 81.0 \\
+Bitcoin-OTC & Legacy BFS & 2.0 & 67.0 & 79.0 & 0.0 & 62.0 & 79.0 \\
+Bitcoin-OTC & BTP uncapped & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+Bitcoin-OTC & BTP capped & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+Bitcoin-OTC & BTP uncapped, all raters & 31.0 & 66.0 & 81.0 & 31.0 & 66.0 & 81.0 \\
+Bitcoin-OTC & BTP capped, all raters & 27.0 & 68.0 & 82.0 & 27.0 & 68.0 & 82.0 \\
+Wiki-RfA & Legacy BFS & 12.0 & 39.0 & 75.0 & 0.0 & 0.0 & 0.0 \\
+Wiki-RfA & BTP uncapped & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+Wiki-RfA & BTP capped & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 & 0.0 \\
+Wiki-RfA & BTP uncapped, all raters & 0.0 & 2.0 & 3.0 & 0.0 & 2.0 & 3.0 \\
+Wiki-RfA & BTP capped, all raters & 2.0 & 6.0 & 7.0 & 2.0 & 6.0 & 7.0 \\
+\bottomrule
+\end{tabular}
+\end{table*}

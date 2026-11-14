@@ -1,0 +1,2 @@
+[taskpool] task=e7_witness_clean_mbon_wiki-rfa_s5 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T05:54:52Z
+[E7 witness wiki-rfa s=5 clean M-B on] test MCC 0.1977529993981806 (524.2 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e7/e7_witness_clean_mbon_wiki-rfa_s5.json

@@ -1,0 +1,3 @@
+[taskpool] task=e3_btpc_bitcoinotc_s5 attempt=1 host=kc-sse-ml-rn02.umad.umsystem.edu gpu=0 utc=2026-11-12T00:18:15Z
+[bitcoinotc s=5 SCEM] Direct laundering: plain=0.1721 -> VPE=-0.1814 -> CP-VPE=-0.0116 | Inject-Erase WW: VPE=0.1059 -> CP-VPE=0.0424 | Inject-Erase BM: VPE=-0.1044 -> CP-VPE=-0.0124 | Control: VPE=-0.0346 -> CP-VPE=-0.0175 | CP-VPE AUC=0.579 (3135.2s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e3/e3_btpc_bitcoinotc_s5.json

@@ -1,0 +1,24 @@
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Granularity of the stream: each network cut into 22, 44 or 88 snapshots, Erlang-2 release. Days: snapshot length in days; Age: commitment age in days. SSR, HMR: revoked share (percent) of the rating mass of silent senders (default rule) and of honest senders, with witnesses off (stored rule) or weighted by capped BTP tier.}
+\label{tab:s_s_granularity}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Snapshots} & \textbf{Days} & \textbf{Age} & \multicolumn{2}{c}{\textbf{SSR (\%)}} & \multicolumn{2}{c}{\textbf{HMR (\%)}} \\
+\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+ & & & & off & capped & off & capped \\
+\midrule
+Bitcoin-Alpha & 22 & 86.4 & 1147 & 21.6 & 25.1 & 0.7 & 0.7 \\
+Bitcoin-Alpha & 44 & 43.2 & 574 & 25.3 & 25.8 & 0.7 & 0.7 \\
+Bitcoin-Alpha & 88 & 21.6 & 287 & 24.5 & 24.8 & 0.7 & 0.8 \\
+Bitcoin-OTC & 22 & 86.5 & 1149 & 22.6 & 24.3 & 1.5 & 1.6 \\
+Bitcoin-OTC & 44 & 43.3 & 574 & 24.7 & 25.6 & 1.6 & 1.6 \\
+Bitcoin-OTC & 88 & 21.6 & 287 & 30.1 & 30.7 & 1.5 & 1.5 \\
+Wiki-RfA & 22 & 151.0 & 2005 & 44.1 & 36.9 & 8.9 & 8.9 \\
+Wiki-RfA & 44 & 75.5 & 1003 & 40.4 & 34.2 & 9.5 & 9.6 \\
+Wiki-RfA & 88 & 37.8 & 501 & 35.5 & 30.5 & 8.4 & 8.6 \\
+\bottomrule
+\end{tabular}
+\end{table*}

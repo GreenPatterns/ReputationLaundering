@@ -1,0 +1,2 @@
+[taskpool] task=e1d_h5_single_bitcoinalpha_part0of7 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=cpu22 utc=2026-11-12T01:13:39Z
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e1/e1d_h5_single_bitcoinalpha_part0of7.json (426.7 s)

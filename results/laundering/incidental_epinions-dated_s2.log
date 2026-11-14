@@ -1,0 +1,14 @@
+[epinions-dated s2] cohort 12949 | top rater issues 1551 distrust edges
+  prolific {'top_r': 1} accounts=1 edges=2334 targets touched 272/12949 | retrain crossings 1809 (literal 0.13970190748320332) (761s)
+  prolific {'top_r': 5} accounts=5 edges=10286 targets touched 960/12949 | retrain crossings 1225 (literal 0.09460189976059927) (761s)
+  prolific {'top_r': 20} accounts=20 edges=25753 targets touched 2438/12949 | retrain crossings 1438 (literal 0.11105104641285041) (758s)
+  random   {'rate': 0.005, 'draw': 0} accounts=652 edges=11625 targets touched 162/12871 | retrain crossings 311 (literal 0.02416284670965737) (759s)
+  random   {'rate': 0.005, 'draw': 1} accounts=652 edges=9904 targets touched 116/12883 | retrain crossings 1038 (literal 0.08057129550570519) (759s)
+  random   {'rate': 0.005, 'draw': 2} accounts=652 edges=6369 targets touched 45/12889 | retrain crossings 128 (literal 0.009930948871130421) (759s)
+  random   {'rate': 0.01, 'draw': 0} accounts=1303 edges=16486 targets touched 264/12820 | retrain crossings 1127 (literal 0.08790951638065522) (758s)
+  random   {'rate': 0.01, 'draw': 1} accounts=1303 edges=19044 targets touched 140/12815 | retrain crossings 934 (literal 0.07288333983612953) (757s)
+  random   {'rate': 0.01, 'draw': 2} accounts=1303 edges=11215 targets touched 89/12835 | retrain crossings 905 (literal 0.07051032333463186) (760s)
+  random   {'rate': 0.02, 'draw': 0} accounts=2607 edges=32946 targets touched 262/12706 | retrain crossings 541 (literal 0.042578309460097594) (752s)
+  random   {'rate': 0.02, 'draw': 1} accounts=2607 edges=33068 targets touched 193/12696 | retrain crossings 926 (literal 0.07293635790800251) (751s)
+  random   {'rate': 0.02, 'draw': 2} accounts=2607 edges=32323 targets touched 395/12693 | retrain crossings 2149 (literal 0.16930591664697078) (752s)
+wrote /home/mucbp/PROJECTS/FedUnlearning/laundering/results/incidental_epinions-dated_s2.json

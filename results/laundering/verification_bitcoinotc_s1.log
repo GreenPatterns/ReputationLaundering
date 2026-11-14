@@ -1,0 +1,2 @@
+[bitcoinotc s1] H4 pass-all 0.976 over 82 laundering requests | per kind: benign_random 0.87, launder_C1 1.00, launder_C2_edge 1.00, launder_C3 0.91
+wrote /home/mucbp/PROJECTS/FedUnlearning/laundering/results/verification_bitcoinotc_s1.json

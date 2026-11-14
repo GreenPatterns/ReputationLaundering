@@ -1,0 +1,14 @@
+[bitcoinalpha s3] cohort 135 | top rater issues 136 distrust edges
+  prolific {'top_r': 1} accounts=1 edges=390 targets touched 40/135 | retrain crossings 13 (literal 0.0962962962962963) (101s)
+  prolific {'top_r': 5} accounts=5 edges=1414 targets touched 68/135 | retrain crossings 29 (literal 0.21481481481481482) (103s)
+  prolific {'top_r': 20} accounts=20 edges=3941 targets touched 80/135 | retrain crossings 25 (literal 0.18518518518518517) (105s)
+  random   {'rate': 0.005, 'draw': 0} accounts=18 edges=76 targets touched 0/134 | retrain crossings 0 (literal 0.0) (106s)
+  random   {'rate': 0.005, 'draw': 1} accounts=18 edges=125 targets touched 0/135 | retrain crossings 26 (literal 0.1925925925925926) (106s)
+  random   {'rate': 0.005, 'draw': 2} accounts=18 edges=359 targets touched 0/135 | retrain crossings 16 (literal 0.11851851851851852) (106s)
+  random   {'rate': 0.01, 'draw': 0} accounts=36 edges=289 targets touched 0/132 | retrain crossings 2 (literal 0.015151515151515152) (106s)
+  random   {'rate': 0.01, 'draw': 1} accounts=36 edges=284 targets touched 0/135 | retrain crossings 26 (literal 0.1925925925925926) (106s)
+  random   {'rate': 0.01, 'draw': 2} accounts=36 edges=278 targets touched 0/134 | retrain crossings 13 (literal 0.09701492537313433) (105s)
+  random   {'rate': 0.02, 'draw': 0} accounts=73 edges=595 targets touched 0/131 | retrain crossings 13 (literal 0.09923664122137404) (101s)
+  random   {'rate': 0.02, 'draw': 1} accounts=73 edges=1017 targets touched 3/132 | retrain crossings 17 (literal 0.12878787878787878) (101s)
+  random   {'rate': 0.02, 'draw': 2} accounts=73 edges=1021 targets touched 4/134 | retrain crossings 16 (literal 0.11940298507462686) (101s)
+wrote /home/mucbp/PROJECTS/FedUnlearning/laundering/results/incidental_bitcoinalpha_s3.json

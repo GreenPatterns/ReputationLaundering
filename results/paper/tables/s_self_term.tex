@@ -1,0 +1,108 @@
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Self-term test (H8) over the 50 drawn targets. Gain: mean laundering gain (rise in platform percentile, as a fraction of the platform) with the self term on, with its one-sided $p$-value; Decision is met when its interval excludes 0. Ratio: gain with the self term on divided by the gain with it off, with its $p$-value; Reading is met when the ratio's lower bound is at least 0.5, and inconclusive otherwise.}
+\label{tab:s_s_self_term_h8}
+\begin{tabular}{@{}lrrlrrl@{}}
+\toprule
+\textbf{Network} & \textbf{Gain} & \textbf{$p$} & \textbf{Decision} & \textbf{Ratio} & \textbf{$p$} & \textbf{Reading} \\
+\midrule
+Bitcoin-Alpha & $+0.268$ [$+0.190$, $+0.346$] & 0.000342 & met & 0.73 [0.47, 0.99] & 0.0366 & inconclusive \\
+Bitcoin-OTC & $+0.340$ [$+0.115$, $+0.565$] & 0.00685 & met & 1.03 [0.30, 1.75] & 0.0577 & inconclusive \\
+Wiki-RfA & $+0.435$ [$+0.340$, $+0.529$] & 0.000108 & met & 0.76 [0.61, 0.91] & 0.00424 & met \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Secondary outcomes of the self-term study, per network, target group (the 50 drawn targets, or the targets with at least four warnings) and self term (off, on). Gain: rise in platform percentile as a fraction of the platform; Before, After: platform percentile (percent) before and after deletion.}
+\label{tab:s_s_self_term_secondary}
+\begin{tabular}{@{}lllrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Targets} & \textbf{Self term} & \textbf{Gain} & \textbf{Before (\%)} & \textbf{After (\%)} \\
+\midrule
+Bitcoin-Alpha & 50 drawn & off & $+0.369$ [$+0.240$, $+0.498$] & 3.250 [2.657, 3.868] & 35.936 [28.496, 43.863] \\
+Bitcoin-Alpha & 50 drawn & on & $+0.268$ [$+0.190$, $+0.346$] & 3.142 [2.564, 3.754] & 47.707 [42.352, 53.416] \\
+Bitcoin-Alpha & $\ge 4$ warnings & off & $+0.427$ [$+0.286$, $+0.567$] & 2.566 [2.077, 3.071] & 42.554 [35.327, 50.022] \\
+Bitcoin-Alpha & $\ge 4$ warnings & on & $+0.347$ [$+0.229$, $+0.466$] & 2.255 [1.680, 2.864] & 49.351 [42.341, 56.080] \\
+Bitcoin-OTC & 50 drawn & off & $+0.332$ [$+0.280$, $+0.388$] & 6.042 [5.034, 7.122] & 40.991 [33.812, 48.812] \\
+Bitcoin-OTC & 50 drawn & on & $+0.340$ [$+0.115$, $+0.565$] & 6.140 [5.163, 7.194] & 55.393 [48.981, 61.805] \\
+Bitcoin-OTC & $\ge 4$ warnings & off & $+0.303$ [$+0.263$, $+0.345$] & 7.873 [7.018, 8.763] & 55.225 [48.552, 61.897] \\
+Bitcoin-OTC & $\ge 4$ warnings & on & $+0.319$ [$+0.129$, $+0.510$] & 7.415 [6.474, 8.358] & 51.397 [45.906, 56.888] \\
+Wiki-RfA & 50 drawn & off & $+0.571$ [$+0.504$, $+0.638$] & 5.526 [4.480, 6.549] & 56.810 [45.854, 67.583] \\
+Wiki-RfA & 50 drawn & on & $+0.435$ [$+0.340$, $+0.529$] & 7.222 [6.046, 8.605] & 51.231 [43.156, 58.888] \\
+Wiki-RfA & $\ge 4$ warnings & off & $+0.623$ [$+0.585$, $+0.662$] & 6.186 [5.972, 6.409] & 74.592 [71.756, 77.428] \\
+Wiki-RfA & $\ge 4$ warnings & on & $+0.551$ [$+0.465$, $+0.636$] & 6.591 [4.847, 8.336] & 69.360 [66.469, 72.251] \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Test MCC of the base model with the self term off and on.}
+\label{tab:s_s_self_term_mcc}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Network} & \textbf{Self term off} & \textbf{Self term on} \\
+\midrule
+Bitcoin-Alpha & 0.340 [0.314, 0.367] & 0.357 [0.352, 0.362] \\
+Bitcoin-OTC & 0.336 [0.310, 0.362] & 0.326 [0.304, 0.347] \\
+Wiki-RfA & 0.219 [0.156, 0.282] & 0.209 [0.142, 0.276] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Cold-start analysis (E8), laundered targets, per network and calibration: none, or $m = 1, 2, 4$ prior pseudo-ratings. Platform percentile (percent) of the 50 drawn laundered targets and of the targets with at least four warnings, and change of the newcomers' percentile in percentage points.}
+\label{tab:s_s_self_term_e8_percentile}
+\begin{tabular}{@{}llrrr@{}}
+\toprule
+\textbf{Network} & \textbf{$m$} & \textbf{50 drawn (\%)} & \textbf{$\ge 4$ warnings (\%)} & \textbf{Newcomers} \\
+\midrule
+Bitcoin-Alpha & none (uncalibrated) & 35.936 [28.435, 43.769] & 42.554 [35.201, 49.715] & n/a \\
+Bitcoin-Alpha & 1 & 23.823 [19.453, 28.475] & 45.442 [37.100, 53.887] & -19.945 [-20.616, -19.275] \\
+Bitcoin-Alpha & 2 & 23.226 [18.929, 27.807] & 45.641 [37.196, 54.227] & -20.944 [-21.699, -20.188] \\
+Bitcoin-Alpha & 4 & 22.817 [18.675, 27.339] & 45.070 [36.646, 53.554] & -21.661 [-22.370, -20.951] \\
+Bitcoin-OTC & none (uncalibrated) & 40.991 [33.846, 48.694] & 55.225 [48.552, 61.897] & n/a \\
+Bitcoin-OTC & 1 & 26.282 [21.118, 31.659] & 53.214 [48.185, 58.383] & -19.840 [-20.887, -18.793] \\
+Bitcoin-OTC & 2 & 25.199 [20.249, 30.372] & 52.050 [47.037, 57.103] & -21.714 [-22.424, -21.003] \\
+Bitcoin-OTC & 4 & 24.580 [19.765, 29.538] & 50.934 [46.076, 55.780] & -22.659 [-23.334, -21.984] \\
+Wiki-RfA & none (uncalibrated) & 56.810 [45.639, 67.464] & 74.592 [71.756, 77.428] & n/a \\
+Wiki-RfA & 1 & 45.007 [34.393, 55.681] & 62.902 [60.546, 65.289] & -41.674 [-44.541, -38.808] \\
+Wiki-RfA & 2 & 43.968 [33.641, 54.301] & 61.641 [59.290, 63.938] & -41.673 [-44.540, -38.806] \\
+Wiki-RfA & 4 & 43.338 [33.183, 53.494] & 60.499 [58.246, 62.711] & -41.671 [-44.538, -38.805] \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Cold-start analysis (E8), low-degree accounts: MCC on low-degree accounts of the base model and of the model calibrated with strength $m$, and their difference (Delta).}
+\label{tab:s_s_self_term_e8_mcc}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{$m$} & \textbf{MCC base} & \textbf{MCC calibrated} & \textbf{$\Delta$ MCC} \\
+\midrule
+Bitcoin-Alpha & 1 & 0.153 [0.138, 0.168] & 0.044 [0.011, 0.077] & $-0.109$ [$-0.135$, $-0.082$] \\
+Bitcoin-Alpha & 2 & 0.153 [0.138, 0.168] & $-0.023$ [$-0.033$, $-0.013$] & $-0.176$ [$-0.183$, $-0.169$] \\
+Bitcoin-Alpha & 4 & 0.153 [0.138, 0.168] & 0.000 [0.000, 0.000] & $-0.153$ [$-0.168$, $-0.138$] \\
+Bitcoin-OTC & 1 & 0.188 [0.174, 0.203] & 0.398 [0.375, 0.421] & $+0.210$ [$+0.192$, $+0.227$] \\
+Bitcoin-OTC & 2 & 0.188 [0.174, 0.203] & 0.000 [0.000, 0.000] & $-0.188$ [$-0.203$, $-0.174$] \\
+Bitcoin-OTC & 4 & 0.188 [0.174, 0.203] & 0.000 [0.000, 0.000] & $-0.188$ [$-0.203$, $-0.174$] \\
+Wiki-RfA & 1 & 0.185 [0.140, 0.230] & 0.000 [0.000, 0.000] & $-0.185$ [$-0.230$, $-0.140$] \\
+Wiki-RfA & 2 & 0.185 [0.140, 0.230] & 0.000 [0.000, 0.000] & $-0.185$ [$-0.230$, $-0.140$] \\
+Wiki-RfA & 4 & 0.185 [0.140, 0.230] & 0.000 [0.000, 0.000] & $-0.185$ [$-0.230$, $-0.140$] \\
+\bottomrule
+\end{tabular}
+\end{table*}

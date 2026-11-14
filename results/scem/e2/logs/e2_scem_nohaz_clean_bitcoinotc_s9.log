@@ -1,0 +1,2 @@
+[taskpool] task=e2_scem_nohaz_clean_bitcoinotc_s9 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T04:23:04Z
+[E2 bitcoinotc s=9 clean scem_nohaz] test MCC 0.35844718575747636 learned phi 0.30994635820388794 (405.2 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e2/e2_scem_nohaz_clean_bitcoinotc_s9.json

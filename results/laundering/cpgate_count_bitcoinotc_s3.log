@@ -1,0 +1,2 @@
+[bitcoinotc s=3 SCEM] Direct laundering: plain=0.1352 -> VPE=-0.0850 -> CP-VPE=-0.0046 | Inject-Erase WW: VPE=0.0583 -> CP-VPE=0.0095 | Inject-Erase BM: VPE=-0.0872 -> CP-VPE=-0.0075 | CP-VPE AUC=0.702 (2330.4s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/laundering/results/cpgate_count_bitcoinotc_s3.json

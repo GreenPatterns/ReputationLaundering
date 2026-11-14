@@ -1,0 +1,2 @@
+[bitcoinalpha s4] H4 pass-all 0.705 over 78 laundering requests | per kind: benign_random 0.93, launder_C1 0.80, launder_C2_edge 0.80, launder_C3 0.39
+wrote /home/mucbp/PROJECTS/FedUnlearning/laundering/results/verification_bitcoinalpha_s4.json

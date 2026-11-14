@@ -1,0 +1,2 @@
+[taskpool] task=e7_witness_clean_mbon_bitcoinalpha_s5 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T07:44:10Z
+[E7 witness bitcoinalpha s=5 clean M-B on] test MCC 0.3407769919322736 (374.3 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e7/e7_witness_clean_mbon_bitcoinalpha_s5.json

@@ -1,0 +1,53 @@
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Cohort-weighted laundering outcomes. The sample is stratified (about half endorsed), so each cell weights the means of endorsed and other targets by their cohort shares (Endorsed, percent): platform percentile before deletion, after inference-only unlinking (U1) and after full retraining (U2); the percentile after U2 without and with an endorsement; and the gain under U2.}
+\label{tab:s_s_percentiles_cohort}
+\begin{tabular}{@{}lrrrrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Endorsed} & \textbf{Before} & \textbf{After U1} & \textbf{After U2} & \textbf{U2, no endors.} & \textbf{U2, endorsed} & \textbf{Gain U2} \\
+\midrule
+Bitcoin-Alpha & 21.5 & 3.1 [2.4, 3.9] & 24.5 [20.2, 28.8] & 25.1 [21.9, 28.5] & 14.7 [10.7, 18.7] & 63.0 [55.6, 70.8] & $+0.364$ [$+0.288$, $+0.444$] \\
+Bitcoin-OTC & 21.4 & 4.6 [3.9, 5.3] & 26.4 [23.0, 29.7] & 27.0 [23.7, 30.3] & 17.4 [14.6, 20.2] & 62.5 [53.9, 71.1] & $+0.347$ [$+0.292$, $+0.401$] \\
+Wiki-RfA & 14.8 & 3.4 [2.9, 3.9] & 32.1 [26.3, 38.0] & 33.0 [27.6, 38.3] & 21.9 [15.5, 28.2] & 96.8 [96.0, 97.6] & $+0.577$ [$+0.491$, $+0.663$] \\
+Epinions-Dated & 7.0 & 6.5 [5.0, 8.0] & 34.2 [24.8, 43.6] & 34.0 [24.9, 43.2] & 31.2 [21.4, 41.0] & 71.7 [65.8, 77.4] & $+0.387$ [$+0.323$, $+0.452$] \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Platform percentile (percent of active accounts with a lower reputation) of the sampled laundered targets, as plain means over the stratified sample (cohort-weighted: previous table): before deletion, after U1 and after U2, and the share of targets that start in the lowest 5\% (Leave 5\%) or lowest 10\% (Leave 10\%) and leave it after U1.}
+\label{tab:s_s_percentiles_percentile}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Before} & \textbf{After U1} & \textbf{After U2} & \textbf{Leave 5\%} & \textbf{Leave 10\%} \\
+\midrule
+Bitcoin-Alpha & 3.232 [2.619, 3.890] & 37.163 [29.064, 45.939] & 38.850 [31.130, 46.921] & 100.000 [91.592, 100.000] & 100.000 [92.603, 100.000] \\
+Bitcoin-OTC & 5.895 [4.933, 6.917] & 38.752 [31.265, 46.872] & 39.946 [32.630, 47.699] & 100.000 [89.112, 100.000] & 100.000 [92.294, 100.000] \\
+Wiki-RfA & 5.549 [4.489, 6.594] & 55.651 [44.949, 66.601] & 56.204 [45.342, 66.969] & 100.000 [86.773, 100.000] & 100.000 [91.779, 100.000] \\
+Epinions-Dated & 9.296 [7.661, 11.303] & 51.756 [44.377, 58.894] & 51.448 [44.176, 58.708] & 100.000 [80.494, 100.000] & 100.000 [89.424, 100.000] \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Decision threshold and targets left without ratings. Tau: range over seeds of the MCC-maximizing threshold. Cohort: targets in the cohort; Edgeless: number and share (percent) left without any rating after deletion; Cold start: their common post-deletion platform percentile (percent).}
+\label{tab:s_s_percentiles_edgeless}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Network} & \textbf{Tau range} & \textbf{Cohort} & \textbf{Edgeless $n$} & \textbf{Edgeless (\%)} & \textbf{Cold start (\%)} \\
+\midrule
+Bitcoin-Alpha & 0.062 to 0.097 & 135 & 81 & 60.0 & 13.562 [10.595, 16.529] \\
+Bitcoin-OTC & 0.025 to 0.256 & 398 & 258 & 64.8 & 15.909 [14.232, 17.586] \\
+Wiki-RfA & 0.281 to 0.526 & 155 & 107 & 69.0 & 19.053 [12.121, 25.986] \\
+Epinions-Dated & 0.150 to 0.311 & 12949 & 8980 & 69.3 & 31.570 [19.425, 43.715] \\
+\bottomrule
+\end{tabular}
+\end{table*}

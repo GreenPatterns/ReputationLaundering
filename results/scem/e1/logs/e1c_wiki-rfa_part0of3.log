@@ -1,0 +1,2 @@
+[taskpool] task=e1c_wiki-rfa_part0of3 attempt=1 host=kc-sse-ml-rn02.umad.umsystem.edu gpu=cpu15 utc=2026-11-11T22:38:14Z
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e1/e1c_wiki-rfa_part0of3.json (686.6 s)

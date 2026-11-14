@@ -1,0 +1,3 @@
+[taskpool] task=e7_cppr_g0_bitcoinalpha_s9 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=0 utc=2026-11-12T08:07:46Z
+[bitcoinalpha s=9 SCEM] Direct laundering: plain=0.2113 -> VPE=-0.1012 -> CP-VPE=-0.0652 | Inject-Erase WW: VPE=0.1226 -> CP-VPE=0.0611 | CP-VPE AUC=0.570 (2074.2s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e7/e7_cppr_g0_bitcoinalpha_s9.json

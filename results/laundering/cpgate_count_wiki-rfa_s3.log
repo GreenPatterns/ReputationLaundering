@@ -1,0 +1,2 @@
+[wiki-rfa s=3 SCEM] Direct laundering: plain=0.2949 -> VPE=0.0014 -> CP-VPE=-0.0128 | Inject-Erase WW: VPE=0.3543 -> CP-VPE=0.0396 | Inject-Erase BM: VPE=-0.1424 -> CP-VPE=-0.0324 | CP-VPE AUC=0.605 (2431.0s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/laundering/results/cpgate_count_wiki-rfa_s3.json

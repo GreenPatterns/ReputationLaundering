@@ -1,0 +1,44 @@
+{
+  "dataset": "wiki-rfa",
+  "data_path": "data/cyberdata/wiki-rfa.csv",
+  "num_nodes": 10707,
+
+  "n_heads": 16,
+  "input_dim": 32,
+  "layers": [32, 64, 32],
+
+  "lr": 0.005,
+  "weight_decay": 1e-5,
+  "dropout": 0.0,
+  "seed": 42,
+
+  "signed": {
+    "zero_policy": "drop",
+    "self_loops": "drop"
+  },
+
+  "_provenance": {
+    "source": "https://snap.stanford.edu/data/wiki-RfA.txt.gz (md5 bdddfccfcd5e08f0bf063a6744e6e429)",
+    "citation": "R. West, H. S. Paskov, J. Leskovec, C. Potts. Exploiting Social Network Structure for Person-to-Person Sentiment Analysis. TACL 2014.",
+    "build": "laundering/build_wikirfa.py; per-build counts in data/cyberdata/wiki-rfa.provenance.json",
+    "rating": "VOT: +1 support, -1 oppose, 0 neutral (neutral dropped by the loader, amendment A4)",
+    "time": "DAT parsed as UTC unix seconds; 14,786 of 198,275 SNAP records have no parseable date and are not in the CSV"
+  },
+
+  "fl": {
+    "n_clients": 4,
+    "time_slots": 22,
+    "rounds": 50,
+    "local_epochs": 2,
+    "sample_ratio": 1.0,
+    "snapshot_mode": "count"
+  },
+
+  "centralized": {
+    "n_heads": 16,
+    "input_dim": 32,
+    "layers": [32, 64, 32],
+    "epochs_per_step": 50,
+    "fresh_model_per_t": true
+  }
+}

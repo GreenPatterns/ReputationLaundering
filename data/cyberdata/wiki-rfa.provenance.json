@@ -1,0 +1,20 @@
+{
+  "source": "https://snap.stanford.edu/data/wiki-RfA.txt.gz",
+  "citation": "West, Paskov, Leskovec, Potts. Exploiting Social Network Structure for Person-to-Person Sentiment Analysis. TACL 2014.",
+  "built": "2026-10-09T05:32:56Z",
+  "n_rows": 181828,
+  "n_nodes": 10707,
+  "dropped": {
+    "missing_endpoint": 1661,
+    "no_parseable_date": 14786
+  },
+  "votes": {
+    "-1": 38355,
+    "0": 11328,
+    "1": 132145
+  },
+  "time_min": 1083384540,
+  "time_max": 1370461800,
+  "distinct_times": 172613,
+  "self_votes": 85
+}

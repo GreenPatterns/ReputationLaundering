@@ -1,0 +1,8 @@
+[taskpool] task=e9a_bitcoinalpha_s5_off attempt=1 host=kc-sse-ml-rn04 gpu=0 utc=2026-11-11T23:14:14Z
+  U1 50/89 targets (14s)
+  U1 89/89 targets (24s)
+  warning: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  warning: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/mucbp/PROJECTS/.keeper-worktrees/run-fccc958/configs/bitcoinalpha.json' mode='r' encoding='UTF-8'>
+  warning: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/mucbp/PROJECTS/.keeper-worktrees/run-fccc958/results/laundering/calibration_bitcoinalpha_s0.json' mode='r' encoding='UTF-8'>
+[E9a bitcoinalpha s5 self_term=off] T1 MCC=0.3233595998628219 | 89 targets | drawn mean U1 gain +0.3255 | 3 distinct warnings | dump 1.3 MiB | 113.2s
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/laundering/e9a/e9a_bitcoinalpha_s5_off.json

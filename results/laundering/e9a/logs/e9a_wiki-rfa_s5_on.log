@@ -1,0 +1,28 @@
+[taskpool] task=e9a_wiki-rfa_s5_on attempt=1 host=kc-sse-ml-rn04 gpu=0 utc=2026-11-11T22:05:41Z
+  U1 50/1060 targets (41s)
+  U1 100/1060 targets (83s)
+  U1 150/1060 targets (124s)
+  U1 200/1060 targets (165s)
+  U1 250/1060 targets (206s)
+  U1 300/1060 targets (247s)
+  U1 350/1060 targets (288s)
+  U1 400/1060 targets (329s)
+  U1 450/1060 targets (371s)
+  U1 500/1060 targets (413s)
+  U1 550/1060 targets (455s)
+  U1 600/1060 targets (496s)
+  U1 650/1060 targets (538s)
+  U1 700/1060 targets (579s)
+  U1 750/1060 targets (621s)
+  U1 800/1060 targets (663s)
+  U1 850/1060 targets (705s)
+  U1 900/1060 targets (747s)
+  U1 950/1060 targets (789s)
+  U1 1000/1060 targets (831s)
+  U1 1050/1060 targets (872s)
+  U1 1060/1060 targets (881s)
+  warning: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  warning: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/mucbp/PROJECTS/.keeper-worktrees/run-fccc958/configs/wiki-rfa.json' mode='r' encoding='UTF-8'>
+  warning: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/mucbp/PROJECTS/.keeper-worktrees/run-fccc958/results/laundering/calibration_wiki-rfa_s0.json' mode='r' encoding='UTF-8'>
+[E9a wiki-rfa s5 self_term=on] T1 MCC=0.1437852106122729 | 1060 targets | drawn mean U1 gain +0.3364 | 3 distinct warnings | dump 41.5 MiB | 1050.1s
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/laundering/e9a/e9a_wiki-rfa_s5_on.json

@@ -1,0 +1,7108 @@
+{
+ "generator": "keeper/paperkit/make_revision_supp_tables.py",
+ "tables": {
+  "s_credibility": {
+   "cells": {
+    "tab:s_s_credibility_calibration": {
+     "Bitcoin-Alpha|capped": {
+      "K": {
+       "text": "12",
+       "value": 12
+      },
+      "eps": {
+       "text": "0.02",
+       "value": 0.02
+      },
+      "guarantee": {
+       "text": "24",
+       "value": 24
+      },
+      "max_admitted": {
+       "text": "21",
+       "value": 21
+      },
+      "n_ref": {
+       "text": "3629",
+       "value": 3629
+      },
+      "n_seeds": {
+       "text": "1188",
+       "value": 1188
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "retention": {
+       "text": "92.1",
+       "value": 0.9207244655581948
+      },
+      "variant": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "Bitcoin-Alpha|uncapped": {
+      "K": {
+       "text": "12",
+       "value": 12
+      },
+      "eps": {
+       "text": "0.05",
+       "value": 0.05
+      },
+      "guarantee": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "max_admitted": {
+       "text": "$\\ge$ 350",
+       "value": 350
+      },
+      "n_ref": {
+       "text": "3629",
+       "value": 3629
+      },
+      "n_seeds": {
+       "text": "1188",
+       "value": 1188
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "retention": {
+       "text": "95.1",
+       "value": 0.9507125890736342
+      },
+      "variant": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "Bitcoin-OTC|capped": {
+      "K": {
+       "text": "13",
+       "value": 13
+      },
+      "eps": {
+       "text": "0.01",
+       "value": 0.01
+      },
+      "guarantee": {
+       "text": "26",
+       "value": 26
+      },
+      "max_admitted": {
+       "text": "23",
+       "value": 23
+      },
+      "n_ref": {
+       "text": "5684",
+       "value": 5684
+      },
+      "n_seeds": {
+       "text": "1621",
+       "value": 1621
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "retention": {
+       "text": "92.4",
+       "value": 0.9236363636363636
+      },
+      "variant": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "Bitcoin-OTC|uncapped": {
+      "K": {
+       "text": "13",
+       "value": 13
+      },
+      "eps": {
+       "text": "0.05",
+       "value": 0.05
+      },
+      "guarantee": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "max_admitted": {
+       "text": "$\\ge$ 750",
+       "value": 750
+      },
+      "n_ref": {
+       "text": "5684",
+       "value": 5684
+      },
+      "n_seeds": {
+       "text": "1621",
+       "value": 1621
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "retention": {
+       "text": "94.1",
+       "value": 0.9408080808080808
+      },
+      "variant": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "Wiki-RfA|capped": {
+      "K": {
+       "text": "14",
+       "value": 14
+      },
+      "eps": {
+       "text": "0.50",
+       "value": 0.5
+      },
+      "guarantee": {
+       "text": "28",
+       "value": 28
+      },
+      "max_admitted": {
+       "text": "25",
+       "value": 25
+      },
+      "n_ref": {
+       "text": "10152",
+       "value": 10152
+      },
+      "n_seeds": {
+       "text": "627",
+       "value": 627
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "retention": {
+       "text": "94.5",
+       "value": 0.9449311639549437
+      },
+      "variant": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "Wiki-RfA|uncapped": {
+      "K": {
+       "text": "14",
+       "value": 14
+      },
+      "eps": {
+       "text": "0.50",
+       "value": 0.5
+      },
+      "guarantee": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "max_admitted": {
+       "text": "$\\ge$ 200",
+       "value": 200
+      },
+      "n_ref": {
+       "text": "10152",
+       "value": 10152
+      },
+      "n_seeds": {
+       "text": "627",
+       "value": 627
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "retention": {
+       "text": "95.9",
+       "value": 0.9586983729662077
+      },
+      "variant": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     }
+    },
+    "tab:s_s_credibility_demotion": {
+     "Bitcoin-Alpha|BTP capped": {
+      "dropped_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k5": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "method": {
+       "text": "BTP capped",
+       "value": "BTP capped"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k5": {
+       "text": "0.0",
+       "value": 0.0
+      }
+     },
+     "Bitcoin-Alpha|BTP capped, all raters": {
+      "dropped_k1": {
+       "text": "38.0",
+       "value": 0.38
+      },
+      "dropped_k10": {
+       "text": "81.0",
+       "value": 0.81
+      },
+      "dropped_k5": {
+       "text": "69.0",
+       "value": 0.69
+      },
+      "method": {
+       "text": "BTP capped, all raters",
+       "value": "BTP capped, all raters"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "tier0_k1": {
+       "text": "38.0",
+       "value": 0.38
+      },
+      "tier0_k10": {
+       "text": "81.0",
+       "value": 0.81
+      },
+      "tier0_k5": {
+       "text": "69.0",
+       "value": 0.69
+      }
+     },
+     "Bitcoin-Alpha|BTP uncapped": {
+      "dropped_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k5": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "method": {
+       "text": "BTP uncapped",
+       "value": "BTP uncapped"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k5": {
+       "text": "0.0",
+       "value": 0.0
+      }
+     },
+     "Bitcoin-Alpha|BTP uncapped, all raters": {
+      "dropped_k1": {
+       "text": "37.0",
+       "value": 0.37
+      },
+      "dropped_k10": {
+       "text": "80.0",
+       "value": 0.8
+      },
+      "dropped_k5": {
+       "text": "68.0",
+       "value": 0.68
+      },
+      "method": {
+       "text": "BTP uncapped, all raters",
+       "value": "BTP uncapped, all raters"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "tier0_k1": {
+       "text": "37.0",
+       "value": 0.37
+      },
+      "tier0_k10": {
+       "text": "80.0",
+       "value": 0.8
+      },
+      "tier0_k5": {
+       "text": "68.0",
+       "value": 0.68
+      }
+     },
+     "Bitcoin-Alpha|Legacy BFS": {
+      "dropped_k1": {
+       "text": "2.0",
+       "value": 0.02
+      },
+      "dropped_k10": {
+       "text": "77.0",
+       "value": 0.77
+      },
+      "dropped_k5": {
+       "text": "70.0",
+       "value": 0.7
+      },
+      "method": {
+       "text": "Legacy BFS",
+       "value": "Legacy BFS"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "tier0_k1": {
+       "text": "2.0",
+       "value": 0.02
+      },
+      "tier0_k10": {
+       "text": "77.0",
+       "value": 0.77
+      },
+      "tier0_k5": {
+       "text": "66.0",
+       "value": 0.66
+      }
+     },
+     "Bitcoin-OTC|BTP capped": {
+      "dropped_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k5": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "method": {
+       "text": "BTP capped",
+       "value": "BTP capped"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k5": {
+       "text": "0.0",
+       "value": 0.0
+      }
+     },
+     "Bitcoin-OTC|BTP capped, all raters": {
+      "dropped_k1": {
+       "text": "27.0",
+       "value": 0.27
+      },
+      "dropped_k10": {
+       "text": "82.0",
+       "value": 0.82
+      },
+      "dropped_k5": {
+       "text": "68.0",
+       "value": 0.68
+      },
+      "method": {
+       "text": "BTP capped, all raters",
+       "value": "BTP capped, all raters"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "tier0_k1": {
+       "text": "27.0",
+       "value": 0.27
+      },
+      "tier0_k10": {
+       "text": "82.0",
+       "value": 0.82
+      },
+      "tier0_k5": {
+       "text": "68.0",
+       "value": 0.68
+      }
+     },
+     "Bitcoin-OTC|BTP uncapped": {
+      "dropped_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k5": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "method": {
+       "text": "BTP uncapped",
+       "value": "BTP uncapped"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k5": {
+       "text": "0.0",
+       "value": 0.0
+      }
+     },
+     "Bitcoin-OTC|BTP uncapped, all raters": {
+      "dropped_k1": {
+       "text": "31.0",
+       "value": 0.31
+      },
+      "dropped_k10": {
+       "text": "81.0",
+       "value": 0.81
+      },
+      "dropped_k5": {
+       "text": "66.0",
+       "value": 0.66
+      },
+      "method": {
+       "text": "BTP uncapped, all raters",
+       "value": "BTP uncapped, all raters"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "tier0_k1": {
+       "text": "31.0",
+       "value": 0.31
+      },
+      "tier0_k10": {
+       "text": "81.0",
+       "value": 0.81
+      },
+      "tier0_k5": {
+       "text": "66.0",
+       "value": 0.66
+      }
+     },
+     "Bitcoin-OTC|Legacy BFS": {
+      "dropped_k1": {
+       "text": "2.0",
+       "value": 0.02
+      },
+      "dropped_k10": {
+       "text": "79.0",
+       "value": 0.79
+      },
+      "dropped_k5": {
+       "text": "67.0",
+       "value": 0.67
+      },
+      "method": {
+       "text": "Legacy BFS",
+       "value": "Legacy BFS"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "79.0",
+       "value": 0.79
+      },
+      "tier0_k5": {
+       "text": "62.0",
+       "value": 0.62
+      }
+     },
+     "Wiki-RfA|BTP capped": {
+      "dropped_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k5": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "method": {
+       "text": "BTP capped",
+       "value": "BTP capped"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k5": {
+       "text": "0.0",
+       "value": 0.0
+      }
+     },
+     "Wiki-RfA|BTP capped, all raters": {
+      "dropped_k1": {
+       "text": "2.0",
+       "value": 0.02
+      },
+      "dropped_k10": {
+       "text": "7.0",
+       "value": 0.07
+      },
+      "dropped_k5": {
+       "text": "6.0",
+       "value": 0.06
+      },
+      "method": {
+       "text": "BTP capped, all raters",
+       "value": "BTP capped, all raters"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "tier0_k1": {
+       "text": "2.0",
+       "value": 0.02
+      },
+      "tier0_k10": {
+       "text": "7.0",
+       "value": 0.07
+      },
+      "tier0_k5": {
+       "text": "6.0",
+       "value": 0.06
+      }
+     },
+     "Wiki-RfA|BTP uncapped": {
+      "dropped_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k5": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "method": {
+       "text": "BTP uncapped",
+       "value": "BTP uncapped"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k5": {
+       "text": "0.0",
+       "value": 0.0
+      }
+     },
+     "Wiki-RfA|BTP uncapped, all raters": {
+      "dropped_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "dropped_k10": {
+       "text": "3.0",
+       "value": 0.03
+      },
+      "dropped_k5": {
+       "text": "2.0",
+       "value": 0.02
+      },
+      "method": {
+       "text": "BTP uncapped, all raters",
+       "value": "BTP uncapped, all raters"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "3.0",
+       "value": 0.03
+      },
+      "tier0_k5": {
+       "text": "2.0",
+       "value": 0.02
+      }
+     },
+     "Wiki-RfA|Legacy BFS": {
+      "dropped_k1": {
+       "text": "12.0",
+       "value": 0.12
+      },
+      "dropped_k10": {
+       "text": "75.0",
+       "value": 0.75
+      },
+      "dropped_k5": {
+       "text": "39.0",
+       "value": 0.39
+      },
+      "method": {
+       "text": "Legacy BFS",
+       "value": "Legacy BFS"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "tier0_k1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k10": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "tier0_k5": {
+       "text": "0.0",
+       "value": 0.0
+      }
+     }
+    },
+    "tab:s_s_credibility_tiers": {
+     "Bitcoin-Alpha|capped BTP": {
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "rule": {
+       "text": "capped BTP",
+       "value": "capped BTP"
+      },
+      "tier0": {
+       "text": "14.5",
+       "value": 0.14549462661890328
+      },
+      "tier1": {
+       "text": "28.5",
+       "value": 0.2849269771286856
+      },
+      "tier2": {
+       "text": "28.5",
+       "value": 0.28465141912372555
+      },
+      "tier3": {
+       "text": "28.5",
+       "value": 0.2849269771286856
+      }
+     },
+     "Bitcoin-Alpha|legacy": {
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "rule": {
+       "text": "legacy",
+       "value": "legacy"
+      },
+      "tier0": {
+       "text": "7.2",
+       "value": 0.0719206392945715
+      },
+      "tier1": {
+       "text": "36.3",
+       "value": 0.3631854505373381
+      },
+      "tier2": {
+       "text": "25.8",
+       "value": 0.25847340865252133
+      },
+      "tier3": {
+       "text": "30.6",
+       "value": 0.30642050151556904
+      }
+     },
+     "Bitcoin-OTC|capped BTP": {
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "rule": {
+       "text": "capped BTP",
+       "value": "capped BTP"
+      },
+      "tier0": {
+       "text": "19.5",
+       "value": 0.19493314567206194
+      },
+      "tier1": {
+       "text": "26.8",
+       "value": 0.2684729064039409
+      },
+      "tier2": {
+       "text": "26.8",
+       "value": 0.2682969739619986
+      },
+      "tier3": {
+       "text": "26.8",
+       "value": 0.2682969739619986
+      }
+     },
+     "Bitcoin-OTC|legacy": {
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "rule": {
+       "text": "legacy",
+       "value": "legacy"
+      },
+      "tier0": {
+       "text": "12.9",
+       "value": 0.1291344123856439
+      },
+      "tier1": {
+       "text": "36.9",
+       "value": 0.3692821956368754
+      },
+      "tier2": {
+       "text": "23.9",
+       "value": 0.23926812104152007
+      },
+      "tier3": {
+       "text": "26.2",
+       "value": 0.2623152709359606
+      }
+     },
+     "Wiki-RfA|capped BTP": {
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "rule": {
+       "text": "capped BTP",
+       "value": "capped BTP"
+      },
+      "tier0": {
+       "text": "83.8",
+       "value": 0.8377659574468085
+      },
+      "tier1": {
+       "text": "5.4",
+       "value": 0.054078014184397165
+      },
+      "tier2": {
+       "text": "5.4",
+       "value": 0.054078014184397165
+      },
+      "tier3": {
+       "text": "5.4",
+       "value": 0.054078014184397165
+      }
+     },
+     "Wiki-RfA|legacy": {
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "rule": {
+       "text": "legacy",
+       "value": "legacy"
+      },
+      "tier0": {
+       "text": "84.3",
+       "value": 0.8425925925925926
+      },
+      "tier1": {
+       "text": "5.3",
+       "value": 0.05260047281323877
+      },
+      "tier2": {
+       "text": "5.2",
+       "value": 0.05240346729708432
+      },
+      "tier3": {
+       "text": "5.2",
+       "value": 0.05240346729708432
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/tiers_report.json": "ed55482c7f6ad4f38f9c46c5319033c5fc78b78e15853d1af327bcd548db08e7"
+   }
+  },
+  "s_granularity": {
+   "cells": {
+    "tab:s_s_granularity": {
+     "Bitcoin-Alpha|22": {
+      "age_days": {
+       "text": "1147",
+       "value": 1147.2279346596576
+      },
+      "days_per_snapshot": {
+       "text": "86.4",
+       "value": 86.4090909090909
+      },
+      "hmr_capped": {
+       "text": "0.7",
+       "value": 0.0071724325386136566
+      },
+      "hmr_off": {
+       "text": "0.7",
+       "value": 0.006872258689561461
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "snapshots": {
+       "text": "22",
+       "value": 22
+      },
+      "ssr_capped": {
+       "text": "25.1",
+       "value": 0.251300007814015
+      },
+      "ssr_off": {
+       "text": "21.6",
+       "value": 0.2163783286932214
+      }
+     },
+     "Bitcoin-Alpha|44": {
+      "age_days": {
+       "text": "574",
+       "value": 573.6139673298288
+      },
+      "days_per_snapshot": {
+       "text": "43.2",
+       "value": 43.20454545454545
+      },
+      "hmr_capped": {
+       "text": "0.7",
+       "value": 0.006615940483932325
+      },
+      "hmr_off": {
+       "text": "0.7",
+       "value": 0.006525144900290255
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "snapshots": {
+       "text": "44",
+       "value": 44
+      },
+      "ssr_capped": {
+       "text": "25.8",
+       "value": 0.257518868035758
+      },
+      "ssr_off": {
+       "text": "25.3",
+       "value": 0.25317308291358004
+      }
+     },
+     "Bitcoin-Alpha|88": {
+      "age_days": {
+       "text": "287",
+       "value": 286.8069836649144
+      },
+      "days_per_snapshot": {
+       "text": "21.6",
+       "value": 21.602272727272727
+      },
+      "hmr_capped": {
+       "text": "0.8",
+       "value": 0.007643050326350586
+      },
+      "hmr_off": {
+       "text": "0.7",
+       "value": 0.00742517972170373
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "snapshots": {
+       "text": "88",
+       "value": 88
+      },
+      "ssr_capped": {
+       "text": "24.8",
+       "value": 0.24827705933487793
+      },
+      "ssr_off": {
+       "text": "24.5",
+       "value": 0.244793083985265
+      }
+     },
+     "Bitcoin-OTC|22": {
+      "age_days": {
+       "text": "1149",
+       "value": 1148.597038895297
+      },
+      "days_per_snapshot": {
+       "text": "86.5",
+       "value": 86.51221170033669
+      },
+      "hmr_capped": {
+       "text": "1.6",
+       "value": 0.016220403837434137
+      },
+      "hmr_off": {
+       "text": "1.5",
+       "value": 0.015477814869777295
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "snapshots": {
+       "text": "22",
+       "value": 22
+      },
+      "ssr_capped": {
+       "text": "24.3",
+       "value": 0.2433194164403697
+      },
+      "ssr_off": {
+       "text": "22.6",
+       "value": 0.2258771212035074
+      }
+     },
+     "Bitcoin-OTC|44": {
+      "age_days": {
+       "text": "574",
+       "value": 574.2985194476485
+      },
+      "days_per_snapshot": {
+       "text": "43.3",
+       "value": 43.256105850168346
+      },
+      "hmr_capped": {
+       "text": "1.6",
+       "value": 0.016325520512220016
+      },
+      "hmr_off": {
+       "text": "1.6",
+       "value": 0.016184635369420827
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "snapshots": {
+       "text": "44",
+       "value": 44
+      },
+      "ssr_capped": {
+       "text": "25.6",
+       "value": 0.25584471722321805
+      },
+      "ssr_off": {
+       "text": "24.7",
+       "value": 0.24702212999281595
+      }
+     },
+     "Bitcoin-OTC|88": {
+      "age_days": {
+       "text": "287",
+       "value": 287.14925972382423
+      },
+      "days_per_snapshot": {
+       "text": "21.6",
+       "value": 21.628052925084173
+      },
+      "hmr_capped": {
+       "text": "1.5",
+       "value": 0.014706879045963087
+      },
+      "hmr_off": {
+       "text": "1.5",
+       "value": 0.015214370826882461
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "snapshots": {
+       "text": "88",
+       "value": 88
+      },
+      "ssr_capped": {
+       "text": "30.7",
+       "value": 0.30720163674150375
+      },
+      "ssr_off": {
+       "text": "30.1",
+       "value": 0.3006646208915333
+      }
+     },
+     "Wiki-RfA|22": {
+      "age_days": {
+       "text": "2005",
+       "value": 2005.1222048073091
+      },
+      "days_per_snapshot": {
+       "text": "151.0",
+       "value": 151.02559974747476
+      },
+      "hmr_capped": {
+       "text": "8.9",
+       "value": 0.08945588723924254
+      },
+      "hmr_off": {
+       "text": "8.9",
+       "value": 0.08906544698461354
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "snapshots": {
+       "text": "22",
+       "value": 22
+      },
+      "ssr_capped": {
+       "text": "36.9",
+       "value": 0.36897404649233434
+      },
+      "ssr_off": {
+       "text": "44.1",
+       "value": 0.4407593370160874
+      }
+     },
+     "Wiki-RfA|44": {
+      "age_days": {
+       "text": "1003",
+       "value": 1002.5611024036546
+      },
+      "days_per_snapshot": {
+       "text": "75.5",
+       "value": 75.51279987373738
+      },
+      "hmr_capped": {
+       "text": "9.6",
+       "value": 0.09599195259894604
+      },
+      "hmr_off": {
+       "text": "9.5",
+       "value": 0.09523316217789617
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "snapshots": {
+       "text": "44",
+       "value": 44
+      },
+      "ssr_capped": {
+       "text": "34.2",
+       "value": 0.34194722395070726
+      },
+      "ssr_off": {
+       "text": "40.4",
+       "value": 0.40383506427712507
+      }
+     },
+     "Wiki-RfA|88": {
+      "age_days": {
+       "text": "501",
+       "value": 501.2805512018273
+      },
+      "days_per_snapshot": {
+       "text": "37.8",
+       "value": 37.75639993686869
+      },
+      "hmr_capped": {
+       "text": "8.6",
+       "value": 0.08638402105998161
+      },
+      "hmr_off": {
+       "text": "8.4",
+       "value": 0.08425501635246255
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "snapshots": {
+       "text": "88",
+       "value": 88
+      },
+      "ssr_capped": {
+       "text": "30.5",
+       "value": 0.30497449749753075
+      },
+      "ssr_off": {
+       "text": "35.5",
+       "value": 0.3545864150777441
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/e1.json": "35eaa49f710c59c64db1e37b64d676b38dd8da34715b5c9f557985aaf78e3e2e"
+   }
+  },
+  "s_partial_deletion": {
+   "cells": {
+    "tab:s_s_partial_deletion_gain": {
+     "Bitcoin-Alpha": {
+      "full_of_2": {
+       "text": "0.272 [0.209, 0.341]",
+       "value": [
+        0.27240152284502983,
+        0.2087190903071314,
+        0.3413353773858398
+       ]
+      },
+      "full_of_3": {
+       "text": "0.377 [0.290, 0.471]",
+       "value": [
+        0.37658395364004027,
+        0.2903347597139723,
+        0.4711692405053798
+       ]
+      },
+      "k1_of_2": {
+       "text": "0.059 [0.035, 0.091]",
+       "value": [
+        0.059087876603007315,
+        0.0351607871055603,
+        0.09103935572318732
+       ]
+      },
+      "k1_of_3": {
+       "text": "0.068 [0.049, 0.090]",
+       "value": [
+        0.06832437252297122,
+        0.049434365660828705,
+        0.09003041392740081
+       ]
+      },
+      "k2_of_3": {
+       "text": "0.146 [0.106, 0.190]",
+       "value": [
+        0.14621341982308556,
+        0.10629820900804858,
+        0.18973763524171183
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      }
+     },
+     "Bitcoin-OTC": {
+      "full_of_2": {
+       "text": "0.290 [0.231, 0.359]",
+       "value": [
+        0.2903923269775179,
+        0.23053278298013744,
+        0.35909101511041325
+       ]
+      },
+      "full_of_3": {
+       "text": "0.266 [0.202, 0.338]",
+       "value": [
+        0.2664698043039867,
+        0.2019098047060626,
+        0.3381572451974665
+       ]
+      },
+      "k1_of_2": {
+       "text": "0.108 [0.070, 0.158]",
+       "value": [
+        0.10770845636725426,
+        0.06979640949517488,
+        0.1576695054707428
+       ]
+      },
+      "k1_of_3": {
+       "text": "0.053 [0.040, 0.067]",
+       "value": [
+        0.053096210105078555,
+        0.04020324809210641,
+        0.0670699328822749
+       ]
+      },
+      "k2_of_3": {
+       "text": "0.099 [0.073, 0.127]",
+       "value": [
+        0.09875211715698243,
+        0.0729345502597945,
+        0.12749216662985935
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      }
+     },
+     "Epinions-Dated": {
+      "full_of_2": {
+       "text": "0.329 [0.265, 0.395]",
+       "value": [
+        0.3287273342194764,
+        0.26475785351641795,
+        0.39512140288949005
+       ]
+      },
+      "full_of_3": {
+       "text": "0.352 [0.271, 0.431]",
+       "value": [
+        0.3520344579219818,
+        0.2713158060014248,
+        0.4310266049802303
+       ]
+      },
+      "k1_of_2": {
+       "text": "0.090 [0.066, 0.117]",
+       "value": [
+        0.0899049971414649,
+        0.06622283404612023,
+        0.11654416130288789
+       ]
+      },
+      "k1_of_3": {
+       "text": "0.080 [0.053, 0.111]",
+       "value": [
+        0.08010755777359009,
+        0.05291568335890769,
+        0.11147456584870814
+       ]
+      },
+      "k2_of_3": {
+       "text": "0.161 [0.106, 0.218]",
+       "value": [
+        0.16074279963970184,
+        0.1059834015518427,
+        0.21754499019682405
+       ]
+      },
+      "network": {
+       "text": "Epinions-Dated",
+       "value": "Epinions-Dated"
+      }
+     },
+     "Wiki-RfA": {
+      "full_of_2": {
+       "text": "0.549 [0.498, 0.601]",
+       "value": [
+        0.5493354422541764,
+        0.498154390438269,
+        0.6005164940700839
+       ]
+      },
+      "full_of_3": {
+       "text": "0.590 [0.542, 0.638]",
+       "value": [
+        0.5900015955490451,
+        0.5417986661954229,
+        0.6382045249026672
+       ]
+      },
+      "k1_of_2": {
+       "text": "0.102 [0.065, 0.137]",
+       "value": [
+        0.10154719822681865,
+        0.06496064479534443,
+        0.13663882003667263
+       ]
+      },
+      "k1_of_3": {
+       "text": "0.058 [0.043, 0.072]",
+       "value": [
+        0.05759025470864387,
+        0.04274576218318074,
+        0.07215881169863768
+       ]
+      },
+      "k2_of_3": {
+       "text": "0.142 [0.106, 0.177]",
+       "value": [
+        0.14191878363490104,
+        0.10601855323079133,
+        0.1768252317421138
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      }
+     }
+    },
+    "tab:s_s_partial_deletion_share": {
+     "Bitcoin-Alpha": {
+      "k1_of_2": {
+       "text": "21.875 [14.200, 30.297]",
+       "value": [
+        0.2187503064210797,
+        0.1419987224730671,
+        0.3029682453027724
+       ]
+      },
+      "k1_of_3": {
+       "text": "18.462 [12.636, 24.287]",
+       "value": [
+        0.1846166569442303,
+        0.12636060044539008,
+        0.24287271344307051
+       ]
+      },
+      "k2_of_3": {
+       "text": "39.158 [29.906, 48.737]",
+       "value": [
+        0.39158307776957785,
+        0.2990582636043489,
+        0.4873744886355146
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      }
+     },
+     "Bitcoin-OTC": {
+      "k1_of_2": {
+       "text": "36.700 [27.437, 46.429]",
+       "value": [
+        0.36699515684301187,
+        0.27437475201092326,
+        0.4642927884544713
+       ]
+      },
+      "k1_of_3": {
+       "text": "20.398 [15.811, 25.096]",
+       "value": [
+        0.20398126061886815,
+        0.15810942882807655,
+        0.250961482282184
+       ]
+      },
+      "k2_of_3": {
+       "text": "37.257 [30.897, 43.118]",
+       "value": [
+        0.37256656821541734,
+        0.3089722512524734,
+        0.4311751311781981
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      }
+     },
+     "Epinions-Dated": {
+      "k1_of_2": {
+       "text": "27.486 [19.506, 37.259]",
+       "value": [
+        0.27485969188818543,
+        0.1950570078829449,
+        0.37259374296338565
+       ]
+      },
+      "k1_of_3": {
+       "text": "22.763 [15.319, 32.061]",
+       "value": [
+        0.2276344731306757,
+        0.15318600414802933,
+        0.32061338187806926
+       ]
+      },
+      "k2_of_3": {
+       "text": "45.770 [31.713, 58.706]",
+       "value": [
+        0.4577000294271102,
+        0.31713352501131353,
+        0.5870592175205188
+       ]
+      },
+      "network": {
+       "text": "Epinions-Dated",
+       "value": "Epinions-Dated"
+      }
+     },
+     "Wiki-RfA": {
+      "k1_of_2": {
+       "text": "18.582 [11.747, 25.003]",
+       "value": [
+        0.18582147777614122,
+        0.11746836716072066,
+        0.25002784547145485
+       ]
+      },
+      "k1_of_3": {
+       "text": "9.786 [7.226, 12.225]",
+       "value": [
+        0.09785559198814126,
+        0.07225583966775702,
+        0.12225425688127409
+       ]
+      },
+      "k2_of_3": {
+       "text": "24.123 [18.168, 30.094]",
+       "value": [
+        0.24122546860450625,
+        0.1816839729928508,
+        0.30093939011018384
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/laundering_extra.json": "b39be5e6659497a75c2f56effb8e17e6a7fd4b7341479a7d067afbb2340670e5"
+   }
+  },
+  "s_percentiles": {
+   "cells": {
+    "tab:s_s_percentiles_cohort": {
+     "Bitcoin-Alpha": {
+      "gain_u2": {
+       "text": "$+0.364$ [$+0.288$, $+0.444$]",
+       "value": [
+        0.3640165288801546,
+        0.28787736175579054,
+        0.44435191451300865
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "pct_after_u1": {
+       "text": "24.5 [20.2, 28.8]",
+       "value": [
+        0.24478470755130993,
+        0.20163405211493934,
+        0.2879353629876805
+       ]
+      },
+      "pct_after_u2": {
+       "text": "25.1 [21.9, 28.5]",
+       "value": [
+        0.2507035914393313,
+        0.21865121102392907,
+        0.2852716312498622
+       ]
+      },
+      "pct_after_u2_nopos": {
+       "text": "14.7 [10.7, 18.7]",
+       "value": [
+        0.1469114540277395,
+        0.10666582050919482,
+        0.18715708754628418
+       ]
+      },
+      "pct_after_u2_pos": {
+       "text": "63.0 [55.6, 70.8]",
+       "value": [
+        0.6300817488748048,
+        0.5562227886470102,
+        0.7083023330577753
+       ]
+      },
+      "pct_before": {
+       "text": "3.1 [2.4, 3.9]",
+       "value": [
+        0.030924786272448622,
+        0.02373787769954911,
+        0.03879999649061929
+       ]
+      },
+      "share_pos": {
+       "text": "21.5",
+       "value": 0.21481481481481482
+      }
+     },
+     "Bitcoin-OTC": {
+      "gain_u2": {
+       "text": "$+0.347$ [$+0.292$, $+0.401$]",
+       "value": [
+        0.3473938223992161,
+        0.2923669786714382,
+        0.4014551507490415
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "pct_after_u1": {
+       "text": "26.4 [23.0, 29.7]",
+       "value": [
+        0.26351347165100664,
+        0.23038093177510588,
+        0.2966460115269074
+       ]
+      },
+      "pct_after_u2": {
+       "text": "27.0 [23.7, 30.3]",
+       "value": [
+        0.2702817642045555,
+        0.2373781898977281,
+        0.30318533851138296
+       ]
+      },
+      "pct_after_u2_nopos": {
+       "text": "17.4 [14.6, 20.2]",
+       "value": [
+        0.1739676284306826,
+        0.14603251139652673,
+        0.2020859957776214
+       ]
+      },
+      "pct_after_u2_pos": {
+       "text": "62.5 [53.9, 71.1]",
+       "value": [
+        0.6249444053483463,
+        0.5393729732365719,
+        0.7105158374601207
+       ]
+      },
+      "pct_before": {
+       "text": "4.6 [3.9, 5.3]",
+       "value": [
+        0.0460209810488049,
+        0.03884495676249803,
+        0.05345333633131962
+       ]
+      },
+      "share_pos": {
+       "text": "21.4",
+       "value": 0.2135678391959799
+      }
+     },
+     "Epinions-Dated": {
+      "gain_u2": {
+       "text": "$+0.387$ [$+0.323$, $+0.452$]",
+       "value": [
+        0.38690343365141555,
+        0.32293160187006714,
+        0.4519931343140428
+       ]
+      },
+      "network": {
+       "text": "Epinions-Dated",
+       "value": "Epinions-Dated"
+      },
+      "pct_after_u1": {
+       "text": "34.2 [24.8, 43.6]",
+       "value": [
+        0.34216251199691233,
+        0.24829521074230868,
+        0.436029813251516
+       ]
+      },
+      "pct_after_u2": {
+       "text": "34.0 [24.9, 43.2]",
+       "value": [
+        0.34021258471317767,
+        0.24858335726078018,
+        0.43184181216557516
+       ]
+      },
+      "pct_after_u2_nopos": {
+       "text": "31.2 [21.4, 41.0]",
+       "value": [
+        0.3119322954630901,
+        0.21405687835829967,
+        0.4098077125678805
+       ]
+      },
+      "pct_after_u2_pos": {
+       "text": "71.7 [65.8, 77.4]",
+       "value": [
+        0.7170224121659466,
+        0.6583061267081507,
+        0.7738723511674122
+       ]
+      },
+      "pct_before": {
+       "text": "6.5 [5.0, 8.0]",
+       "value": [
+        0.06494532305132476,
+        0.05042687533633094,
+        0.07970986655389813
+       ]
+      },
+      "share_pos": {
+       "text": "7.0",
+       "value": 0.06981234072129122
+      }
+     },
+     "Wiki-RfA": {
+      "gain_u2": {
+       "text": "$+0.577$ [$+0.491$, $+0.663$]",
+       "value": [
+        0.5771207064250348,
+        0.49143978471133987,
+        0.6628016281387297
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "pct_after_u1": {
+       "text": "32.1 [26.3, 38.0]",
+       "value": [
+        0.32128859294954004,
+        0.26288996228184475,
+        0.37968722361723534
+       ]
+      },
+      "pct_after_u2": {
+       "text": "33.0 [27.6, 38.3]",
+       "value": [
+        0.32977648473187243,
+        0.2761649359602013,
+        0.38338803350354356
+       ]
+      },
+      "pct_after_u2_nopos": {
+       "text": "21.9 [15.5, 28.2]",
+       "value": [
+        0.21857913560041223,
+        0.15535828844553662,
+        0.28179998275528784
+       ]
+      },
+      "pct_after_u2_pos": {
+       "text": "96.8 [96.0, 97.6]",
+       "value": [
+        0.967952575399384,
+        0.9602074826276954,
+        0.9760020864675122
+       ]
+      },
+      "pct_before": {
+       "text": "3.4 [2.9, 3.9]",
+       "value": [
+        0.03403844731744526,
+        0.029048519276581215,
+        0.039254598305301806
+       ]
+      },
+      "share_pos": {
+       "text": "14.8",
+       "value": 0.14838709677419354
+      }
+     }
+    },
+    "tab:s_s_percentiles_edgeless": {
+     "Bitcoin-Alpha": {
+      "cohort": {
+       "text": "135",
+       "value": 135
+      },
+      "cold_start_pct": {
+       "text": "13.562 [10.595, 16.529]",
+       "value": [
+        0.13562177695547767,
+        0.10595484356016541,
+        0.16528871035078993
+       ]
+      },
+      "edgeless_share": {
+       "text": "60.0",
+       "value": 0.6
+      },
+      "n_edgeless": {
+       "text": "81",
+       "value": 81
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "tau_range": {
+       "text": "0.062 to 0.097",
+       "value": [
+        0.0622,
+        0.0966
+       ]
+      }
+     },
+     "Bitcoin-OTC": {
+      "cohort": {
+       "text": "398",
+       "value": 398
+      },
+      "cold_start_pct": {
+       "text": "15.909 [14.232, 17.586]",
+       "value": [
+        0.15908691062631947,
+        0.14231826909954678,
+        0.17585555215309215
+       ]
+      },
+      "edgeless_share": {
+       "text": "64.8",
+       "value": 0.6482412060301508
+      },
+      "n_edgeless": {
+       "text": "258",
+       "value": 258
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "tau_range": {
+       "text": "0.025 to 0.256",
+       "value": [
+        0.0253,
+        0.2563
+       ]
+      }
+     },
+     "Epinions-Dated": {
+      "cohort": {
+       "text": "12949",
+       "value": 12949
+      },
+      "cold_start_pct": {
+       "text": "31.570 [19.425, 43.715]",
+       "value": [
+        0.3156998858152075,
+        0.1942491289794503,
+        0.43715064265096476
+       ]
+      },
+      "edgeless_share": {
+       "text": "69.3",
+       "value": 0.6934898447756583
+      },
+      "n_edgeless": {
+       "text": "8980",
+       "value": 8980
+      },
+      "network": {
+       "text": "Epinions-Dated",
+       "value": "Epinions-Dated"
+      },
+      "tau_range": {
+       "text": "0.150 to 0.311",
+       "value": [
+        0.1503,
+        0.3113
+       ]
+      }
+     },
+     "Wiki-RfA": {
+      "cohort": {
+       "text": "155",
+       "value": 155
+      },
+      "cold_start_pct": {
+       "text": "19.053 [12.121, 25.986]",
+       "value": [
+        0.1905317435844725,
+        0.12120550783708302,
+        0.259857979331862
+       ]
+      },
+      "edgeless_share": {
+       "text": "69.0",
+       "value": 0.6903225806451613
+      },
+      "n_edgeless": {
+       "text": "107",
+       "value": 107
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "tau_range": {
+       "text": "0.281 to 0.526",
+       "value": [
+        0.2809,
+        0.5262
+       ]
+      }
+     }
+    },
+    "tab:s_s_percentiles_percentile": {
+     "Bitcoin-Alpha": {
+      "after_u1": {
+       "text": "37.163 [29.064, 45.939]",
+       "value": [
+        0.3716347478644255,
+        0.29064104551299713,
+        0.45938645287958113
+       ]
+      },
+      "after_u2": {
+       "text": "38.850 [31.130, 46.921]",
+       "value": [
+        0.3884966014512722,
+        0.31130448011389733,
+        0.4692148606135758
+       ]
+      },
+      "before": {
+       "text": "3.232 [2.619, 3.890]",
+       "value": [
+        0.03231836134839717,
+        0.026192850417929642,
+        0.038904226370901074
+       ]
+      },
+      "leave_bottom10": {
+       "text": "100.000 [92.603, 100.000]",
+       "value": [
+        1.0,
+        0.9260272146527198,
+        1.0
+       ]
+      },
+      "leave_bottom5": {
+       "text": "100.000 [91.592, 100.000]",
+       "value": [
+        1.0,
+        0.9159161450596448,
+        1.0
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      }
+     },
+     "Bitcoin-OTC": {
+      "after_u1": {
+       "text": "38.752 [31.265, 46.872]",
+       "value": [
+        0.3875214637579169,
+        0.3126528852920478,
+        0.46871518296973963
+       ]
+      },
+      "after_u2": {
+       "text": "39.946 [32.630, 47.699]",
+       "value": [
+        0.3994560168895144,
+        0.3262995601688951,
+        0.47699155524278675
+       ]
+      },
+      "before": {
+       "text": "5.895 [4.933, 6.917]",
+       "value": [
+        0.05894933145672062,
+        0.0493271463757917,
+        0.06916683673469388
+       ]
+      },
+      "leave_bottom10": {
+       "text": "100.000 [92.294, 100.000]",
+       "value": [
+        1.0,
+        0.9229381729480993,
+        1.0
+       ]
+      },
+      "leave_bottom5": {
+       "text": "100.000 [89.112, 100.000]",
+       "value": [
+        1.0,
+        0.8911188393206471,
+        1.0
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      }
+     },
+     "Epinions-Dated": {
+      "after_u1": {
+       "text": "51.756 [44.377, 58.894]",
+       "value": [
+        0.5175604882951869,
+        0.44377085190783466,
+        0.5889429460373972
+       ]
+      },
+      "after_u2": {
+       "text": "51.448 [44.176, 58.708]",
+       "value": [
+        0.5144773538145184,
+        0.4417620673515894,
+        0.5870836117270641
+       ]
+      },
+      "before": {
+       "text": "9.296 [7.661, 11.303]",
+       "value": [
+        0.09296069239091237,
+        0.07660570240387936,
+        0.1130274593151284
+       ]
+      },
+      "leave_bottom10": {
+       "text": "100.000 [89.424, 100.000]",
+       "value": [
+        1.0,
+        0.8942371899254207,
+        1.0
+       ]
+      },
+      "leave_bottom5": {
+       "text": "100.000 [80.494, 100.000]",
+       "value": [
+        1.0,
+        0.8049356770309067,
+        1.0
+       ]
+      },
+      "network": {
+       "text": "Epinions-Dated",
+       "value": "Epinions-Dated"
+      }
+     },
+     "Wiki-RfA": {
+      "after_u1": {
+       "text": "55.651 [44.949, 66.601]",
+       "value": [
+        0.5565089801681113,
+        0.4494942601622011,
+        0.6660126083530338
+       ]
+      },
+      "after_u2": {
+       "text": "56.204 [45.342, 66.969]",
+       "value": [
+        0.562041962174941,
+        0.45342332996782253,
+        0.6696917274100341
+       ]
+      },
+      "before": {
+       "text": "5.549 [4.489, 6.594]",
+       "value": [
+        0.055491118334646705,
+        0.044889594825321774,
+        0.06593774625689519
+       ]
+      },
+      "leave_bottom10": {
+       "text": "100.000 [91.779, 100.000]",
+       "value": [
+        1.0,
+        0.9177888788458615,
+        1.0
+       ]
+      },
+      "leave_bottom5": {
+       "text": "100.000 [86.773, 100.000]",
+       "value": [
+        1.0,
+        0.8677253955022458,
+        1.0
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/laundering_extra.json": "b39be5e6659497a75c2f56effb8e17e6a7fd4b7341479a7d067afbb2340670e5"
+   }
+  },
+  "s_release_policies": {
+   "cells": {
+    "tab:s_s_release_policies": {
+     "Erlang-2|capped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.7",
+       "value": 0.006552356714912859
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "9.0",
+       "value": 0.09032091435494738
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "25.4",
+       "value": 0.2542705010756591
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.8",
+       "value": 0.16762487592713016
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.6",
+       "value": 0.015526362619445304
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "9.1",
+       "value": 0.09057625530918142
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "24.7",
+       "value": 0.24689218789279077
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "11.5",
+       "value": 0.11522114388910622
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.8",
+       "value": 0.08773488192672313
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "9.2",
+       "value": 0.09238553229347482
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "41.3",
+       "value": 0.4129160056525197
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "31.9",
+       "value": 0.31916029676238417
+      },
+      "witnesses": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "Erlang-2|off": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.006369014170618509
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "9.0",
+       "value": 0.09031334796006757
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "20.9",
+       "value": 0.2092777209823435
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.1",
+       "value": 0.16075904883230333
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.5",
+       "value": 0.01504356473005359
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "9.1",
+       "value": 0.09062001712104482
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "22.7",
+       "value": 0.22689489037577842
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "11.1",
+       "value": 0.11059966900957607
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.7",
+       "value": 0.08714938131109937
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "9.3",
+       "value": 0.09300809977915189
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "49.8",
+       "value": 0.4984079526841518
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "39.1",
+       "value": 0.39081070544356017
+      },
+      "witnesses": {
+       "text": "off",
+       "value": "off"
+      }
+     },
+     "Erlang-2|uncapped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.7",
+       "value": 0.0069448447490234565
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "9.0",
+       "value": 0.09032470948165337
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "25.9",
+       "value": 0.2590455361576846
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "17.3",
+       "value": 0.17312029416366748
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.7",
+       "value": 0.01656119577710299
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "9.1",
+       "value": 0.09064356918635805
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "25.6",
+       "value": 0.2557909631771132
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "12.1",
+       "value": 0.12121969288258183
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.8",
+       "value": 0.08772131458747344
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "9.2",
+       "value": 0.09240907451372811
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "41.3",
+       "value": 0.4131516467832047
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "32.0",
+       "value": 0.3197628022854853
+      },
+      "witnesses": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "Erlang-3|capped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.006375546735808853
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "4.1",
+       "value": 0.040546315145513476
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "26.0",
+       "value": 0.26018878385685523
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.6",
+       "value": 0.16565892957804929
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.6",
+       "value": 0.016092959498018266
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "4.1",
+       "value": 0.040638185611680505
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "24.9",
+       "value": 0.24896837287562645
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "10.4",
+       "value": 0.10353569187166763
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.8",
+       "value": 0.08759026837989844
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "4.1",
+       "value": 0.041259654483063846
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "42.4",
+       "value": 0.4239870748743076
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "32.4",
+       "value": 0.324049444235738
+      },
+      "witnesses": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "Erlang-3|off": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.006130369747788498
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "4.1",
+       "value": 0.04054383579492956
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "20.7",
+       "value": 0.20746585729563644
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "15.6",
+       "value": 0.1558034349297851
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.5",
+       "value": 0.015339261412208049
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "4.1",
+       "value": 0.040653919777780136
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "22.4",
+       "value": 0.22356627832073322
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "9.6",
+       "value": 0.0960463495879249
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.6",
+       "value": 0.0864868688074599
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "4.1",
+       "value": 0.041471435460454516
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "51.6",
+       "value": 0.5159351810507511
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "40.5",
+       "value": 0.4054228688804337
+      },
+      "witnesses": {
+       "text": "off",
+       "value": "off"
+      }
+     },
+     "Erlang-3|uncapped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.7",
+       "value": 0.0067508637871140816
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "4.1",
+       "value": 0.04054773422456091
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "26.5",
+       "value": 0.26483922230038376
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "17.0",
+       "value": 0.17024489277459676
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.7",
+       "value": 0.01717950352625316
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "4.1",
+       "value": 0.040662416630697494
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "25.8",
+       "value": 0.2579186280710048
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "10.9",
+       "value": 0.10911817024958548
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.7",
+       "value": 0.08701570660877003
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "4.1",
+       "value": 0.041264140966020754
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "42.4",
+       "value": 0.42352351401695276
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "32.4",
+       "value": 0.32438444595195476
+      },
+      "witnesses": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "Erlang-5|capped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.006178332940448187
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.9",
+       "value": 0.009130193025881824
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "26.4",
+       "value": 0.2638347382033327
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.2",
+       "value": 0.1615369037527205
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.7",
+       "value": 0.016520034156620435
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.9",
+       "value": 0.009144356276396197
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "24.9",
+       "value": 0.2491144657205174
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "9.1",
+       "value": 0.09096309535776999
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.5",
+       "value": 0.08509226889102711
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.9",
+       "value": 0.00923324662990991
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "42.6",
+       "value": 0.4257592973555833
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "31.6",
+       "value": 0.3164924844740155
+      },
+      "witnesses": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "Erlang-5|off": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.005944102700259424
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.9",
+       "value": 0.009129896036763068
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "20.0",
+       "value": 0.200299395161297
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "14.8",
+       "value": 0.14753397405582158
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.6",
+       "value": 0.015621798321139333
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.9",
+       "value": 0.009146759776309334
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "21.9",
+       "value": 0.21873614648888942
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "8.2",
+       "value": 0.08168595524155657
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.4",
+       "value": 0.08417565480380525
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.9",
+       "value": 0.009261483432731579
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "52.9",
+       "value": 0.5291438999548197
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "41.6",
+       "value": 0.41561125790187786
+      },
+      "witnesses": {
+       "text": "off",
+       "value": "off"
+      }
+     },
+     "Erlang-5|uncapped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.7",
+       "value": 0.006561298353072062
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.9",
+       "value": 0.009130397106024108
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "26.8",
+       "value": 0.2683349873404826
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.5",
+       "value": 0.16541117721344545
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.8",
+       "value": 0.01764860079681352
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.9",
+       "value": 0.009148035918466746
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "25.8",
+       "value": 0.2580855631470426
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "9.6",
+       "value": 0.09612258043553612
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.6",
+       "value": 0.08556250013757712
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.9",
+       "value": 0.009233829118948357
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "42.5",
+       "value": 0.42543281425172086
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "31.6",
+       "value": 0.31636414776524635
+      },
+      "witnesses": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "arrival|capped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "policy": {
+       "text": "arrival",
+       "value": "arrival"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "witnesses": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "arrival|off": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "policy": {
+       "text": "arrival",
+       "value": "arrival"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "witnesses": {
+       "text": "off",
+       "value": "off"
+      }
+     },
+     "arrival|uncapped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "policy": {
+       "text": "arrival",
+       "value": "arrival"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "100.0",
+       "value": 1.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "witnesses": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "exponential|capped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.7",
+       "value": 0.006817145667925454
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "22.2",
+       "value": 0.2215234129396325
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "23.7",
+       "value": 0.23666372265461894
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.6",
+       "value": 0.16597686612046758
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.4",
+       "value": 0.0140009799444161
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "22.2",
+       "value": 0.22225447834654632
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "23.3",
+       "value": 0.23321036541270787
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "12.8",
+       "value": 0.12814424505347594
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.4",
+       "value": 0.08449338645534549
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "22.8",
+       "value": 0.22765898416458882
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "37.6",
+       "value": 0.37555668456045954
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "29.3",
+       "value": 0.2932031953680254
+      },
+      "witnesses": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "exponential|off": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.7",
+       "value": 0.006856384689497504
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "22.1",
+       "value": 0.22149730068038412
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "20.4",
+       "value": 0.2041866943010625
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.3",
+       "value": 0.16250660835548264
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.4",
+       "value": 0.014064274022913197
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "22.2",
+       "value": 0.22237936769105873
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "22.1",
+       "value": 0.22110373527541505
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "12.6",
+       "value": 0.12575957995933734
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.4",
+       "value": 0.08396973077647414
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "22.9",
+       "value": 0.22931399413472633
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "44.7",
+       "value": 0.447488285564069
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "35.0",
+       "value": 0.3502664466354627
+      },
+      "witnesses": {
+       "text": "off",
+       "value": "off"
+      }
+     },
+     "exponential|uncapped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.7",
+       "value": 0.007252839343909656
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "22.2",
+       "value": 0.2215304066714809
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "24.0",
+       "value": 0.24044707030267853
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "17.2",
+       "value": 0.1723644761089618
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.5",
+       "value": 0.014902821102903353
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "22.2",
+       "value": 0.22244469646433648
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "24.1",
+       "value": 0.2412154508551904
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "13.4",
+       "value": 0.13380805920220704
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.4",
+       "value": 0.08442993977176186
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "22.8",
+       "value": 0.22771031750378526
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "37.6",
+       "value": 0.37575284847438545
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "29.4",
+       "value": 0.29383099419087333
+      },
+      "witnesses": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "no commit|capped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "4.3",
+       "value": 0.04278909244419508
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "73.4",
+       "value": 0.7341267429021872
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "69.7",
+       "value": 0.6973496949111616
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "4.2",
+       "value": 0.0422031299932944
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "75.8",
+       "value": 0.7582494739333355
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "68.4",
+       "value": 0.6839991972796089
+      },
+      "policy": {
+       "text": "no commit",
+       "value": "no commit"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "20.5",
+       "value": 0.20479441062098697
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "81.9",
+       "value": 0.8191711018892054
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "79.5",
+       "value": 0.7951458164632084
+      },
+      "witnesses": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "no commit|off": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "4.8",
+       "value": 0.0484060054854754
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "70.9",
+       "value": 0.7092839266604942
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "73.0",
+       "value": 0.7295931460444851
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "5.3",
+       "value": 0.05313294266944778
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "77.7",
+       "value": 0.7770789012071619
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "71.5",
+       "value": 0.7149583115015964
+      },
+      "policy": {
+       "text": "no commit",
+       "value": "no commit"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "20.2",
+       "value": 0.2024084376776012
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "89.7",
+       "value": 0.8966665437347706
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "88.9",
+       "value": 0.8891217450540885
+      },
+      "witnesses": {
+       "text": "off",
+       "value": "off"
+      }
+     },
+     "no commit|uncapped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "4.6",
+       "value": 0.046091483287461134
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "74.8",
+       "value": 0.7480258196147733
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "72.2",
+       "value": 0.7224576647472978
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "4.6",
+       "value": 0.0455492590167535
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "77.3",
+       "value": 0.7733773631989554
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "70.2",
+       "value": 0.7021866747848963
+      },
+      "policy": {
+       "text": "no commit",
+       "value": "no commit"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "20.5",
+       "value": 0.20466164634308037
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "82.0",
+       "value": 0.8197623419229638
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "79.6",
+       "value": 0.7958118232366352
+      },
+      "witnesses": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     },
+     "quarantine|capped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.005978921659810035
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "26.0",
+       "value": 0.2601696061786806
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "15.7",
+       "value": 0.15731828205221615
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.6",
+       "value": 0.016303700183638026
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "23.9",
+       "value": 0.23948003607246135
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "6.5",
+       "value": 0.06538002867514414
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.0",
+       "value": 0.07975209189748816
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "41.9",
+       "value": 0.41869732776976276
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "30.1",
+       "value": 0.3010593725595761
+      },
+      "witnesses": {
+       "text": "capped",
+       "value": "capped"
+      }
+     },
+     "quarantine|off": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.005604648887253747
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "17.1",
+       "value": 0.17073218670906604
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "13.0",
+       "value": 0.1302196299401875
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.4",
+       "value": 0.014092029451534795
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "20.7",
+       "value": 0.20719598962816496
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "5.7",
+       "value": 0.056797419032775805
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "7.8",
+       "value": 0.07831541709632506
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "54.3",
+       "value": 0.5429792005178044
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "44.3",
+       "value": 0.4430697763268466
+      },
+      "witnesses": {
+       "text": "off",
+       "value": "off"
+      }
+     },
+     "quarantine|uncapped": {
+      "bitcoinalpha_honest_mass_revoked": {
+       "text": "0.6",
+       "value": 0.006447576723995445
+      },
+      "bitcoinalpha_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinalpha_silent_sender_revocation": {
+       "text": "26.4",
+       "value": 0.26397199358513956
+      },
+      "bitcoinalpha_silent_sender_revocation_future_only": {
+       "text": "16.4",
+       "value": 0.16404414643238685
+      },
+      "bitcoinotc_honest_mass_revoked": {
+       "text": "1.7",
+       "value": 0.017481428519559694
+      },
+      "bitcoinotc_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "bitcoinotc_silent_sender_revocation": {
+       "text": "24.7",
+       "value": 0.2472254819970362
+      },
+      "bitcoinotc_silent_sender_revocation_future_only": {
+       "text": "7.0",
+       "value": 0.07012649084127823
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      },
+      "wiki-rfa_honest_mass_revoked": {
+       "text": "8.0",
+       "value": 0.07957340199209839
+      },
+      "wiki-rfa_latency_age1": {
+       "text": "0.0",
+       "value": 0.0
+      },
+      "wiki-rfa_silent_sender_revocation": {
+       "text": "41.9",
+       "value": 0.4192161025824801
+      },
+      "wiki-rfa_silent_sender_revocation_future_only": {
+       "text": "30.2",
+       "value": 0.30192043218523
+      },
+      "witnesses": {
+       "text": "uncapped",
+       "value": "uncapped"
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/e1.json": "35eaa49f710c59c64db1e37b64d676b38dd8da34715b5c9f557985aaf78e3e2e"
+   }
+  },
+  "s_self_term": {
+   "cells": {
+    "tab:s_s_self_term_e8_mcc": {
+     "Bitcoin-Alpha|1": {
+      "delta_mcc": {
+       "text": "$-0.109$ [$-0.135$, $-0.082$]",
+       "value": [
+        -0.10861760726144379,
+        -0.13548104915985845,
+        -0.08175416536302914
+       ]
+      },
+      "m": {
+       "text": "1",
+       "value": 1
+      },
+      "mcc_base": {
+       "text": "0.153 [0.138, 0.168]",
+       "value": [
+        0.15278549129216898,
+        0.13804741892275493,
+        0.16752356366158302
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.044 [0.011, 0.077]",
+       "value": [
+        0.0441678840307252,
+        0.01132096991317011,
+        0.07701479814828029
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      }
+     },
+     "Bitcoin-Alpha|2": {
+      "delta_mcc": {
+       "text": "$-0.176$ [$-0.183$, $-0.169$]",
+       "value": [
+        -0.17572497956283292,
+        -0.1827367340358319,
+        -0.16871322508983394
+       ]
+      },
+      "m": {
+       "text": "2",
+       "value": 2
+      },
+      "mcc_base": {
+       "text": "0.153 [0.138, 0.168]",
+       "value": [
+        0.15278549129216898,
+        0.13804741892275493,
+        0.16752356366158302
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "$-0.023$ [$-0.033$, $-0.013$]",
+       "value": [
+        -0.022939488270663923,
+        -0.03274766490201429,
+        -0.013131311639313557
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      }
+     },
+     "Bitcoin-Alpha|4": {
+      "delta_mcc": {
+       "text": "$-0.153$ [$-0.168$, $-0.138$]",
+       "value": [
+        -0.15278549129216898,
+        -0.16752356366158302,
+        -0.13804741892275493
+       ]
+      },
+      "m": {
+       "text": "4",
+       "value": 4
+      },
+      "mcc_base": {
+       "text": "0.153 [0.138, 0.168]",
+       "value": [
+        0.15278549129216898,
+        0.13804741892275493,
+        0.16752356366158302
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.000 [0.000, 0.000]",
+       "value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      }
+     },
+     "Bitcoin-OTC|1": {
+      "delta_mcc": {
+       "text": "$+0.210$ [$+0.192$, $+0.227$]",
+       "value": [
+        0.2095151446408432,
+        0.19237858206932515,
+        0.22665170721236125
+       ]
+      },
+      "m": {
+       "text": "1",
+       "value": 1
+      },
+      "mcc_base": {
+       "text": "0.188 [0.174, 0.203]",
+       "value": [
+        0.18825215703393253,
+        0.1735074593392298,
+        0.20299685472863524
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.398 [0.375, 0.421]",
+       "value": [
+        0.39776730167477575,
+        0.3749797024885452,
+        0.42055490086100633
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      }
+     },
+     "Bitcoin-OTC|2": {
+      "delta_mcc": {
+       "text": "$-0.188$ [$-0.203$, $-0.174$]",
+       "value": [
+        -0.18825215703393253,
+        -0.20299685472863524,
+        -0.1735074593392298
+       ]
+      },
+      "m": {
+       "text": "2",
+       "value": 2
+      },
+      "mcc_base": {
+       "text": "0.188 [0.174, 0.203]",
+       "value": [
+        0.18825215703393253,
+        0.1735074593392298,
+        0.20299685472863524
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.000 [0.000, 0.000]",
+       "value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      }
+     },
+     "Bitcoin-OTC|4": {
+      "delta_mcc": {
+       "text": "$-0.188$ [$-0.203$, $-0.174$]",
+       "value": [
+        -0.18825215703393253,
+        -0.20299685472863524,
+        -0.1735074593392298
+       ]
+      },
+      "m": {
+       "text": "4",
+       "value": 4
+      },
+      "mcc_base": {
+       "text": "0.188 [0.174, 0.203]",
+       "value": [
+        0.18825215703393253,
+        0.1735074593392298,
+        0.20299685472863524
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.000 [0.000, 0.000]",
+       "value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      }
+     },
+     "Wiki-RfA|1": {
+      "delta_mcc": {
+       "text": "$-0.185$ [$-0.230$, $-0.140$]",
+       "value": [
+        -0.18509199991387712,
+        -0.22968549104373187,
+        -0.14049850878402237
+       ]
+      },
+      "m": {
+       "text": "1",
+       "value": 1
+      },
+      "mcc_base": {
+       "text": "0.185 [0.140, 0.230]",
+       "value": [
+        0.18509199991387712,
+        0.14049850878402237,
+        0.22968549104373187
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.000 [0.000, 0.000]",
+       "value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      }
+     },
+     "Wiki-RfA|2": {
+      "delta_mcc": {
+       "text": "$-0.185$ [$-0.230$, $-0.140$]",
+       "value": [
+        -0.18509199991387712,
+        -0.22968549104373187,
+        -0.14049850878402237
+       ]
+      },
+      "m": {
+       "text": "2",
+       "value": 2
+      },
+      "mcc_base": {
+       "text": "0.185 [0.140, 0.230]",
+       "value": [
+        0.18509199991387712,
+        0.14049850878402237,
+        0.22968549104373187
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.000 [0.000, 0.000]",
+       "value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      }
+     },
+     "Wiki-RfA|4": {
+      "delta_mcc": {
+       "text": "$-0.185$ [$-0.230$, $-0.140$]",
+       "value": [
+        -0.18509199991387712,
+        -0.22968549104373187,
+        -0.14049850878402237
+       ]
+      },
+      "m": {
+       "text": "4",
+       "value": 4
+      },
+      "mcc_base": {
+       "text": "0.185 [0.140, 0.230]",
+       "value": [
+        0.18509199991387712,
+        0.14049850878402237,
+        0.22968549104373187
+       ]
+      },
+      "mcc_calibrated": {
+       "text": "0.000 [0.000, 0.000]",
+       "value": [
+        0.0,
+        0.0,
+        0.0
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      }
+     }
+    },
+    "tab:s_s_self_term_e8_percentile": {
+     "Bitcoin-Alpha|1": {
+      "drawn": {
+       "text": "23.823 [19.453, 28.475]",
+       "value": [
+        0.238234224304216,
+        0.1945260677872692,
+        0.2847462386332323
+       ]
+      },
+      "ge4": {
+       "text": "45.442 [37.100, 53.887]",
+       "value": [
+        0.4544219994206216,
+        0.3710028898262572,
+        0.5388674565996141
+       ]
+      },
+      "m": {
+       "text": "1",
+       "value": 1
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "newcomer": {
+       "text": "-19.945 [-20.616, -19.275]",
+       "value": [
+        -0.19945198232323477,
+        -0.20615540704771218,
+        -0.19274855759875736
+       ]
+      }
+     },
+     "Bitcoin-Alpha|2": {
+      "drawn": {
+       "text": "23.226 [18.929, 27.807]",
+       "value": [
+        0.2322634334527418,
+        0.18928575365114358,
+        0.27806781482502063
+       ]
+      },
+      "ge4": {
+       "text": "45.641 [37.196, 54.227]",
+       "value": [
+        0.4564060170563339,
+        0.371963421441239,
+        0.5422650514728222
+       ]
+      },
+      "m": {
+       "text": "2",
+       "value": 2
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "newcomer": {
+       "text": "-20.944 [-21.699, -20.188]",
+       "value": [
+        -0.20943535395648433,
+        -0.21698996903601905,
+        -0.2018807388769496
+       ]
+      }
+     },
+     "Bitcoin-Alpha|4": {
+      "drawn": {
+       "text": "22.817 [18.675, 27.339]",
+       "value": [
+        0.22816974373105542,
+        0.1867543675943786,
+        0.27338823367318815
+       ]
+      },
+      "ge4": {
+       "text": "45.070 [36.646, 53.554]",
+       "value": [
+        0.4506998466766999,
+        0.3664640608771223,
+        0.5355445096833908
+       ]
+      },
+      "m": {
+       "text": "4",
+       "value": 4
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "newcomer": {
+       "text": "-21.661 [-22.370, -20.951]",
+       "value": [
+        -0.2166079177516481,
+        -0.22370427817146454,
+        -0.20951155733183163
+       ]
+      }
+     },
+     "Bitcoin-Alpha|none (uncalibrated)": {
+      "drawn": {
+       "text": "35.936 [28.435, 43.769]",
+       "value": [
+        0.3593562965004133,
+        0.284345108845412,
+        0.4376947092863048
+       ]
+      },
+      "ge4": {
+       "text": "42.554 [35.201, 49.715]",
+       "value": [
+        0.4255421073828349,
+        0.3520062742438052,
+        0.4971512248200042
+       ]
+      },
+      "m": {
+       "text": "none (uncalibrated)",
+       "value": "none (uncalibrated)"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "newcomer": {
+       "text": "n/a",
+       "value": "n/a"
+      }
+     },
+     "Bitcoin-OTC|1": {
+      "drawn": {
+       "text": "26.282 [21.118, 31.659]",
+       "value": [
+        0.26281632653061227,
+        0.21118068261787473,
+        0.31659343771991544
+       ]
+      },
+      "ge4": {
+       "text": "53.214 [48.185, 58.383]",
+       "value": [
+        0.5321379851675418,
+        0.4818455922156661,
+        0.5838281140042224
+       ]
+      },
+      "m": {
+       "text": "1",
+       "value": 1
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "newcomer": {
+       "text": "-19.840 [-20.887, -18.793]",
+       "value": [
+        -0.19840148754428194,
+        -0.20887329543144684,
+        -0.18792967965711704
+       ]
+      }
+     },
+     "Bitcoin-OTC|2": {
+      "drawn": {
+       "text": "25.199 [20.249, 30.372]",
+       "value": [
+        0.2519936664320901,
+        0.20249005981703025,
+        0.30371616819141456
+       ]
+      },
+      "ge4": {
+       "text": "52.050 [47.037, 57.103]",
+       "value": [
+        0.5204999188004115,
+        0.47037047988956854,
+        0.5710315054403724
+       ]
+      },
+      "m": {
+       "text": "2",
+       "value": 2
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "newcomer": {
+       "text": "-21.714 [-22.424, -21.003]",
+       "value": [
+        -0.21713535666847453,
+        -0.22424255187016945,
+        -0.2100281614667796
+       ]
+      }
+     },
+     "Bitcoin-OTC|4": {
+      "drawn": {
+       "text": "24.580 [19.765, 29.538]",
+       "value": [
+        0.24580084447572131,
+        0.1976451618578466,
+        0.2953752463054187
+       ]
+      },
+      "ge4": {
+       "text": "50.934 [46.076, 55.780]",
+       "value": [
+        0.5093414713365452,
+        0.4607641557949439,
+        0.5577984220213283
+       ]
+      },
+      "m": {
+       "text": "4",
+       "value": 4
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "newcomer": {
+       "text": "-22.659 [-23.334, -21.984]",
+       "value": [
+        -0.22659075051061497,
+        -0.23334069478481176,
+        -0.2198408062364182
+       ]
+      }
+     },
+     "Bitcoin-OTC|none (uncalibrated)": {
+      "drawn": {
+       "text": "40.991 [33.846, 48.694]",
+       "value": [
+        0.40990570021111894,
+        0.3384555418719211,
+        0.486943209007741
+       ]
+      },
+      "ge4": {
+       "text": "55.225 [48.552, 61.897]",
+       "value": [
+        0.5522457099550695,
+        0.48551884832308,
+        0.618972571587059
+       ]
+      },
+      "m": {
+       "text": "none (uncalibrated)",
+       "value": "none (uncalibrated)"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "newcomer": {
+       "text": "n/a",
+       "value": "n/a"
+      }
+     },
+     "Wiki-RfA|1": {
+      "drawn": {
+       "text": "45.007 [34.393, 55.681]",
+       "value": [
+        0.45006816390858945,
+        0.3439283392434988,
+        0.5568076438140268
+       ]
+      },
+      "ge4": {
+       "text": "62.902 [60.546, 65.289]",
+       "value": [
+        0.6290188735185576,
+        0.6054625421318728,
+        0.6528881891291968
+       ]
+      },
+      "m": {
+       "text": "1",
+       "value": 1
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "newcomer": {
+       "text": "-41.674 [-44.541, -38.808]",
+       "value": [
+        -0.41674298749549815,
+        -0.44540866084747593,
+        -0.38807731414352037
+       ]
+      }
+     },
+     "Wiki-RfA|2": {
+      "drawn": {
+       "text": "43.968 [33.641, 54.301]",
+       "value": [
+        0.4396832151300236,
+        0.33641051024428675,
+        0.5430135539795115
+       ]
+      },
+      "ge4": {
+       "text": "61.641 [59.290, 63.938]",
+       "value": [
+        0.6164083943855379,
+        0.592897270400799,
+        0.6393847756672831
+       ]
+      },
+      "m": {
+       "text": "2",
+       "value": 2
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "newcomer": {
+       "text": "-41.673 [-44.540, -38.806]",
+       "value": [
+        -0.41672928930608855,
+        -0.44539665214609314,
+        -0.38806192646608395
+       ]
+      }
+     },
+     "Wiki-RfA|4": {
+      "drawn": {
+       "text": "43.338 [33.183, 53.494]",
+       "value": [
+        0.4333806146572104,
+        0.33183188534278957,
+        0.5349354412923562
+       ]
+      },
+      "ge4": {
+       "text": "60.499 [58.246, 62.711]",
+       "value": [
+        0.6049857414819497,
+        0.582459236437828,
+        0.6271140925262739
+       ]
+      },
+      "m": {
+       "text": "4",
+       "value": 4
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "newcomer": {
+       "text": "-41.671 [-44.538, -38.805]",
+       "value": [
+        -0.41671415481760976,
+        -0.4453817846774997,
+        -0.3880465249577198
+       ]
+      }
+     },
+     "Wiki-RfA|none (uncalibrated)": {
+      "drawn": {
+       "text": "56.810 [45.639, 67.464]",
+       "value": [
+        0.5680953506698188,
+        0.45638538219070135,
+        0.6746433806146571
+       ]
+      },
+      "ge4": {
+       "text": "74.592 [71.756, 77.428]",
+       "value": [
+        0.7459199377384547,
+        0.7175555870873803,
+        0.774284288389529
+       ]
+      },
+      "m": {
+       "text": "none (uncalibrated)",
+       "value": "none (uncalibrated)"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "newcomer": {
+       "text": "n/a",
+       "value": "n/a"
+      }
+     }
+    },
+    "tab:s_s_self_term_h8": {
+     "Bitcoin-Alpha": {
+      "decision_gain": {
+       "text": "met",
+       "value": "met"
+      },
+      "gain_on": {
+       "text": "$+0.268$ [$+0.190$, $+0.346$]",
+       "value": [
+        0.2681166253089905,
+        0.18981308225077176,
+        0.34642016836720924
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "p_gain": {
+       "text": "0.000342",
+       "value": 0.00034168074023276313
+      },
+      "p_ratio": {
+       "text": "0.0366",
+       "value": 0.03663987843435487
+      },
+      "ratio_on_off": {
+       "text": "0.73 [0.47, 0.99]",
+       "value": [
+        0.7261512203706831,
+        0.4659867822258126,
+        0.9863156585155537
+       ]
+      },
+      "reading_ratio": {
+       "text": "inconclusive",
+       "value": "inconclusive"
+      }
+     },
+     "Bitcoin-OTC": {
+      "decision_gain": {
+       "text": "met",
+       "value": "met"
+      },
+      "gain_on": {
+       "text": "$+0.340$ [$+0.115$, $+0.565$]",
+       "value": [
+        0.340050210505724,
+        0.11523745647545774,
+        0.5648629645359902
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "p_gain": {
+       "text": "0.00685",
+       "value": 0.006849934952987424
+      },
+      "p_ratio": {
+       "text": "0.0577",
+       "value": 0.057711995572326945
+      },
+      "ratio_on_off": {
+       "text": "1.03 [0.30, 1.75]",
+       "value": [
+        1.0250673561208872,
+        0.2980619587255029,
+        1.7520727535162715
+       ]
+      },
+      "reading_ratio": {
+       "text": "inconclusive",
+       "value": "inconclusive"
+      }
+     },
+     "Wiki-RfA": {
+      "decision_gain": {
+       "text": "met",
+       "value": "met"
+      },
+      "gain_on": {
+       "text": "$+0.435$ [$+0.340$, $+0.529$]",
+       "value": [
+        0.43494613465666776,
+        0.34039412130055413,
+        0.5294981480127814
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "p_gain": {
+       "text": "0.000108",
+       "value": 0.00010828340628295401
+      },
+      "p_ratio": {
+       "text": "0.00424",
+       "value": 0.004240058651328437
+      },
+      "ratio_on_off": {
+       "text": "0.76 [0.61, 0.91]",
+       "value": [
+        0.7613407992489851,
+        0.6110181432182964,
+        0.9116634552796739
+       ]
+      },
+      "reading_ratio": {
+       "text": "met",
+       "value": "met"
+      }
+     }
+    },
+    "tab:s_s_self_term_mcc": {
+     "Bitcoin-Alpha": {
+      "mcc_off": {
+       "text": "0.340 [0.314, 0.367]",
+       "value": [
+        0.340239456517416,
+        0.3138802962664962,
+        0.36659861676833577
+       ]
+      },
+      "mcc_on": {
+       "text": "0.357 [0.352, 0.362]",
+       "value": [
+        0.3568730055530445,
+        0.3521521742652811,
+        0.3615938368408079
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      }
+     },
+     "Bitcoin-OTC": {
+      "mcc_off": {
+       "text": "0.336 [0.310, 0.362]",
+       "value": [
+        0.3358525954321556,
+        0.3101675417720178,
+        0.36153764909229347
+       ]
+      },
+      "mcc_on": {
+       "text": "0.326 [0.304, 0.347]",
+       "value": [
+        0.32570858449980494,
+        0.30407865789026883,
+        0.34733851110934105
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      }
+     },
+     "Wiki-RfA": {
+      "mcc_off": {
+       "text": "0.219 [0.156, 0.282]",
+       "value": [
+        0.21856143513840748,
+        0.15556791944235449,
+        0.28155495083446047
+       ]
+      },
+      "mcc_on": {
+       "text": "0.209 [0.142, 0.276]",
+       "value": [
+        0.20902577416932333,
+        0.14165394263363773,
+        0.27639760570500893
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      }
+     }
+    },
+    "tab:s_s_self_term_secondary": {
+     "Bitcoin-Alpha|$\\ge 4$ warnings|off": {
+      "gain": {
+       "text": "$+0.427$ [$+0.286$, $+0.567$]",
+       "value": [
+        0.4266551700157997,
+        0.2861973634029813,
+        0.5671129766286181
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "pct_after": {
+       "text": "42.554 [35.327, 50.022]",
+       "value": [
+        0.4255421073828349,
+        0.35326765867548454,
+        0.5002243678063463
+       ]
+      },
+      "pct_before": {
+       "text": "2.566 [2.077, 3.071]",
+       "value": [
+        0.025660809292663796,
+        0.020772798892115505,
+        0.03071418982413747
+       ]
+      },
+      "self_term": {
+       "text": "off",
+       "value": "off"
+      },
+      "targets": {
+       "text": "$\\ge 4$ warnings",
+       "value": "$\\ge 4$ warnings"
+      }
+     },
+     "Bitcoin-Alpha|$\\ge 4$ warnings|on": {
+      "gain": {
+       "text": "$+0.347$ [$+0.229$, $+0.466$]",
+       "value": [
+        0.34726102810639603,
+        0.22888649107001102,
+        0.46563556514278104
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "pct_after": {
+       "text": "49.351 [42.341, 56.080]",
+       "value": [
+        0.4935130819396457,
+        0.42340748669902706,
+        0.5607975991125619
+       ]
+      },
+      "pct_before": {
+       "text": "2.255 [1.680, 2.864]",
+       "value": [
+        0.022554775985473147,
+        0.016799111148794253,
+        0.028641110428104088
+       ]
+      },
+      "self_term": {
+       "text": "on",
+       "value": "on"
+      },
+      "targets": {
+       "text": "$\\ge 4$ warnings",
+       "value": "$\\ge 4$ warnings"
+      }
+     },
+     "Bitcoin-Alpha|50 drawn|off": {
+      "gain": {
+       "text": "$+0.369$ [$+0.240$, $+0.498$]",
+       "value": [
+        0.369229738637805,
+        0.24015641321543166,
+        0.4983030640601783
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "pct_after": {
+       "text": "35.936 [28.496, 43.863]",
+       "value": [
+        0.3593562965004133,
+        0.28496453568476166,
+        0.43863394874621103
+       ]
+      },
+      "pct_before": {
+       "text": "3.250 [2.657, 3.868]",
+       "value": [
+        0.0324993111049876,
+        0.026574731330945164,
+        0.038675502893359054
+       ]
+      },
+      "self_term": {
+       "text": "off",
+       "value": "off"
+      },
+      "targets": {
+       "text": "50 drawn",
+       "value": "50 drawn"
+      }
+     },
+     "Bitcoin-Alpha|50 drawn|on": {
+      "gain": {
+       "text": "$+0.268$ [$+0.190$, $+0.346$]",
+       "value": [
+        0.2681166253089905,
+        0.18981308225077176,
+        0.34642016836720924
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "pct_after": {
+       "text": "47.707 [42.352, 53.416]",
+       "value": [
+        0.4770658583631855,
+        0.42352174152659133,
+        0.5341562965004133
+       ]
+      },
+      "pct_before": {
+       "text": "3.142 [2.564, 3.754]",
+       "value": [
+        0.031421328189583916,
+        0.025640121245522184,
+        0.0375421052631579
+       ]
+      },
+      "self_term": {
+       "text": "on",
+       "value": "on"
+      },
+      "targets": {
+       "text": "50 drawn",
+       "value": "50 drawn"
+      }
+     },
+     "Bitcoin-OTC|$\\ge 4$ warnings|off": {
+      "gain": {
+       "text": "$+0.303$ [$+0.263$, $+0.345$]",
+       "value": [
+        0.3028871137133012,
+        0.262857820983403,
+        0.34499832998502716
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "pct_after": {
+       "text": "55.225 [48.552, 61.897]",
+       "value": [
+        0.5522457099550695,
+        0.48551884832308,
+        0.618972571587059
+       ]
+      },
+      "pct_before": {
+       "text": "7.873 [7.018, 8.763]",
+       "value": [
+        0.07873463974449198,
+        0.07018412683375738,
+        0.08763016970714016
+       ]
+      },
+      "self_term": {
+       "text": "off",
+       "value": "off"
+      },
+      "targets": {
+       "text": "$\\ge 4$ warnings",
+       "value": "$\\ge 4$ warnings"
+      }
+     },
+     "Bitcoin-OTC|$\\ge 4$ warnings|on": {
+      "gain": {
+       "text": "$+0.319$ [$+0.129$, $+0.510$]",
+       "value": [
+        0.3190999659788437,
+        0.12864550005858771,
+        0.5095544318990997
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "pct_after": {
+       "text": "51.397 [45.906, 56.888]",
+       "value": [
+        0.5139695772208087,
+        0.4590618244410376,
+        0.5688773300005798
+       ]
+      },
+      "pct_before": {
+       "text": "7.415 [6.474, 8.358]",
+       "value": [
+        0.07414523899745575,
+        0.06474225220592215,
+        0.08358071239105722
+       ]
+      },
+      "self_term": {
+       "text": "on",
+       "value": "on"
+      },
+      "targets": {
+       "text": "$\\ge 4$ warnings",
+       "value": "$\\ge 4$ warnings"
+      }
+     },
+     "Bitcoin-OTC|50 drawn|off": {
+      "gain": {
+       "text": "$+0.332$ [$+0.280$, $+0.388$]",
+       "value": [
+        0.3317345035672188,
+        0.279835535004735,
+        0.3880121626310051
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "pct_after": {
+       "text": "40.991 [33.812, 48.812]",
+       "value": [
+        0.40990570021111894,
+        0.3381157811400422,
+        0.4881199859254045
+       ]
+      },
+      "pct_before": {
+       "text": "6.042 [5.034, 7.122]",
+       "value": [
+        0.06042434904996481,
+        0.05033703377902885,
+        0.07121900070372977
+       ]
+      },
+      "self_term": {
+       "text": "off",
+       "value": "off"
+      },
+      "targets": {
+       "text": "50 drawn",
+       "value": "50 drawn"
+      }
+     },
+     "Bitcoin-OTC|50 drawn|on": {
+      "gain": {
+       "text": "$+0.340$ [$+0.115$, $+0.565$]",
+       "value": [
+        0.340050210505724,
+        0.11523745647545774,
+        0.5648629645359902
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "pct_after": {
+       "text": "55.393 [48.981, 61.805]",
+       "value": [
+        0.5539317382125264,
+        0.4898108032316511,
+        0.6180526731934016
+       ]
+      },
+      "pct_before": {
+       "text": "6.140 [5.163, 7.194]",
+       "value": [
+        0.061397607318789585,
+        0.05162827234342012,
+        0.0719411681914145
+       ]
+      },
+      "self_term": {
+       "text": "on",
+       "value": "on"
+      },
+      "targets": {
+       "text": "50 drawn",
+       "value": "50 drawn"
+      }
+     },
+     "Wiki-RfA|$\\ge 4$ warnings|off": {
+      "gain": {
+       "text": "$+0.623$ [$+0.585$, $+0.662$]",
+       "value": [
+        0.623299343239258,
+        0.5846424847506555,
+        0.6619562017278604
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "pct_after": {
+       "text": "74.592 [71.756, 77.428]",
+       "value": [
+        0.7459199377384547,
+        0.7175555870873803,
+        0.774284288389529
+       ]
+      },
+      "pct_before": {
+       "text": "6.186 [5.972, 6.409]",
+       "value": [
+        0.061861175479250054,
+        0.059715220724200074,
+        0.064093591274021
+       ]
+      },
+      "self_term": {
+       "text": "off",
+       "value": "off"
+      },
+      "targets": {
+       "text": "$\\ge 4$ warnings",
+       "value": "$\\ge 4$ warnings"
+      }
+     },
+     "Wiki-RfA|$\\ge 4$ warnings|on": {
+      "gain": {
+       "text": "$+0.551$ [$+0.465$, $+0.636$]",
+       "value": [
+        0.5506559209898114,
+        0.4649665289900221,
+        0.6363453129896007
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "pct_after": {
+       "text": "69.360 [66.469, 72.251]",
+       "value": [
+        0.6935994078131216,
+        0.6646932705954673,
+        0.7225055450307758
+       ]
+      },
+      "pct_before": {
+       "text": "6.591 [4.847, 8.336]",
+       "value": [
+        0.06591340339707728,
+        0.04846715512003853,
+        0.08335965167411603
+       ]
+      },
+      "self_term": {
+       "text": "on",
+       "value": "on"
+      },
+      "targets": {
+       "text": "$\\ge 4$ warnings",
+       "value": "$\\ge 4$ warnings"
+      }
+     },
+     "Wiki-RfA|50 drawn|off": {
+      "gain": {
+       "text": "$+0.571$ [$+0.504$, $+0.638$]",
+       "value": [
+        0.5712896709144115,
+        0.5042546388656123,
+        0.6383247029632108
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "pct_after": {
+       "text": "56.810 [45.854, 67.583]",
+       "value": [
+        0.5680953506698188,
+        0.4585442966903072,
+        0.6758252856579983
+       ]
+      },
+      "pct_before": {
+       "text": "5.526 [4.480, 6.549]",
+       "value": [
+        0.055263593380614665,
+        0.044800364460204876,
+        0.06549137115839243
+       ]
+      },
+      "self_term": {
+       "text": "off",
+       "value": "off"
+      },
+      "targets": {
+       "text": "50 drawn",
+       "value": "50 drawn"
+      }
+     },
+     "Wiki-RfA|50 drawn|on": {
+      "gain": {
+       "text": "$+0.435$ [$+0.340$, $+0.529$]",
+       "value": [
+        0.43494613465666776,
+        0.34039412130055413,
+        0.5294981480127814
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "pct_after": {
+       "text": "51.231 [43.156, 58.888]",
+       "value": [
+        0.512308510638298,
+        0.4315608353033885,
+        0.5888770488573679
+       ]
+      },
+      "pct_before": {
+       "text": "7.222 [6.046, 8.605]",
+       "value": [
+        0.07222301024428683,
+        0.06046324862096139,
+        0.08605432427107958
+       ]
+      },
+      "self_term": {
+       "text": "on",
+       "value": "on"
+      },
+      "targets": {
+       "text": "50 drawn",
+       "value": "50 drawn"
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/e9a_e8.json": "5173e22fb89e2840d426c7749e53afb564c3e47178a508c6f1d1ffac16e78c19"
+   }
+  },
+  "s_window": {
+   "cells": {
+    "tab:s_s_window_21": {
+     "Bitcoin-Alpha|Erlang-2": {
+      "A": {
+       "text": "13.28",
+       "value": 13.276704135987622
+      },
+      "Batched_eligible": {
+       "text": "28",
+       "value": 28
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "28",
+       "value": 28
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.338",
+       "value": 0.3375744180382489
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      }
+     },
+     "Bitcoin-Alpha|Erlang-3": {
+      "A": {
+       "text": "11.21",
+       "value": 11.207929219847285
+      },
+      "Batched_eligible": {
+       "text": "28",
+       "value": 28
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "28",
+       "value": 28
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.338",
+       "value": 0.3375744180382489
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      }
+     },
+     "Bitcoin-Alpha|Erlang-5": {
+      "A": {
+       "text": "9.28",
+       "value": 9.283700463581742
+      },
+      "Batched_eligible": {
+       "text": "28",
+       "value": 28
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "28",
+       "value": 28
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.338",
+       "value": 0.3375744180382489
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      }
+     },
+     "Bitcoin-Alpha|exponential": {
+      "A": {
+       "text": "18.42",
+       "value": 18.42068074395236
+      },
+      "Batched_eligible": {
+       "text": "0",
+       "value": 0
+      },
+      "Batched_max_abs_diff": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "0",
+       "value": 0
+      },
+      "Single record_max_abs_diff": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_status": {
+       "text": "untested",
+       "value": "untested"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      }
+     },
+     "Bitcoin-Alpha|quarantine": {
+      "A": {
+       "text": "4.00",
+       "value": 4.0
+      },
+      "Batched_eligible": {
+       "text": "234",
+       "value": 234
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "234",
+       "value": 234
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.212",
+       "value": 0.21157235339319636
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      }
+     },
+     "Bitcoin-OTC|Erlang-2": {
+      "A": {
+       "text": "13.28",
+       "value": 13.276704135987622
+      },
+      "Batched_eligible": {
+       "text": "41",
+       "value": 41
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "41",
+       "value": 41
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.345",
+       "value": 0.34481617816736326
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      }
+     },
+     "Bitcoin-OTC|Erlang-3": {
+      "A": {
+       "text": "11.21",
+       "value": 11.207929219847285
+      },
+      "Batched_eligible": {
+       "text": "41",
+       "value": 41
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "41",
+       "value": 41
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.345",
+       "value": 0.34481617816736326
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      }
+     },
+     "Bitcoin-OTC|Erlang-5": {
+      "A": {
+       "text": "9.28",
+       "value": 9.283700463581742
+      },
+      "Batched_eligible": {
+       "text": "41",
+       "value": 41
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "41",
+       "value": 41
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.345",
+       "value": 0.34481617816736326
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      }
+     },
+     "Bitcoin-OTC|exponential": {
+      "A": {
+       "text": "18.42",
+       "value": 18.42068074395236
+      },
+      "Batched_eligible": {
+       "text": "0",
+       "value": 0
+      },
+      "Batched_max_abs_diff": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "0",
+       "value": 0
+      },
+      "Single record_max_abs_diff": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_status": {
+       "text": "untested",
+       "value": "untested"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      }
+     },
+     "Bitcoin-OTC|quarantine": {
+      "A": {
+       "text": "4.00",
+       "value": 4.0
+      },
+      "Batched_eligible": {
+       "text": "598",
+       "value": 598
+      },
+      "Batched_max_abs_diff": {
+       "text": "$3.6\\times10^{-4}$",
+       "value": 0.00035505392038626127
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "598",
+       "value": 598
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.175",
+       "value": 0.17482064070919445
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      }
+     },
+     "Wiki-RfA|Erlang-2": {
+      "A": {
+       "text": "13.28",
+       "value": 13.276704135987622
+      },
+      "Batched_eligible": {
+       "text": "66",
+       "value": 66
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "66",
+       "value": 66
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.555",
+       "value": 0.5546884277176038
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      }
+     },
+     "Wiki-RfA|Erlang-3": {
+      "A": {
+       "text": "11.21",
+       "value": 11.207929219847285
+      },
+      "Batched_eligible": {
+       "text": "66",
+       "value": 66
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "66",
+       "value": 66
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.555",
+       "value": 0.5546884277176038
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      }
+     },
+     "Wiki-RfA|Erlang-5": {
+      "A": {
+       "text": "9.28",
+       "value": 9.283700463581742
+      },
+      "Batched_eligible": {
+       "text": "66",
+       "value": 66
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "66",
+       "value": 66
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.555",
+       "value": 0.5546884277176038
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      }
+     },
+     "Wiki-RfA|exponential": {
+      "A": {
+       "text": "18.42",
+       "value": 18.42068074395236
+      },
+      "Batched_eligible": {
+       "text": "0",
+       "value": 0
+      },
+      "Batched_max_abs_diff": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "0",
+       "value": 0
+      },
+      "Single record_max_abs_diff": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_status": {
+       "text": "untested",
+       "value": "untested"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      }
+     },
+     "Wiki-RfA|quarantine": {
+      "A": {
+       "text": "4.00",
+       "value": 4.0
+      },
+      "Batched_eligible": {
+       "text": "528",
+       "value": 528
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0116",
+       "value": 0.011644615117890611
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "528",
+       "value": 528
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.523",
+       "value": 0.5227812961727296
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      }
+     }
+    },
+    "tab:s_s_window_88": {
+     "Bitcoin-Alpha|Erlang-2": {
+      "A": {
+       "text": "13.28",
+       "value": 13.276704135987622
+      },
+      "Batched_eligible": {
+       "text": "143",
+       "value": 143
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "143",
+       "value": 143
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.433",
+       "value": 0.43282870071164764
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      }
+     },
+     "Bitcoin-Alpha|Erlang-3": {
+      "A": {
+       "text": "11.21",
+       "value": 11.207929219847285
+      },
+      "Batched_eligible": {
+       "text": "271",
+       "value": 271
+      },
+      "Batched_max_abs_diff": {
+       "text": "$8.4\\times10^{-4}$",
+       "value": 0.0008354383025951373
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "271",
+       "value": 271
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.376",
+       "value": 0.3756651017710085
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      }
+     },
+     "Bitcoin-Alpha|Erlang-5": {
+      "A": {
+       "text": "9.28",
+       "value": 9.283700463581742
+      },
+      "Batched_eligible": {
+       "text": "271",
+       "value": 271
+      },
+      "Batched_max_abs_diff": {
+       "text": "$8.3\\times10^{-4}$",
+       "value": 0.0008268665078103865
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "271",
+       "value": 271
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.376",
+       "value": 0.3756651017710085
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      }
+     },
+     "Bitcoin-Alpha|exponential": {
+      "A": {
+       "text": "18.42",
+       "value": 18.42068074395236
+      },
+      "Batched_eligible": {
+       "text": "143",
+       "value": 143
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "143",
+       "value": 143
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.433",
+       "value": 0.43282870071164764
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      }
+     },
+     "Bitcoin-Alpha|quarantine": {
+      "A": {
+       "text": "4.00",
+       "value": 4.0
+      },
+      "Batched_eligible": {
+       "text": "465",
+       "value": 465
+      },
+      "Batched_max_abs_diff": {
+       "text": "$5.0\\times10^{-4}$",
+       "value": 0.0004973677672593935
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "465",
+       "value": 465
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "never_commit_mean": {
+       "text": "0.324",
+       "value": 0.3242691384405014
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      }
+     },
+     "Bitcoin-OTC|Erlang-2": {
+      "A": {
+       "text": "13.28",
+       "value": 13.276704135987622
+      },
+      "Batched_eligible": {
+       "text": "322",
+       "value": 322
+      },
+      "Batched_max_abs_diff": {
+       "text": "$1.6\\times10^{-4}$",
+       "value": 0.00016259658011164024
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "322",
+       "value": 322
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.439",
+       "value": 0.4389560306379309
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      }
+     },
+     "Bitcoin-OTC|Erlang-3": {
+      "A": {
+       "text": "11.21",
+       "value": 11.207929219847285
+      },
+      "Batched_eligible": {
+       "text": "761",
+       "value": 761
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0024",
+       "value": 0.0024339847203558307
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "761",
+       "value": 761
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.359",
+       "value": 0.35864447731915927
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      }
+     },
+     "Bitcoin-OTC|Erlang-5": {
+      "A": {
+       "text": "9.28",
+       "value": 9.283700463581742
+      },
+      "Batched_eligible": {
+       "text": "761",
+       "value": 761
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0024",
+       "value": 0.002398293250731931
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "761",
+       "value": 761
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.359",
+       "value": 0.35864447731915927
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      }
+     },
+     "Bitcoin-OTC|exponential": {
+      "A": {
+       "text": "18.42",
+       "value": 18.42068074395236
+      },
+      "Batched_eligible": {
+       "text": "322",
+       "value": 322
+      },
+      "Batched_max_abs_diff": {
+       "text": "$3.4\\times10^{-4}$",
+       "value": 0.0003393840189551689
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "322",
+       "value": 322
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.439",
+       "value": 0.4389560306379309
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      }
+     },
+     "Bitcoin-OTC|quarantine": {
+      "A": {
+       "text": "4.00",
+       "value": 4.0
+      },
+      "Batched_eligible": {
+       "text": "1362",
+       "value": 1362
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.2438",
+       "value": 0.24383990341465855
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "1362",
+       "value": 1362
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "never_commit_mean": {
+       "text": "0.303",
+       "value": 0.30302645891798885
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      }
+     },
+     "Wiki-RfA|Erlang-2": {
+      "A": {
+       "text": "13.28",
+       "value": 13.276704135987622
+      },
+      "Batched_eligible": {
+       "text": "358",
+       "value": 358
+      },
+      "Batched_max_abs_diff": {
+       "text": "$2.2\\times10^{-5}$",
+       "value": 2.2022894844986318e-05
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "358",
+       "value": 358
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.557",
+       "value": 0.5570343004073233
+      },
+      "policy": {
+       "text": "Erlang-2",
+       "value": "Erlang-2"
+      }
+     },
+     "Wiki-RfA|Erlang-3": {
+      "A": {
+       "text": "11.21",
+       "value": 11.207929219847285
+      },
+      "Batched_eligible": {
+       "text": "644",
+       "value": 644
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0436",
+       "value": 0.043641253283295045
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "644",
+       "value": 644
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.542",
+       "value": 0.5422890951830799
+      },
+      "policy": {
+       "text": "Erlang-3",
+       "value": "Erlang-3"
+      }
+     },
+     "Wiki-RfA|Erlang-5": {
+      "A": {
+       "text": "9.28",
+       "value": 9.283700463581742
+      },
+      "Batched_eligible": {
+       "text": "644",
+       "value": 644
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0443",
+       "value": 0.04432205771407294
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "644",
+       "value": 644
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.542",
+       "value": 0.5422890951830799
+      },
+      "policy": {
+       "text": "Erlang-5",
+       "value": "Erlang-5"
+      }
+     },
+     "Wiki-RfA|exponential": {
+      "A": {
+       "text": "18.42",
+       "value": 18.42068074395236
+      },
+      "Batched_eligible": {
+       "text": "358",
+       "value": 358
+      },
+      "Batched_max_abs_diff": {
+       "text": "$1.4\\times10^{-5}$",
+       "value": 1.3625056033417238e-05
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "358",
+       "value": 358
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.557",
+       "value": 0.5570343004073233
+      },
+      "policy": {
+       "text": "exponential",
+       "value": "exponential"
+      }
+     },
+     "Wiki-RfA|quarantine": {
+      "A": {
+       "text": "4.00",
+       "value": 4.0
+      },
+      "Batched_eligible": {
+       "text": "949",
+       "value": 949
+      },
+      "Batched_max_abs_diff": {
+       "text": "0.0728",
+       "value": 0.07275326057397613
+      },
+      "Batched_status": {
+       "text": "n/a",
+       "value": "n/a"
+      },
+      "Single record_eligible": {
+       "text": "949",
+       "value": 949
+      },
+      "Single record_max_abs_diff": {
+       "text": "0.0000",
+       "value": 0.0
+      },
+      "Single record_status": {
+       "text": "holds",
+       "value": "holds"
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "never_commit_mean": {
+       "text": "0.520",
+       "value": 0.5199847624362192
+      },
+      "policy": {
+       "text": "quarantine",
+       "value": "quarantine"
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/e1.json": "35eaa49f710c59c64db1e37b64d676b38dd8da34715b5c9f557985aaf78e3e2e"
+   }
+  },
+  "s_witness_attack": {
+   "cells": {
+    "tab:s_s_witness_attack": {
+     "10|0|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "3.632",
+       "value": 0.036318709872605444
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.004",
+       "value": 4.046854329079987e-05
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.011",
+       "value": 0.00010855652834127621
+      },
+      "bitcoinotc_off_mean": {
+       "text": "4.726",
+       "value": 0.04725659847292499
+      },
+      "bitcoinotc_on_mean": {
+       "text": "$-0.007$",
+       "value": -6.749787366620139e-05
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.011",
+       "value": 0.00010746163009693054
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "10",
+       "value": "10"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "22.196",
+       "value": 0.22195660570655634
+      },
+      "wiki-rfa_on_mean": {
+       "text": "0.085",
+       "value": 0.0008466687981851199
+      },
+      "wiki-rfa_on_p95": {
+       "text": "0.192",
+       "value": 0.0019168685334825944
+      }
+     },
+     "10|1|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "3.632",
+       "value": 0.036318709872605444
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.354",
+       "value": 0.0035449076437660547
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "2.511",
+       "value": 0.02510935892232389
+      },
+      "bitcoinotc_off_mean": {
+       "text": "4.726",
+       "value": 0.04725659847292499
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.877",
+       "value": 0.00876634672463311
+      },
+      "bitcoinotc_on_p95": {
+       "text": "4.959",
+       "value": 0.04959225459775882
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "1",
+       "value": "1"
+      },
+      "k": {
+       "text": "10",
+       "value": "10"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "22.196",
+       "value": 0.22195660570655634
+      },
+      "wiki-rfa_on_mean": {
+       "text": "5.180",
+       "value": 0.05179595112422832
+      },
+      "wiki-rfa_on_p95": {
+       "text": "34.741",
+       "value": 0.3474136720255483
+      }
+     },
+     "10|2|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "3.632",
+       "value": 0.036318709872605444
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.772",
+       "value": 0.00772443328637156
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "3.606",
+       "value": 0.036061620589017795
+      },
+      "bitcoinotc_off_mean": {
+       "text": "4.726",
+       "value": 0.04725659847292499
+      },
+      "bitcoinotc_on_mean": {
+       "text": "1.319",
+       "value": 0.01318566935264077
+      },
+      "bitcoinotc_on_p95": {
+       "text": "6.146",
+       "value": 0.06145879798148213
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "2",
+       "value": "2"
+      },
+      "k": {
+       "text": "10",
+       "value": "10"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "22.196",
+       "value": 0.22195660570655634
+      },
+      "wiki-rfa_on_mean": {
+       "text": "10.723",
+       "value": 0.1072323926019963
+      },
+      "wiki-rfa_on_p95": {
+       "text": "41.550",
+       "value": 0.4155049550757596
+      }
+     },
+     "1|0|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.145",
+       "value": 0.0014525581881750763
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "$-0.002$",
+       "value": -2.053132214545454e-05
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.000",
+       "value": 5.422882882466525e-07
+      },
+      "bitcoinotc_off_mean": {
+       "text": "0.171",
+       "value": 0.001714064415561311
+      },
+      "bitcoinotc_on_mean": {
+       "text": "$-0.004$",
+       "value": -4.3068328954001776e-05
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.000",
+       "value": 0.0
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "1",
+       "value": "1"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "5.027",
+       "value": 0.05026985334067863
+      },
+      "wiki-rfa_on_mean": {
+       "text": "$-0.002$",
+       "value": -2.1685126665224404e-05
+      },
+      "wiki-rfa_on_p95": {
+       "text": "0.008",
+       "value": 8.064237329145213e-05
+      }
+     },
+     "1|1|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.145",
+       "value": 0.0014518444318942923
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.125",
+       "value": 0.0012482113254572915
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.381",
+       "value": 0.0038134616687509025
+      },
+      "bitcoinotc_off_mean": {
+       "text": "0.171",
+       "value": 0.0017136580467322646
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.165",
+       "value": 0.0016483246582859117
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.691",
+       "value": 0.006911601527173638
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "1",
+       "value": "1"
+      },
+      "k": {
+       "text": "1",
+       "value": "1"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "5.027",
+       "value": 0.05027033277847658
+      },
+      "wiki-rfa_on_mean": {
+       "text": "2.878",
+       "value": 0.028779249843314023
+      },
+      "wiki-rfa_on_p95": {
+       "text": "12.000",
+       "value": 0.1200005487072443
+      }
+     },
+     "1|2|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.145",
+       "value": 0.0014518444318942923
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.129",
+       "value": 0.0012943169838853684
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.655",
+       "value": 0.006548769324141793
+      },
+      "bitcoinotc_off_mean": {
+       "text": "0.171",
+       "value": 0.0017136580467322646
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.186",
+       "value": 0.0018620689075291585
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.691",
+       "value": 0.006911601527173638
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "2",
+       "value": "2"
+      },
+      "k": {
+       "text": "1",
+       "value": "1"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "5.027",
+       "value": 0.05027033277847658
+      },
+      "wiki-rfa_on_mean": {
+       "text": "4.534",
+       "value": 0.045338111736250054
+      },
+      "wiki-rfa_on_p95": {
+       "text": "14.160",
+       "value": 0.14160316271632734
+      }
+     },
+     "50|0|no|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "19.061",
+       "value": 0.19061308207721722
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.000",
+       "value": 1.3801015261940827e-11
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.000",
+       "value": 0.0
+      },
+      "bitcoinotc_off_mean": {
+       "text": "16.524",
+       "value": 0.16523501677539296
+      },
+      "bitcoinotc_on_mean": {
+       "text": "$-0.004$",
+       "value": -4.043852348329507e-05
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.000",
+       "value": 0.0
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "50",
+       "value": "50"
+      },
+      "ring": {
+       "text": "no",
+       "value": "no"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "28.782",
+       "value": 0.2878174936890326
+      },
+      "wiki-rfa_on_mean": {
+       "text": "0.006",
+       "value": 5.514411620358088e-05
+      },
+      "wiki-rfa_on_p95": {
+       "text": "0.000",
+       "value": 3.3192441403762096e-07
+      }
+     },
+     "50|0|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "19.061",
+       "value": 0.19061308207756364
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.011",
+       "value": 0.00011448937249893097
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.054",
+       "value": 0.000542507995778263
+      },
+      "bitcoinotc_off_mean": {
+       "text": "16.523",
+       "value": 0.16523446108063247
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.009",
+       "value": 9.347242290694156e-05
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.054",
+       "value": 0.000542507995778152
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "50",
+       "value": "50"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "28.782",
+       "value": 0.28781749367631054
+      },
+      "wiki-rfa_on_mean": {
+       "text": "0.341",
+       "value": 0.0034084771686683536
+      },
+      "wiki-rfa_on_p95": {
+       "text": "0.947",
+       "value": 0.009473226066161251
+      }
+     },
+     "50|0|yes|yes": {
+      "bitcoinalpha_off_mean": {
+       "text": "21.603",
+       "value": 0.21603294631786576
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.103",
+       "value": 0.0010287891294357985
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.306",
+       "value": 0.003061011293575625
+      },
+      "bitcoinotc_off_mean": {
+       "text": "18.377",
+       "value": 0.18377346056455265
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.136",
+       "value": 0.0013631400586468078
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.444",
+       "value": 0.004441028737207243
+      },
+      "farming": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "50",
+       "value": "50"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "29.189",
+       "value": 0.2918928441305837
+      },
+      "wiki-rfa_on_mean": {
+       "text": "2.598",
+       "value": 0.025978535021823665
+      },
+      "wiki-rfa_on_p95": {
+       "text": "8.497",
+       "value": 0.0849696198804489
+      }
+     },
+     "50|1|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "19.061",
+       "value": 0.19061308207756364
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.535",
+       "value": 0.005354726653531826
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "2.549",
+       "value": 0.025490728356676883
+      },
+      "bitcoinotc_off_mean": {
+       "text": "16.523",
+       "value": 0.16523446108063247
+      },
+      "bitcoinotc_on_mean": {
+       "text": "1.000",
+       "value": 0.010003849391326685
+      },
+      "bitcoinotc_on_p95": {
+       "text": "5.041",
+       "value": 0.050408764782631094
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "1",
+       "value": "1"
+      },
+      "k": {
+       "text": "50",
+       "value": "50"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "28.782",
+       "value": 0.28781749367631054
+      },
+      "wiki-rfa_on_mean": {
+       "text": "5.919",
+       "value": 0.05918829971992986
+      },
+      "wiki-rfa_on_p95": {
+       "text": "32.487",
+       "value": 0.32487375455749445
+      }
+     },
+     "50|2|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "19.061",
+       "value": 0.19061308207756364
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.796",
+       "value": 0.007962269340971904
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "3.308",
+       "value": 0.03308381709576258
+      },
+      "bitcoinotc_off_mean": {
+       "text": "16.523",
+       "value": 0.16523446108063247
+      },
+      "bitcoinotc_on_mean": {
+       "text": "1.277",
+       "value": 0.012767750192899817
+      },
+      "bitcoinotc_on_p95": {
+       "text": "6.220",
+       "value": 0.06219995730154895
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "2",
+       "value": "2"
+      },
+      "k": {
+       "text": "50",
+       "value": "50"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "28.782",
+       "value": 0.28781749367631054
+      },
+      "wiki-rfa_on_mean": {
+       "text": "10.522",
+       "value": 0.10521842009173431
+      },
+      "wiki-rfa_on_p95": {
+       "text": "40.582",
+       "value": 0.405820559020076
+      }
+     },
+     "5|0|no|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.812",
+       "value": 0.008120572240537116
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "$-0.002$",
+       "value": -1.713596166391818e-05
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.000",
+       "value": 0.0
+      },
+      "bitcoinotc_off_mean": {
+       "text": "1.390",
+       "value": 0.013903623441344458
+      },
+      "bitcoinotc_on_mean": {
+       "text": "$-0.009$",
+       "value": -9.088189116857544e-05
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.000",
+       "value": 0.0
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "5",
+       "value": "5"
+      },
+      "ring": {
+       "text": "no",
+       "value": "no"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "16.537",
+       "value": 0.16536986090200173
+      },
+      "wiki-rfa_on_mean": {
+       "text": "0.026",
+       "value": 0.0002648594205818941
+      },
+      "wiki-rfa_on_p95": {
+       "text": "0.033",
+       "value": 0.00032698141651888585
+      }
+     },
+     "5|0|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.812",
+       "value": 0.008119878455673513
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "$-0.001$",
+       "value": -5.617017189575316e-06
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.005",
+       "value": 5.428164905474375e-05
+      },
+      "bitcoinotc_off_mean": {
+       "text": "1.390",
+       "value": 0.013902029827356636
+      },
+      "bitcoinotc_on_mean": {
+       "text": "$-0.008$",
+       "value": -7.740916786305289e-05
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.005",
+       "value": 5.373529039918636e-05
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "5",
+       "value": "5"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "16.537",
+       "value": 0.16536985617477523
+      },
+      "wiki-rfa_on_mean": {
+       "text": "0.060",
+       "value": 0.0006018720648629633
+      },
+      "wiki-rfa_on_p95": {
+       "text": "0.103",
+       "value": 0.0010313343527690623
+      }
+     },
+     "5|0|yes|yes": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.986",
+       "value": 0.009862939118122992
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.009",
+       "value": 9.048390580915116e-05
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.029",
+       "value": 0.000290772700558289
+      },
+      "bitcoinotc_off_mean": {
+       "text": "1.649",
+       "value": 0.016487030413439217
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.005",
+       "value": 4.522259981803852e-05
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.037",
+       "value": 0.00037248413066810586
+      },
+      "farming": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "g": {
+       "text": "0",
+       "value": "0"
+      },
+      "k": {
+       "text": "5",
+       "value": "5"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "17.581",
+       "value": 0.17580955151181427
+      },
+      "wiki-rfa_on_mean": {
+       "text": "0.300",
+       "value": 0.00300358664835271
+      },
+      "wiki-rfa_on_p95": {
+       "text": "0.953",
+       "value": 0.00953016998034212
+      }
+     },
+     "5|1|no|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.812",
+       "value": 0.008120433319522927
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.123",
+       "value": 0.001230645502672682
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "0.399",
+       "value": 0.0039854035690864
+      },
+      "bitcoinotc_off_mean": {
+       "text": "1.390",
+       "value": 0.01390330441396842
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.173",
+       "value": 0.0017252255068386643
+      },
+      "bitcoinotc_on_p95": {
+       "text": "0.691",
+       "value": 0.006911601527173638
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "1",
+       "value": "1"
+      },
+      "k": {
+       "text": "5",
+       "value": "5"
+      },
+      "ring": {
+       "text": "no",
+       "value": "no"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "16.537",
+       "value": 0.1653698599789797
+      },
+      "wiki-rfa_on_mean": {
+       "text": "2.732",
+       "value": 0.027321173081473926
+      },
+      "wiki-rfa_on_p95": {
+       "text": "11.897",
+       "value": 0.11897206218005577
+      }
+     },
+     "5|1|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.812",
+       "value": 0.008119878455673513
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.371",
+       "value": 0.003706604791849136
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "1.826",
+       "value": 0.01826344843334461
+      },
+      "bitcoinotc_off_mean": {
+       "text": "1.390",
+       "value": 0.013902029827356636
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.662",
+       "value": 0.006623275660534828
+      },
+      "bitcoinotc_on_p95": {
+       "text": "3.452",
+       "value": 0.034519142025605146
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "1",
+       "value": "1"
+      },
+      "k": {
+       "text": "5",
+       "value": "5"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "16.537",
+       "value": 0.16536985617477523
+      },
+      "wiki-rfa_on_mean": {
+       "text": "5.434",
+       "value": 0.05433722498359637
+      },
+      "wiki-rfa_on_p95": {
+       "text": "29.002",
+       "value": 0.29001584432428706
+      }
+     },
+     "5|2|yes|no": {
+      "bitcoinalpha_off_mean": {
+       "text": "0.812",
+       "value": 0.008119878455673513
+      },
+      "bitcoinalpha_on_mean": {
+       "text": "0.433",
+       "value": 0.004326206182730822
+      },
+      "bitcoinalpha_on_p95": {
+       "text": "2.124",
+       "value": 0.021241736626636303
+      },
+      "bitcoinotc_off_mean": {
+       "text": "1.390",
+       "value": 0.013902029827356634
+      },
+      "bitcoinotc_on_mean": {
+       "text": "0.855",
+       "value": 0.00855334354721418
+      },
+      "bitcoinotc_on_p95": {
+       "text": "4.033",
+       "value": 0.04032735878497169
+      },
+      "farming": {
+       "text": "no",
+       "value": "no"
+      },
+      "g": {
+       "text": "2",
+       "value": "2"
+      },
+      "k": {
+       "text": "5",
+       "value": "5"
+      },
+      "ring": {
+       "text": "yes",
+       "value": "yes"
+      },
+      "wiki-rfa_off_mean": {
+       "text": "16.537",
+       "value": 0.16536985617477523
+      },
+      "wiki-rfa_on_mean": {
+       "text": "9.211",
+       "value": 0.09211254145535439
+      },
+      "wiki-rfa_on_p95": {
+       "text": "36.327",
+       "value": 0.3632703748405988
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/e1.json": "35eaa49f710c59c64db1e37b64d676b38dd8da34715b5c9f557985aaf78e3e2e"
+   }
+  },
+  "s_yardsticks": {
+   "cells": {
+    "tab:s_s_yardsticks": {
+     "Bitcoin-Alpha": {
+      "base_rate": {
+       "text": "0.86 [0.71, 1.03]",
+       "value": [
+        0.8597387480602446,
+        0.7069497403906374,
+        1.0297251997372525
+       ]
+      },
+      "edge_keeping": {
+       "text": "1.17 [0.95, 1.42]",
+       "value": [
+        1.1725398819809438,
+        0.9455880354059873,
+        1.4217472777737576
+       ]
+      },
+      "edgeless": {
+       "text": "1.79 [1.28, 2.38]",
+       "value": [
+        1.7894362703974978,
+        1.276148451756006,
+        2.3842153495018996
+       ]
+      },
+      "laplace": {
+       "text": "1.38 [1.13, 1.67]",
+       "value": [
+        1.3841952138395428,
+        1.1301104253368859,
+        1.6725921351491655
+       ]
+      },
+      "logreg": {
+       "text": "2.14 [1.73, 2.61]",
+       "value": [
+        2.137855737422202,
+        1.7275668412329535,
+        2.614492077485635
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-Alpha",
+       "value": "Bitcoin-Alpha"
+      },
+      "raw": {
+       "text": "0.41 [0.34, 0.49]",
+       "value": [
+        0.41382822640389394,
+        0.34212161480211567,
+        0.4894647882489591
+       ]
+      }
+     },
+     "Bitcoin-OTC": {
+      "base_rate": {
+       "text": "0.84 [0.70, 0.98]",
+       "value": [
+        0.8362896708926464,
+        0.6966318288756133,
+        0.9778238194067586
+       ]
+      },
+      "edge_keeping": {
+       "text": "1.11 [0.85, 1.41]",
+       "value": [
+        1.105736481959532,
+        0.8484157855497687,
+        1.405024546337881
+       ]
+      },
+      "edgeless": {
+       "text": "1.68 [1.31, 2.11]",
+       "value": [
+        1.6848863881018203,
+        1.3094455252058836,
+        2.1092650428926225
+       ]
+      },
+      "laplace": {
+       "text": "1.29 [1.06, 1.54]",
+       "value": [
+        1.2914061200241662,
+        1.062569395767626,
+        1.536077643738976
+       ]
+      },
+      "logreg": {
+       "text": "1.83 [1.51, 2.18]",
+       "value": [
+        1.8319502573574755,
+        1.5066592329817925,
+        2.1831081345344705
+       ]
+      },
+      "network": {
+       "text": "Bitcoin-OTC",
+       "value": "Bitcoin-OTC"
+      },
+      "raw": {
+       "text": "0.38 [0.32, 0.43]",
+       "value": [
+        0.3766479361831859,
+        0.3201994477946277,
+        0.43140493116961365
+       ]
+      }
+     },
+     "Epinions-Dated": {
+      "base_rate": {
+       "text": "0.96 [0.83, 1.11]",
+       "value": [
+        0.9615654995727798,
+        0.8264998765335442,
+        1.1064750477262635
+       ]
+      },
+      "edge_keeping": {
+       "text": "1.02 [0.86, 1.19]",
+       "value": [
+        1.018314430216562,
+        0.8558274353162911,
+        1.186387336888925
+       ]
+      },
+      "edgeless": {
+       "text": "2.22 [1.89, 2.55]",
+       "value": [
+        2.221308295726776,
+        1.894729025358191,
+        2.550380071188722
+       ]
+      },
+      "laplace": {
+       "text": "1.43 [1.21, 1.67]",
+       "value": [
+        1.4316737988878512,
+        1.2125819255587296,
+        1.6747462359436445
+       ]
+      },
+      "logreg": {
+       "text": "1.65 [1.41, 1.90]",
+       "value": [
+        1.6476934999888648,
+        1.4080749665576233,
+        1.9043010739768824
+       ]
+      },
+      "network": {
+       "text": "Epinions-Dated",
+       "value": "Epinions-Dated"
+      },
+      "raw": {
+       "text": "0.41 [0.36, 0.47]",
+       "value": [
+        0.41220615397907306,
+        0.35904388837933077,
+        0.4678253997236569
+       ]
+      }
+     },
+     "Wiki-RfA": {
+      "base_rate": {
+       "text": "1.44 [1.31, 1.57]",
+       "value": [
+        1.438133871163689,
+        1.3074004081626651,
+        1.568867334164713
+       ]
+      },
+      "edge_keeping": {
+       "text": "1.89 [1.79, 2.00]",
+       "value": [
+        1.8919453918387041,
+        1.7857997655136109,
+        2.003468759959634
+       ]
+      },
+      "edgeless": {
+       "text": "2.19 [1.80, 2.57]",
+       "value": [
+        2.1853604005479417,
+        1.7961323004908603,
+        2.574588500605023
+       ]
+      },
+      "laplace": {
+       "text": "2.02 [1.84, 2.20]",
+       "value": [
+        2.019849433068347,
+        1.8362351559690882,
+        2.2034637101676062
+       ]
+      },
+      "logreg": {
+       "text": "2.09 [1.90, 2.28]",
+       "value": [
+        2.0896376367788783,
+        1.8996792677069325,
+        2.279596005850824
+       ]
+      },
+      "network": {
+       "text": "Wiki-RfA",
+       "value": "Wiki-RfA"
+      },
+      "raw": {
+       "text": "0.67 [0.61, 0.73]",
+       "value": [
+        0.6733993077695658,
+        0.612183988909179,
+        0.7346146266299526
+       ]
+      }
+     }
+    }
+   },
+   "sources": {
+    "results/analysis/laundering_extra.json": "b39be5e6659497a75c2f56effb8e17e6a7fd4b7341479a7d067afbb2340670e5"
+   }
+  }
+ }
+}

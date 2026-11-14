@@ -1,0 +1,174 @@
+{
+ "ds": "bitcoinotc",
+ "engine": {
+  "default": {
+   "config": {
+    "N": 2,
+    "phi": 0.5
+   },
+   "A": 13.276704135987622,
+   "seconds": 1.0,
+   "n_ratings": 33975,
+   "n_flagged": 1428,
+   "n_controversial": 9397,
+   "raw_coverage": 0.9901960784313726,
+   "matured_coverage": 0.9838935574229691,
+   "attenuation": 0.22689489037577842,
+   "all_retained": 0.9644922232153444,
+   "controversial_retained": 0.9773736257825093,
+   "max_conservation_err": 2.220446049250313e-16,
+   "monotone_verified": true
+  },
+  "erlang_N1": {
+   "config": {
+    "N": 1,
+    "phi": 0.25
+   },
+   "A": 18.42068074395236,
+   "seconds": 1.1,
+   "n_ratings": 33975,
+   "n_flagged": 1428,
+   "n_controversial": 9397,
+   "raw_coverage": 0.9901960784313726,
+   "matured_coverage": 0.9901960784313726,
+   "attenuation": 0.22110373527541505,
+   "all_retained": 0.9658602775276776,
+   "controversial_retained": 0.9731969917175948,
+   "max_conservation_err": 4.440892098500626e-16,
+   "monotone_verified": true
+  },
+  "erlang_N3": {
+   "config": {
+    "N": 3,
+    "phi": 0.75
+   },
+   "A": 11.207929219847285,
+   "seconds": 1.0,
+   "n_ratings": 33975,
+   "n_flagged": 1428,
+   "n_controversial": 9397,
+   "raw_coverage": 0.9726890756302521,
+   "matured_coverage": 0.9565826330532213,
+   "attenuation": 0.22356627832073322,
+   "all_retained": 0.9643129040723156,
+   "controversial_retained": 0.9794406452573979,
+   "max_conservation_err": 4.440892098500626e-16,
+   "monotone_verified": true
+  },
+  "v2_only": {
+   "config": {
+    "N": 2,
+    "phi": 0.5,
+    "cap_c": 0.0
+   },
+   "A": 13.276704135987622,
+   "seconds": 0.9,
+   "n_ratings": 33975,
+   "n_flagged": 1428,
+   "n_controversial": 9397,
+   "raw_coverage": 0.9901960784313726,
+   "matured_coverage": 0.9838935574229691,
+   "attenuation": 0.07999144654099918,
+   "all_retained": 0.96767684895658,
+   "controversial_retained": 0.9363168234069895,
+   "max_conservation_err": 4.440892098500626e-16,
+   "monotone_verified": true
+  },
+  "v1_only": {
+   "config": {
+    "N": 2,
+    "phi": 0.5,
+    "c_self": 0.0
+   },
+   "A": 13.276704135987622,
+   "seconds": 1.1,
+   "n_ratings": 33975,
+   "n_flagged": 1428,
+   "n_controversial": 9397,
+   "raw_coverage": 0.9901960784313726,
+   "matured_coverage": 0.9838935574229691,
+   "attenuation": 0.22475773993166345,
+   "all_retained": 0.9648858016991045,
+   "controversial_retained": 0.9778292985914212,
+   "max_conservation_err": 4.440892098500626e-16,
+   "monotone_verified": true
+  },
+  "no_supersession": {
+   "config": {
+    "N": 2,
+    "phi": 0.5,
+    "supersession_impulse": 0.0
+   },
+   "A": 13.276704135987622,
+   "seconds": 0.9,
+   "n_ratings": 33975,
+   "n_flagged": 1428,
+   "n_controversial": 9397,
+   "raw_coverage": 0.9901960784313726,
+   "matured_coverage": 0.9838935574229691,
+   "attenuation": 0.22689489037577842,
+   "all_retained": 0.9644922232153444,
+   "controversial_retained": 0.9773736257825093,
+   "max_conservation_err": 2.220446049250313e-16,
+   "monotone_verified": true
+  }
+ },
+ "rolling": {
+  "7": {
+   "population": 647,
+   "positives": 49,
+   "auroc": 0.5084977134666576,
+   "auprc": 0.08099128368503507,
+   "attenuation": 0.0015090067794329151
+  },
+  "10": {
+   "population": 669,
+   "positives": 35,
+   "auroc": 0.5353762956286615,
+   "auprc": 0.0934108172416949,
+   "attenuation": 0.0084969467214328
+  },
+  "14": {
+   "population": 724,
+   "positives": 49,
+   "auroc": 0.665124716553288,
+   "auprc": 0.3189971373059021,
+   "attenuation": 0.06362392734454887
+  }
+ },
+ "provenance": {
+  "host": "kc-sse-ml-rn02.umad.umsystem.edu",
+  "utc": "2026-10-17T11:05:58Z",
+  "argv": [
+   "claude_changes_2026-10-16/runs_original_code/stageB_eval.py",
+   "engine",
+   "--ds",
+   "bitcoinotc"
+  ],
+  "device": "cpu",
+  "gpu_name": null,
+  "cuda_visible_devices": "",
+  "torch": "2.4.0",
+  "cuda_runtime": "12.4",
+  "deterministic": false,
+  "cublas_workspace": ":4096:8",
+  "code_sha256": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "code_sha256_at_write": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "dataset": "bitcoinotc",
+  "data_md5": {
+   "data_path": "eb3a7bd27f8d18028a9e47d8e6bd212d",
+   "edge_path": "a82ce7112b0fdd1dfb4851c601d7c418"
+  },
+  "signed_meta": {
+   "n_raw": 35592,
+   "n_zero_dropped": 0,
+   "n_self_loops": 0,
+   "n_self_loops_dropped": 0,
+   "zero_policy": "drop",
+   "self_loop_policy": "drop",
+   "id_source": "rating_file",
+   "rating_min": -10.0,
+   "rating_max": 10.0
+  }
+ }
+}

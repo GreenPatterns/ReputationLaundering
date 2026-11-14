@@ -1,0 +1,3 @@
+[taskpool] task=e3_btpc_bitcoinalpha_s13 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=1 utc=2026-11-12T03:29:54Z
+[bitcoinalpha s=13 SCEM] Direct laundering: plain=0.1298 -> VPE=-0.0192 -> CP-VPE=-0.0078 | Inject-Erase WW: VPE=0.0356 -> CP-VPE=0.0091 | Inject-Erase BM: VPE=-0.0776 -> CP-VPE=-0.0028 | Control: VPE=-0.0292 -> CP-VPE=-0.0071 | CP-VPE AUC=0.588 (2952.0s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e3/e3_btpc_bitcoinalpha_s13.json

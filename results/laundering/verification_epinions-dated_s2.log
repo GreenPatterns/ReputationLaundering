@@ -1,0 +1,2 @@
+[epinions-dated s2] H4 pass-all 0.924 over 79 laundering requests | per kind: benign_random 0.97, launder_C1 1.00, launder_C2_edge 1.00, launder_C3 0.68
+wrote /home/mucbp/PROJECTS/FedUnlearning/laundering/results/verification_epinions-dated_s2.json

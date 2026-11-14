@@ -1,0 +1,29 @@
+\begin{table}[!t]
+\centering
+\caption{Clean-data reputation laundering at a glance (direct deletion of at most three warnings; mean over 5 seeds).}
+\label{tab:laundering_glance}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{1.0in}rrrr@{}}
+\toprule
+ & \textbf{Alpha} & \textbf{OTC} & \textbf{Wiki-RfA} & \textbf{Epinions} \\
+\midrule
+Targets in cohort & 135 & 398 & 155 & 12{,}949 \\
+With an endorsement (\% of cohort) & 21 & 21 & 15 & 7 \\
+Left with no rating after deletion (\% of cohort) & 60 & 65 & 69 & 69 \\
+Reputation before, mean & 0.622 & 0.588 & 0.148 & 0.454 \\
+Gain, full retraining ($\mathcal{U}_2$) & +0.352 & +0.317 & +0.581 & +0.347 \\
+\quad cohort-weighted & +0.364 & +0.347 & +0.577 & +0.387 \\
+Gain, inference-only unlinking ($\mathcal{U}_1$), share of $\mathcal{U}_2$ (\%) & 99.2 & 100.2 & 99.7 & 100.3 \\
+Platform percentile (\%), before $\to$ after $\mathcal{U}_2$, cohort-weighted & 3.1 $\to$ 25.1 & 4.6 $\to$ 27.0 & 3.4 $\to$ 33.0 & 6.5 $\to$ 34.0 \\
+\quad targets without an endorsement & 3.0 $\to$ 14.7 & 3.6 $\to$ 17.4 & 2.4 $\to$ 21.9 & 6.0 $\to$ 31.2 \\
+\quad targets with an endorsement & 3.5 $\to$ 63.0 & 8.2 $\to$ 62.5 & 9.3 $\to$ 96.8 & 12.6 $\to$ 71.7 \\
+Targets in the lowest 10\% that leave it after $\mathcal{U}_2$ (\%) & 99.6 & 100.0 & 100.0 & 100.0 \\
+Gain, indirect deletion & +0.018 & +0.002 & $-0.002$ & +0.001 \\
+Gain in a second GNN (SGCN) & +0.603 & +0.454 & +0.355 & n/a \\
+Shift in EigenTrust (percentile) & +0.000 & +0.000 & +0.000 & n/a \\
+\bottomrule
+\end{tabular}
+\par\smallskip
+\parbox{\columnwidth}{\scriptsize $\mathcal{U}_1$ keeps the trained parameters and only removes the deleted ratings from the graph that the model reads. Platform percentile: share of active accounts with a lower reputation. The targets are a stratified sample, about half of them with at least one endorsement; cohort-weighted rows weight the two groups by their shares of the cohort, and the other rows are sample means.}
+\end{table}

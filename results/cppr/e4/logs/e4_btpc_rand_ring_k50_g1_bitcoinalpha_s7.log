@@ -1,0 +1,3 @@
+[taskpool] task=e4_btpc_rand_ring_k50_g1_bitcoinalpha_s7 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=0 utc=2026-11-12T06:51:54Z
+[bitcoinalpha s=7 SCEM] Inject-Erase WW: VPE=None -> CP-VPE=0.0423 (568.4s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e4/e4_btpc_rand_ring_k50_g1_bitcoinalpha_s7.json

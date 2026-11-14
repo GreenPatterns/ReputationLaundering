@@ -1,0 +1,42 @@
+\begin{table*}[!t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\caption{Release policies of the streaming engine without attack, at the same mean delay of four snapshots: arrival, exponential, Erlang-$N$ ($N = 2, 3, 5$), quarantine and never commit, each under one witness setting. Witnesses are unweighted (\emph{off}, the stored rule) or weighted by their BTP credibility tier with (\emph{capped}) or without (\emph{uncapped}) the per-edge cap. Per network, in percent: L1, mass durable (released from escrow) at age one snapshot; SSR, revoked mass of senders flagged later; FO, the same for senders first warned after the rating; HMR, revoked mass of other senders. The main paper's release-policy table shows the capped rows.}
+\label{tab:s_s_release_policies}
+\begin{tabular}{@{}llrrrrrrrrrrrr@{}}
+\toprule
+ &  & \multicolumn{4}{c}{\textbf{Bitcoin-Alpha}} & \multicolumn{4}{c}{\textbf{Bitcoin-OTC}} & \multicolumn{4}{c}{\textbf{Wiki-RfA}} \\
+\cmidrule(lr){3-6}\cmidrule(lr){7-10}\cmidrule(lr){11-14}
+\textbf{Policy} & \textbf{Witnesses} & \textbf{L1} & \textbf{SSR} & \textbf{FO} & \textbf{HMR} & \textbf{L1} & \textbf{SSR} & \textbf{FO} & \textbf{HMR} & \textbf{L1} & \textbf{SSR} & \textbf{FO} & \textbf{HMR} \\
+\midrule
+arrival & off & 100.0 & 0.0 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 & 0.0 \\
+arrival & capped & 100.0 & 0.0 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 & 0.0 \\
+arrival & uncapped & 100.0 & 0.0 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 & 0.0 & 100.0 & 0.0 & 0.0 & 0.0 \\
+\midrule
+exponential & off & 22.1 & 20.4 & 16.3 & 0.7 & 22.2 & 22.1 & 12.6 & 1.4 & 22.9 & 44.7 & 35.0 & 8.4 \\
+exponential & capped & 22.2 & 23.7 & 16.6 & 0.7 & 22.2 & 23.3 & 12.8 & 1.4 & 22.8 & 37.6 & 29.3 & 8.4 \\
+exponential & uncapped & 22.2 & 24.0 & 17.2 & 0.7 & 22.2 & 24.1 & 13.4 & 1.5 & 22.8 & 37.6 & 29.4 & 8.4 \\
+\midrule
+Erlang-2 & off & 9.0 & 20.9 & 16.1 & 0.6 & 9.1 & 22.7 & 11.1 & 1.5 & 9.3 & 49.8 & 39.1 & 8.7 \\
+Erlang-2 & capped & 9.0 & 25.4 & 16.8 & 0.7 & 9.1 & 24.7 & 11.5 & 1.6 & 9.2 & 41.3 & 31.9 & 8.8 \\
+Erlang-2 & uncapped & 9.0 & 25.9 & 17.3 & 0.7 & 9.1 & 25.6 & 12.1 & 1.7 & 9.2 & 41.3 & 32.0 & 8.8 \\
+\midrule
+Erlang-3 & off & 4.1 & 20.7 & 15.6 & 0.6 & 4.1 & 22.4 & 9.6 & 1.5 & 4.1 & 51.6 & 40.5 & 8.6 \\
+Erlang-3 & capped & 4.1 & 26.0 & 16.6 & 0.6 & 4.1 & 24.9 & 10.4 & 1.6 & 4.1 & 42.4 & 32.4 & 8.8 \\
+Erlang-3 & uncapped & 4.1 & 26.5 & 17.0 & 0.7 & 4.1 & 25.8 & 10.9 & 1.7 & 4.1 & 42.4 & 32.4 & 8.7 \\
+\midrule
+Erlang-5 & off & 0.9 & 20.0 & 14.8 & 0.6 & 0.9 & 21.9 & 8.2 & 1.6 & 0.9 & 52.9 & 41.6 & 8.4 \\
+Erlang-5 & capped & 0.9 & 26.4 & 16.2 & 0.6 & 0.9 & 24.9 & 9.1 & 1.7 & 0.9 & 42.6 & 31.6 & 8.5 \\
+Erlang-5 & uncapped & 0.9 & 26.8 & 16.5 & 0.7 & 0.9 & 25.8 & 9.6 & 1.8 & 0.9 & 42.5 & 31.6 & 8.6 \\
+\midrule
+quarantine & off & 0.0 & 17.1 & 13.0 & 0.6 & 0.0 & 20.7 & 5.7 & 1.4 & 0.0 & 54.3 & 44.3 & 7.8 \\
+quarantine & capped & 0.0 & 26.0 & 15.7 & 0.6 & 0.0 & 23.9 & 6.5 & 1.6 & 0.0 & 41.9 & 30.1 & 8.0 \\
+quarantine & uncapped & 0.0 & 26.4 & 16.4 & 0.6 & 0.0 & 24.7 & 7.0 & 1.7 & 0.0 & 41.9 & 30.2 & 8.0 \\
+\midrule
+no commit & off & 0.0 & 70.9 & 73.0 & 4.8 & 0.0 & 77.7 & 71.5 & 5.3 & 0.0 & 89.7 & 88.9 & 20.2 \\
+no commit & capped & 0.0 & 73.4 & 69.7 & 4.3 & 0.0 & 75.8 & 68.4 & 4.2 & 0.0 & 81.9 & 79.5 & 20.5 \\
+no commit & uncapped & 0.0 & 74.8 & 72.2 & 4.6 & 0.0 & 77.3 & 70.2 & 4.6 & 0.0 & 82.0 & 79.6 & 20.5 \\
+\bottomrule
+\end{tabular}
+\end{table*}

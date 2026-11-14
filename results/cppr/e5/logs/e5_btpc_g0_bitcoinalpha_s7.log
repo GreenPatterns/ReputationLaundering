@@ -1,0 +1,3 @@
+[taskpool] task=e5_btpc_g0_bitcoinalpha_s7 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T01:32:44Z
+[bitcoinalpha s=7 SCEM] Direct laundering: plain=None -> VPE=None -> CP-VPE=None | Inject-Erase WW: VPE=None -> CP-VPE=None | Baselines: gain_author_edge=0.0000 gain_author_account=0.0000 t1_mcc_author=0.3669 gain_singleton_edge=0.0660 gain_singleton_account=0.0650 t1_mcc_singleton=0.3832 gain_withdrawal_edge=0.1631 gain_withdrawal_account=0.1611 t1_mcc_withdrawal=0.3872 gain_author=0.0226 gain_singleton=0.0524 gain_withdrawal=0.0019 (1736.8s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e5/e5_btpc_g0_bitcoinalpha_s7.json

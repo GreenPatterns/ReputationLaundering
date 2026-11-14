@@ -1,0 +1,2 @@
+[taskpool] task=e2_scem_lag3_bitcoinotc_s8 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T04:19:09Z
+[E2 bitcoinotc s=8 lag3 scem] test MCC 0.3684519457271738 learned phi 0.32789137959480286 (417.3 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e2/e2_scem_lag3_bitcoinotc_s8.json

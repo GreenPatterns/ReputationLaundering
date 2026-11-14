@@ -1,0 +1,173 @@
+{
+ "ds": "wiki-rfa",
+ "engine": {
+  "default": {
+   "config": {
+    "N": 2,
+    "phi": 0.5
+   },
+   "A": 13.276704135987622,
+   "seconds": 5.8,
+   "n_ratings": 162679,
+   "n_flagged": 3641,
+   "n_controversial": 20565,
+   "raw_coverage": 0.9884647074979401,
+   "matured_coverage": 0.9837956605328206,
+   "attenuation": 0.4984079526841518,
+   "all_retained": 0.8875401901764666,
+   "controversial_retained": 0.8595859471409638,
+   "max_conservation_err": 6.661338147750939e-16,
+   "monotone_verified": true
+  },
+  "erlang_N1": {
+   "config": {
+    "N": 1,
+    "phi": 0.25
+   },
+   "A": 18.42068074395236,
+   "seconds": 5.7,
+   "n_ratings": 162679,
+   "n_flagged": 3641,
+   "n_controversial": 20565,
+   "raw_coverage": 1.0,
+   "matured_coverage": 1.0,
+   "attenuation": 0.447488285564069,
+   "all_retained": 0.8935193366588339,
+   "controversial_retained": 0.869950059478828,
+   "max_conservation_err": 4.440892098500626e-16,
+   "monotone_verified": true
+  },
+  "erlang_N3": {
+   "config": {
+    "N": 3,
+    "phi": 0.75
+   },
+   "A": 11.207929219847285,
+   "seconds": 5.8,
+   "n_ratings": 162679,
+   "n_flagged": 3641,
+   "n_controversial": 20565,
+   "raw_coverage": 0.9736336171381489,
+   "matured_coverage": 0.959901126064268,
+   "attenuation": 0.5159351810507511,
+   "all_retained": 0.8871303911860954,
+   "controversial_retained": 0.8563665149281195,
+   "max_conservation_err": 6.661338147750939e-16,
+   "monotone_verified": true
+  },
+  "v2_only": {
+   "config": {
+    "N": 2,
+    "phi": 0.5,
+    "cap_c": 0.0
+   },
+   "A": 13.276704135987622,
+   "seconds": 5.8,
+   "n_ratings": 162679,
+   "n_flagged": 3641,
+   "n_controversial": 20565,
+   "raw_coverage": 0.9884647074979401,
+   "matured_coverage": 0.9837956605328206,
+   "attenuation": 0.10058964177711896,
+   "all_retained": 0.9032005385877541,
+   "controversial_retained": 0.884693378068435,
+   "max_conservation_err": 4.440892098500626e-16,
+   "monotone_verified": true
+  },
+  "v1_only": {
+   "config": {
+    "N": 2,
+    "phi": 0.5,
+    "c_self": 0.0
+   },
+   "A": 13.276704135987622,
+   "seconds": 5.7,
+   "n_ratings": 162679,
+   "n_flagged": 3641,
+   "n_controversial": 20565,
+   "raw_coverage": 0.9884647074979401,
+   "matured_coverage": 0.9837956605328206,
+   "attenuation": 0.47889771395017755,
+   "all_retained": 0.9310321019052552,
+   "controversial_retained": 0.8881092061895901,
+   "max_conservation_err": 4.440892098500626e-16,
+   "monotone_verified": true
+  },
+  "no_supersession": {
+   "config": {
+    "N": 2,
+    "phi": 0.5,
+    "supersession_impulse": 0.0
+   },
+   "A": 13.276704135987622,
+   "seconds": 5.6,
+   "n_ratings": 162679,
+   "n_flagged": 3641,
+   "n_controversial": 20565,
+   "raw_coverage": 0.9884647074979401,
+   "matured_coverage": 0.9837956605328206,
+   "attenuation": 0.49347437168013236,
+   "all_retained": 0.8961507452843221,
+   "controversial_retained": 0.8716386623261523,
+   "max_conservation_err": 6.661338147750939e-16,
+   "monotone_verified": true
+  }
+ },
+ "rolling": {
+  "7": {
+   "population": 255,
+   "positives": 38,
+   "auroc": 0.5141886975503274,
+   "auprc": 0.1794930673693885,
+   "attenuation": 0.1864822966548571
+  },
+  "10": {
+   "population": 234,
+   "positives": 50,
+   "auroc": 0.4694565217391305,
+   "auprc": 0.21372392149789765,
+   "attenuation": 0.14507645336995165
+  },
+  "14": {
+   "population": 153,
+   "positives": 36,
+   "auroc": 0.5994776828110161,
+   "auprc": 0.32231771946998855,
+   "attenuation": 0.15980085757448126
+  }
+ },
+ "provenance": {
+  "host": "kc-sse-ml-rn02.umad.umsystem.edu",
+  "utc": "2026-10-17T11:06:43Z",
+  "argv": [
+   "claude_changes_2026-10-16/runs_original_code/stageB_eval.py",
+   "engine",
+   "--ds",
+   "wiki-rfa"
+  ],
+  "device": "cpu",
+  "gpu_name": null,
+  "cuda_visible_devices": "",
+  "torch": "2.4.0",
+  "cuda_runtime": "12.4",
+  "deterministic": false,
+  "cublas_workspace": ":4096:8",
+  "code_sha256": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "code_sha256_at_write": "2c6ab61927c172f26958b22cb059f8b56943794a6cf3474fcc32ce1edbc7e696",
+  "dataset": "wiki-rfa",
+  "data_md5": {
+   "data_path": "a023ddaf7d693c31900fcba0c24c13a9"
+  },
+  "signed_meta": {
+   "n_raw": 181828,
+   "n_zero_dropped": 11328,
+   "n_self_loops": 85,
+   "n_self_loops_dropped": 85,
+   "zero_policy": "drop",
+   "self_loop_policy": "drop",
+   "id_source": "reindexed",
+   "rating_min": -1.0,
+   "rating_max": 1.0
+  }
+ }
+}

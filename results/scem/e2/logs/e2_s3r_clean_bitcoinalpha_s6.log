@@ -1,0 +1,2 @@
+[taskpool] task=e2_s3r_clean_bitcoinalpha_s6 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T04:57:35Z
+[E2 bitcoinalpha s=6 clean s3r] test MCC 0.33945488429880416 learned phi None (157.4 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e2/e2_s3r_clean_bitcoinalpha_s6.json

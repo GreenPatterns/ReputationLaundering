@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+paper/**/*.aux
+paper/**/*.out
+paper/**/*.synctex.gz
+paper/main_scem.log
+*.egg-info/
+.*.tmp
+.keeper-cache/
+# Phase 4 dumps (Task 4.1a, ruling C3): the dump files are large and reproducible, so only their SHA-256
+# manifests are tracked. The directories are re-included so that git still descends into them; without that
+# line the manifest rule below could never match.
+results/dumps/**
+!results/dumps/**/
+!results/dumps/**/MANIFEST_SHA256.txt
+# PNG previews of the figures (the PDFs are tracked) and the upload folder written by paper/package_overleaf.py.
+paper/figures/*.png
+paper/overleaf/

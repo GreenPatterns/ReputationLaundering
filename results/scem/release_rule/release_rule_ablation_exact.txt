@@ -1,0 +1,22 @@
+bitcoinalpha
+    N1 (phi .25): atten 54.847% allRet 0.98428
+    N2 default: atten 63.278% allRet 0.98505
+    N3 (phi .75): atten 66.559% allRet 0.98562
+    V2-only (cap_c=0): atten 4.844% allRet 0.97157
+    V1-only (c_self=0): atten 63.118% allRet 0.98534
+    no O2: atten 63.278% allRet 0.98505
+bitcoinotc
+    N1 (phi .25): atten 57.863% allRet 0.96586
+    N2 default: atten 66.242% allRet 0.96449
+    N3 (phi .75): atten 69.925% allRet 0.96431
+    V2-only (cap_c=0): atten 7.259% allRet 0.96768
+    V1-only (c_self=0): atten 66.036% allRet 0.96489
+    no O2: atten 66.242% allRet 0.96449
+wiki-rfa
+    N1 (phi .25): atten 61.730% allRet 0.89352
+    N2 default: atten 69.148% allRet 0.88754
+    N3 (phi .75): atten 71.716% allRet 0.88713
+    V2-only (cap_c=0): atten 8.748% allRet 0.90320
+    V1-only (c_self=0): atten 67.995% allRet 0.93103
+    no O2: atten 68.954% allRet 0.89615
+done

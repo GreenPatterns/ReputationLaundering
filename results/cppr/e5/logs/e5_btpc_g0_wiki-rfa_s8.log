@@ -1,0 +1,3 @@
+[taskpool] task=e5_btpc_g0_wiki-rfa_s8 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=3 utc=2026-11-12T00:20:39Z
+[wiki-rfa s=8 SCEM] Direct laundering: plain=None -> VPE=None -> CP-VPE=None | Inject-Erase WW: VPE=None -> CP-VPE=None | Baselines: gain_author_edge=0.0000 gain_author_account=0.0000 t1_mcc_author=0.1808 gain_singleton_edge=0.1225 gain_singleton_account=0.0707 t1_mcc_singleton=0.1980 gain_withdrawal_edge=0.2939 gain_withdrawal_account=0.3168 t1_mcc_withdrawal=0.1257 gain_author=0.0299 gain_singleton=0.0368 gain_withdrawal=0.0001 (1930.0s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e5/e5_btpc_g0_wiki-rfa_s8.json

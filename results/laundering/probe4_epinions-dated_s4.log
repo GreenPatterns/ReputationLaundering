@@ -1,0 +1,8 @@
+[epinions-dated s4] train=832,634 T1 MCC=0.5578 T2 MCC=0.36428571428571427 | cohort 12949 (pos 904, nopos 12045) | sample 50 | same-shape floor 0.00e+00 | hp {'beta': 0.99, 'lr': 0.0001, 'epochs': 10} None
+  target 1/50 v=951 pos k=3 unlink +0.5113 unlink_frozen_x +0.5110 exact_retrain +0.5198 neggrad_plus +0.5354 head_newton +0.5179 (4692s)
+  target 2/50 v=5369 nopos k=1 unlink +0.2290 unlink_frozen_x +0.2290 exact_retrain +0.2360 neggrad_plus +0.2317 head_newton +0.2381 (2328s)
+  target 3/50 v=5841 pos k=2 unlink +0.3496 unlink_frozen_x +0.3494 exact_retrain +0.3488 neggrad_plus +0.3892 head_newton +0.3581 (4456s)
+  target 4/50 v=11221 nopos k=2 unlink +0.2486 unlink_frozen_x +0.2483 exact_retrain +0.2502 neggrad_plus +0.2734 head_newton +0.2633 (3738s)
+  target 5/50 v=13954 pos k=3 unlink +0.1181 unlink_frozen_x +0.1181 exact_retrain +0.1322 neggrad_plus +0.1594 head_newton +0.1253 (4551s)
+  target 6/50 v=15045 pos k=3 unlink +0.4846 unlink_frozen_x +0.4846 exact_retrain +0.4889 neggrad_plus +0.5153 head_newton +0.4957 (2699s)
+  target 7/50 v=23262 nopos k=2 unlink +0.5642 unlink_frozen_x +0.5642 exact_retrain +0.5665 neggrad_plus +0.5926 head_newton +0.5733 (1918s)

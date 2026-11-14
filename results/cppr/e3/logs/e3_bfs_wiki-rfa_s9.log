@@ -1,0 +1,3 @@
+[taskpool] task=e3_bfs_wiki-rfa_s9 attempt=1 host=kc-sse-ml-rn02.umad.umsystem.edu gpu=0 utc=2026-11-11T23:22:31Z
+[wiki-rfa s=9 SCEM] Direct laundering: plain=0.2704 -> VPE=-0.0651 -> CP-VPE=-0.0370 | Inject-Erase WW: VPE=0.4220 -> CP-VPE=0.0430 | Inject-Erase BM: VPE=-0.2345 -> CP-VPE=-0.0100 | Control: VPE=-0.0210 -> CP-VPE=-0.0080 | CP-VPE AUC=0.618 (3302.0s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e3/e3_bfs_wiki-rfa_s9.json

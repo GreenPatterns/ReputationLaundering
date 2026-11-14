@@ -1,0 +1,14 @@
+[wiki-rfa s0] cohort 155 | top rater issues 350 distrust edges
+  prolific {'top_r': 1} accounts=1 edges=806 targets touched 1/155 | retrain crossings 0 (literal 0.0) (130s)
+  prolific {'top_r': 5} accounts=5 edges=3116 targets touched 7/155 | retrain crossings 3 (literal 0.01935483870967742) (132s)
+  prolific {'top_r': 20} accounts=20 edges=11026 targets touched 28/155 | retrain crossings 3 (literal 0.01935483870967742) (130s)
+  random   {'rate': 0.005, 'draw': 0} accounts=51 edges=2069 targets touched 0/154 | retrain crossings 0 (literal 0.0) (131s)
+  random   {'rate': 0.005, 'draw': 1} accounts=51 edges=1938 targets touched 1/153 | retrain crossings 0 (literal 0.0) (132s)
+  random   {'rate': 0.005, 'draw': 2} accounts=51 edges=1044 targets touched 0/154 | retrain crossings 0 (literal 0.0) (134s)
+  random   {'rate': 0.01, 'draw': 0} accounts=102 edges=4478 targets touched 6/152 | retrain crossings 1 (literal 0.006578947368421052) (132s)
+  random   {'rate': 0.01, 'draw': 1} accounts=102 edges=2849 targets touched 2/155 | retrain crossings 1 (literal 0.0064516129032258064) (132s)
+  random   {'rate': 0.01, 'draw': 2} accounts=102 edges=2091 targets touched 2/152 | retrain crossings 0 (literal 0.0) (130s)
+  random   {'rate': 0.02, 'draw': 0} accounts=203 edges=7266 targets touched 9/152 | retrain crossings 2 (literal 0.013157894736842105) (127s)
+  random   {'rate': 0.02, 'draw': 1} accounts=203 edges=7746 targets touched 13/151 | retrain crossings 0 (literal 0.0) (131s)
+  random   {'rate': 0.02, 'draw': 2} accounts=203 edges=6870 targets touched 5/152 | retrain crossings 1 (literal 0.006578947368421052) (131s)
+wrote /home/mucbp/PROJECTS/FedUnlearning/laundering/results/incidental_wiki-rfa_s0.json

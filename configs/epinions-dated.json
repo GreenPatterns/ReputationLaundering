@@ -1,0 +1,57 @@
+{
+  "dataset": "epinions-dated",
+  "edge_path": "data/cyberdata/epinions-dated-rating.txt",
+  "data_path": "data/cyberdata/epinions-dated.csv",
+  "num_nodes": 131828,
+
+  "n_heads": 8,
+  "input_dim": 32,
+  "layers": [32, 32, 32],
+
+  "lr": 0.005,
+  "weight_decay": 1e-5,
+  "dropout": 0.0,
+  "seed": 42,
+
+  "_provenance": {
+    "note": "Primary source is KONECT (single file with sign AND timestamp). The earlier SNAP + dynamic-networks join was verified to produce byte-identical output (0 sign, 0 time mismatches on all 841,372 edges), and is kept as a fallback. Rebuild with laundering/build_epinions.py --konect <out.epinions>.",
+    "konect_page": "http://konect.cc/networks/epinions",
+    "konect_file": "http://konect.cc/files/download.tsv.epinions.tar.bz2",
+    "konect_fetch_note": "konect.cc times out on port 443 from this host but serves the same file on port 80; scrape the download path from the network page rather than guessing the filename.",
+    "fallback_snap": "https://snap.stanford.edu/data/soc-sign-epinions.txt.gz",
+    "fallback_times": "https://raw.githubusercontent.com/4AlexMin/dynamic-networks/main/human/Recommendation%20Networks/soc-epinion-combined.txt",
+    "citation": "@MISC{konect:2017:epinions} (Koblenz Network Collection). Signed edge set originally: J. Leskovec, D. Huttenlocher, J. Kleinberg: Signed Networks in Social Media. CHI 2010.",
+    "timestamp_caveat": "68.8% of edges (578,996 of 841,372, measured by build_epinions.py) share the crawl timestamp t0=979081200 (2001-01-09); only the other 31.2% carry a true formation time. Published analysis of the same data reports the same ~69%. See laundering/epinions_temporal.md.",
+    "time_slots_rationale": "T=22, the same as both Bitcoin datasets, so the held-out snapshot size and the epoch budget transfer unchanged. Requires snapshot_mode=quantile: with equal-count cuts, 69% of edges share one crawl timestamp and 14 of 22 snapshots come out empty (measured); quantile cuts leave zero empty."
+  },
+
+  "fl": {
+    "n_clients": 4,
+    "time_slots": 22,
+    "rounds": 50,
+    "local_epochs": 2,
+    "sample_ratio": 1.0,
+    "snapshot_mode": "quantile",
+    "s3r_frugal_scan": true,
+    "s3r_node_chunk": 4096,
+    "measured_snapshot_sizes": "T=22 -> 578,996 in snapshot 0 (the t0 block), 6,042..8,820 in each later snapshot, 8,192 in the held-out snapshot 21",
+    "memory_note": "s3r_frugal_scan is REQUIRED here: the default SSM path builds dA and dBu at [131828, 21, 64, 4] = 2.64 GiB each and OOMs at 21.3 GiB peak. With node_chunk=4096 the peak is 16.5 GiB and a training epoch takes ~15s. The frugal scan is bit-exact against the default on values and gradients; see laundering/frugal_ssm.py."
+  },
+
+  "centralized": {
+    "n_heads": 8,
+    "input_dim": 32,
+    "layers": [32, 32, 32],
+    "epochs_per_step": 50,
+    "fresh_model_per_t": true
+  },
+
+  "compression": {
+    "target_sparsity": 0.9,
+    "num_bits": 8,
+    "dp_epsilon": 8.0,
+    "adaef_K": 5,
+    "byzantine_z": 1.0,
+    "shared_secret": 98765
+  }
+}

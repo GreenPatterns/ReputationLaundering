@@ -1,0 +1,2 @@
+[taskpool] task=e2_scem_nohaz_clean_wiki-rfa_s7 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=3 utc=2026-11-12T02:36:46Z
+[E2 wiki-rfa s=7 clean scem_nohaz] test MCC 0.11624180230869721 learned phi 0.30076032876968384 (639.2 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e2/e2_scem_nohaz_clean_wiki-rfa_s7.json

@@ -1,0 +1,3 @@
+[taskpool] task=e4_bfs_rand_ring_k3_g1_wiki-rfa_s5 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=0 utc=2026-11-12T04:19:13Z
+[wiki-rfa s=5 SCEM] Inject-Erase WW: VPE=None -> CP-VPE=0.3743 (608.6s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e4/e4_bfs_rand_ring_k3_g1_wiki-rfa_s5.json

@@ -1,0 +1,2 @@
+[taskpool] task=e2_scem_nohaz_lag1_bitcoinalpha_s5 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=2 utc=2026-11-12T04:53:53Z
+[E2 bitcoinalpha s=5 lag1 scem_nohaz] test MCC 0.3801353126416267 learned phi 0.3106747269630432 (408.8 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e2/e2_scem_nohaz_lag1_bitcoinalpha_s5.json

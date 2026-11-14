@@ -1,0 +1,2 @@
+[wiki-rfa s2] H4 pass-all 0.723 over 83 laundering requests | per kind: benign_random 0.97, launder_C1 0.67, launder_C2_edge 0.67, launder_C3 0.87
+wrote /home/mucbp/PROJECTS/FedUnlearning/laundering/results/verification_wiki-rfa_s2.json

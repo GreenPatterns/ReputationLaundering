@@ -1,0 +1,21 @@
+{
+ "A": 13.2767,
+ "omega_k1_at_T1": 0.0902,
+ "pi_v_at_T1": 0.9098,
+ "p0_at_x2.5": 0.2865,
+ "p1_at_x2.5": 0.3581,
+ "P_at_x2.5": 0.3554,
+ "C_at_s2": 0.4385,
+ "R_at_s2": 0.5615,
+ "omega_k1_segment_close": 0.4385,
+ "m_v_close": 1.4385,
+ "norm_denom_close": 2.4385,
+ "bound_9c_min": 0.04,
+ "bound_9c_realised": 0.1289,
+ "variant_i_omega": 1.0,
+ "variant_iii_P_s10": 0.9672,
+ "variant_iii_C_s10": 0.9729,
+ "variant_iii_R_s10": 0.0271,
+ "variant_iv_omega": 0.7192,
+ "all_checks_passed": true
+}

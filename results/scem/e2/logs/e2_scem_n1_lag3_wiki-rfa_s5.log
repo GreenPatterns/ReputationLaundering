@@ -1,0 +1,2 @@
+[taskpool] task=e2_scem_n1_lag3_wiki-rfa_s5 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=3 utc=2026-11-12T02:22:20Z
+[E2 wiki-rfa s=5 lag3 scem_n1] test MCC 0.19128098399850443 learned phi 0.1511913388967514 (606.7 s); wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e2/e2_scem_n1_lag3_wiki-rfa_s5.json

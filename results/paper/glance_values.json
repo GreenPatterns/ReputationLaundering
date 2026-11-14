@@ -1,0 +1,834 @@
+{
+ "cells": {
+  "c3": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s0.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s1.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s2.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s3.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s4.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     }
+    ],
+    "text": "+0.018",
+    "value": 0.01773825983206431
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s0.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s1.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s2.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s3.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s4.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     }
+    ],
+    "text": "+0.002",
+    "value": 0.0017747260630130769
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_epinions-dated_s0.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s1.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s2.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s3.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s4.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     }
+    ],
+    "text": "+0.001",
+    "value": 0.000839645683765412
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s0.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s1.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s2.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s3.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s4.json",
+      "key_path": "targets[*].c3_white.ops.exact_retrain.gain (0 if null; calibration targets excluded; mean per seed, then over seeds)"
+     }
+    ],
+    "text": "$-0.002$",
+    "value": -0.0020894854329526424
+   }
+  },
+  "cohort": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.cohort"
+     }
+    ],
+    "text": "135",
+    "value": 135
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.cohort"
+     }
+    ],
+    "text": "398",
+    "value": 398
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.cohort"
+     }
+    ],
+    "text": "12{,}949",
+    "value": 12949
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.cohort"
+     }
+    ],
+    "text": "155",
+    "value": 155
+   }
+  },
+  "edgeless": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.edgeless.share"
+     }
+    ],
+    "text": "60",
+    "value": 0.6
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.edgeless.share"
+     }
+    ],
+    "text": "65",
+    "value": 0.6482412060301508
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.edgeless.share"
+     }
+    ],
+    "text": "69",
+    "value": 0.6934898447756583
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.edgeless.share"
+     }
+    ],
+    "text": "69",
+    "value": 0.6903225806451613
+   }
+  },
+  "eigentrust": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/laundering/baselines_bitcoinalpha_s0.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinalpha_s1.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinalpha_s2.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinalpha_s3.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinalpha_s4.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     }
+    ],
+    "text": "+0.000",
+    "value": 0.0
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/laundering/baselines_bitcoinotc_s0.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinotc_s1.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinotc_s2.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinotc_s3.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_bitcoinotc_s4.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     }
+    ],
+    "text": "+0.000",
+    "value": 0.0
+   },
+   "epinions-dated": {
+    "sources": [],
+    "text": "n/a",
+    "value": null
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/laundering/baselines_wiki-rfa_s0.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_wiki-rfa_s1.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_wiki-rfa_s2.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_wiki-rfa_s3.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     },
+     {
+      "file": "results/laundering/baselines_wiki-rfa_s4.json",
+      "key_path": "summary.eigentrust.direct_d_pct.all.mean (mean over seeds)"
+     }
+    ],
+    "text": "+0.000",
+    "value": 0.00031126871552403376
+   }
+  },
+  "escape": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s0.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 237 of 238 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s1.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 237 of 238 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s2.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 237 of 238 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s3.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 237 of 238 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinalpha_s4.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 237 of 238 evaluations"
+     }
+    ],
+    "text": "99.6",
+    "value": 0.9957983193277311
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s0.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 211 of 211 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s1.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 211 of 211 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s2.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 211 of 211 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s3.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 211 of 211 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_bitcoinotc_s4.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 211 of 211 evaluations"
+     }
+    ],
+    "text": "100.0",
+    "value": 1.0
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_epinions-dated_s0.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 139 of 139 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s1.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 139 of 139 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s2.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 139 of 139 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s3.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 139 of 139 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_epinions-dated_s4.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 139 of 139 evaluations"
+     }
+    ],
+    "text": "100.0",
+    "value": 1.0
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s0.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 209 of 209 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s1.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 209 of 209 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s2.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 209 of 209 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s3.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 209 of 209 evaluations"
+     },
+     {
+      "file": "results/laundering/probe4_wiki-rfa_s4.json",
+      "key_path": "targets[*]: pct_before < 0.10 and direct.ops.exact_retrain.pct_after >= 0.10 (calibration targets excluded): 209 of 209 evaluations"
+     }
+    ],
+    "text": "100.0",
+    "value": 1.0
+   }
+  },
+  "gain_u2": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.amplification.mean_gain_u2"
+     }
+    ],
+    "text": "+0.352",
+    "value": 0.35161030208691957
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.amplification.mean_gain_u2"
+     }
+    ],
+    "text": "+0.317",
+    "value": 0.31688646364212036
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.amplification.mean_gain_u2"
+     }
+    ],
+    "text": "+0.347",
+    "value": 0.34721498370170595
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.amplification.mean_gain_u2"
+     }
+    ],
+    "text": "+0.581",
+    "value": 0.5808069029512505
+   }
+  },
+  "gain_u2_post": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.cohort_weighted.gain_u2"
+     }
+    ],
+    "text": "+0.364",
+    "value": 0.3640165288801546
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.cohort_weighted.gain_u2"
+     }
+    ],
+    "text": "+0.347",
+    "value": 0.3473938223992161
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.cohort_weighted.gain_u2"
+     }
+    ],
+    "text": "+0.387",
+    "value": 0.38690343365141555
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.cohort_weighted.gain_u2"
+     }
+    ],
+    "text": "+0.577",
+    "value": 0.5771207064250348
+   }
+  },
+  "percentile": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.cohort_weighted.pct_before, bitcoinalpha.cohort_weighted.pct_after_u2"
+     }
+    ],
+    "text": "3.1 $\\to$ 25.1",
+    "value": [
+     0.030924786272448622,
+     0.2507035914393313
+    ]
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.cohort_weighted.pct_before, bitcoinotc.cohort_weighted.pct_after_u2"
+     }
+    ],
+    "text": "4.6 $\\to$ 27.0",
+    "value": [
+     0.0460209810488049,
+     0.2702817642045555
+    ]
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.cohort_weighted.pct_before, epinions-dated.cohort_weighted.pct_after_u2"
+     }
+    ],
+    "text": "6.5 $\\to$ 34.0",
+    "value": [
+     0.06494532305132476,
+     0.34021258471317767
+    ]
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.cohort_weighted.pct_before, wiki-rfa.cohort_weighted.pct_after_u2"
+     }
+    ],
+    "text": "3.4 $\\to$ 33.0",
+    "value": [
+     0.03403844731744526,
+     0.32977648473187243
+    ]
+   }
+  },
+  "percentile_nopos": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.cohort_weighted.pct_before_nopos, bitcoinalpha.cohort_weighted.pct_after_u2_nopos"
+     }
+    ],
+    "text": "3.0 $\\to$ 14.7",
+    "value": [
+     0.02987508037108478,
+     0.1469114540277395
+    ]
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.cohort_weighted.pct_before_nopos, bitcoinotc.cohort_weighted.pct_after_u2_nopos"
+     }
+    ],
+    "text": "3.6 $\\to$ 17.4",
+    "value": [
+     0.03638142153413089,
+     0.1739676284306826
+    ]
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.cohort_weighted.pct_before_nopos, epinions-dated.cohort_weighted.pct_after_u2_nopos"
+     }
+    ],
+    "text": "6.0 $\\to$ 31.2",
+    "value": [
+     0.060398892051775864,
+     0.3119322954630901
+    ]
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.cohort_weighted.pct_before_nopos, wiki-rfa.cohort_weighted.pct_after_u2_nopos"
+     }
+    ],
+    "text": "2.4 $\\to$ 21.9",
+    "value": [
+     0.023767957810511005,
+     0.21857913560041223
+    ]
+   }
+  },
+  "percentile_pos": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.cohort_weighted.pct_before_pos, bitcoinalpha.cohort_weighted.pct_after_u2_pos"
+     }
+    ],
+    "text": "3.5 $\\to$ 63.0",
+    "value": [
+     0.034761642325709566,
+     0.6300817488748048
+    ]
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.cohort_weighted.pct_before_pos, bitcoinotc.cohort_weighted.pct_after_u2_pos"
+     }
+    ],
+    "text": "8.2 $\\to$ 62.5",
+    "value": [
+     0.08151724137931035,
+     0.6249444053483463
+    ]
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.cohort_weighted.pct_before_pos, epinions-dated.cohort_weighted.pct_after_u2_pos"
+     }
+    ],
+    "text": "12.6 $\\to$ 71.7",
+    "value": [
+     0.12552249273004887,
+     0.7170224121659466
+    ]
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.cohort_weighted.pct_before_pos, wiki-rfa.cohort_weighted.pct_after_u2_pos"
+     }
+    ],
+    "text": "9.3 $\\to$ 96.8",
+    "value": [
+     0.09298212622680709,
+     0.967952575399384
+    ]
+   }
+  },
+  "r0": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.r0.cohort_mean"
+     }
+    ],
+    "text": "0.622",
+    "value": 0.6220186327121876
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.r0.cohort_mean"
+     }
+    ],
+    "text": "0.588",
+    "value": 0.5879053606621303
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.r0.cohort_mean"
+     }
+    ],
+    "text": "0.454",
+    "value": 0.4536348970805285
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.r0.cohort_mean"
+     }
+    ],
+    "text": "0.148",
+    "value": 0.1479144627384601
+   }
+  },
+  "sgcn": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/legacy/probe4_aggregate.json",
+      "key_path": "other_hypotheses.bitcoinalpha.SGCN_second_model.direct_gain_exact.mean"
+     }
+    ],
+    "text": "+0.603",
+    "value": 0.6026923434734345
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/legacy/probe4_aggregate.json",
+      "key_path": "other_hypotheses.bitcoinotc.SGCN_second_model.direct_gain_exact.mean"
+     }
+    ],
+    "text": "+0.454",
+    "value": 0.45436755429208286
+   },
+   "epinions-dated": {
+    "sources": [],
+    "text": "n/a",
+    "value": null
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/legacy/probe4_aggregate.json",
+      "key_path": "other_hypotheses.wiki-rfa.SGCN_second_model.direct_gain_exact.mean"
+     }
+    ],
+    "text": "+0.355",
+    "value": 0.3551845824420452
+   }
+  },
+  "share_pos": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.cohort_weighted.cohort_share_pos"
+     }
+    ],
+    "text": "21",
+    "value": 0.21481481481481482
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.cohort_weighted.cohort_share_pos"
+     }
+    ],
+    "text": "21",
+    "value": 0.2135678391959799
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.cohort_weighted.cohort_share_pos"
+     }
+    ],
+    "text": "7",
+    "value": 0.06981234072129122
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.cohort_weighted.cohort_share_pos"
+     }
+    ],
+    "text": "15",
+    "value": 0.14838709677419354
+   }
+  },
+  "u1_share": {
+   "bitcoinalpha": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinalpha.shares.u1_over_u2"
+     }
+    ],
+    "text": "99.2",
+    "value": 0.9924512566154265
+   },
+   "bitcoinotc": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "bitcoinotc.shares.u1_over_u2"
+     }
+    ],
+    "text": "100.2",
+    "value": 1.0022776846231978
+   },
+   "epinions-dated": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "epinions-dated.shares.u1_over_u2"
+     }
+    ],
+    "text": "100.3",
+    "value": 1.0031696965868946
+   },
+   "wiki-rfa": {
+    "sources": [
+     {
+      "file": "results/analysis/laundering_extra.json",
+      "key_path": "wiki-rfa.shares.u1_over_u2"
+     }
+    ],
+    "text": "99.7",
+    "value": 0.9972668923534228
+   }
+  }
+ },
+ "generator": "keeper/paperkit/make_glance_table.py",
+ "sha256": {
+  "results/analysis/laundering_extra.json": "b39be5e6659497a75c2f56effb8e17e6a7fd4b7341479a7d067afbb2340670e5",
+  "results/laundering/baselines_bitcoinalpha_s0.json": "d201c4500c027cccf004430d63b033273118ef9246a4f111aac4686a68f03100",
+  "results/laundering/baselines_bitcoinalpha_s1.json": "457cb69a0dd5a2546fcfc08c55ef8918fea1302fd06483cc9f5501105b629825",
+  "results/laundering/baselines_bitcoinalpha_s2.json": "34dcf64cdd9cecbb92e00623660890594ad1dade08157c9ebad8720f6bb2a6c6",
+  "results/laundering/baselines_bitcoinalpha_s3.json": "23f42526bab1520165ff33894aa7fb86ceae6b2599008252dd588e80bf4de871",
+  "results/laundering/baselines_bitcoinalpha_s4.json": "3ef48dca74860429e0b2952394b48287f5f00999c9e3cdc796cdf0ccd16120e0",
+  "results/laundering/baselines_bitcoinotc_s0.json": "b22a659da50844aae439161845a04466f2e29cfb7288f46421bedf8677b3563e",
+  "results/laundering/baselines_bitcoinotc_s1.json": "eeff02ba46885cc44ef23dff51bc29535398e1101a5aca5603545b341545cc67",
+  "results/laundering/baselines_bitcoinotc_s2.json": "bf58d9980831c90bbe6f7643b281cbc948285a8a2a0571339ccf0665f80fec7d",
+  "results/laundering/baselines_bitcoinotc_s3.json": "ab50b556ea6f2c17386258ead4ec2442f0075997f2c9511244367c02e1e5cab0",
+  "results/laundering/baselines_bitcoinotc_s4.json": "de3c7230d5487fbd729c62cdc81bfb5c1160990064385e6586dc1f16ac1cbe04",
+  "results/laundering/baselines_wiki-rfa_s0.json": "65567f20aa2f5009ee9f98ddfab912824250861e093a39545714e5bb92008b91",
+  "results/laundering/baselines_wiki-rfa_s1.json": "85d36d19f2e0bb7662ea2c29a6f1a8fbebfa1b40fefebe2471326163316b9fc3",
+  "results/laundering/baselines_wiki-rfa_s2.json": "eb8e1d2e87e57acbf35251018658a2b0b94c4cc176f5280cc0ff89610931153d",
+  "results/laundering/baselines_wiki-rfa_s3.json": "2bf37a5095d74525a569226da3fe73fc3e00d59150c51108f1e281198e025175",
+  "results/laundering/baselines_wiki-rfa_s4.json": "0f1933bda829a9972634383a1cc52ed91113dd2d72564c741a62738e7cd61b86",
+  "results/laundering/probe4_bitcoinalpha_s0.json": "e5e3a681e4b69708d1a37b4051eafc0b8949838a793394fe87ec7bb2bc729315",
+  "results/laundering/probe4_bitcoinalpha_s1.json": "f7c4cac6d2c0bb1cdd3937e899513dad2448fcb202cd69f4ccf9750e957de91e",
+  "results/laundering/probe4_bitcoinalpha_s2.json": "4a5fbb3fc3561b0575b5ad39497f17efd3923849e3f1b46f27d3f65b7def29a8",
+  "results/laundering/probe4_bitcoinalpha_s3.json": "8734866ea0fdafd7d2d15cddc3317a09e34b9bbe30b8328f1671bcf9624e7180",
+  "results/laundering/probe4_bitcoinalpha_s4.json": "7cb38fcbb5d365f2863bca032965d0ef3337d0cbed19a9dab83335cce6384db0",
+  "results/laundering/probe4_bitcoinotc_s0.json": "88b7220d34bfcaa7d8f284fa49a07ac741f75e8ced2fc6f8b811bcc2eef69bf8",
+  "results/laundering/probe4_bitcoinotc_s1.json": "4e8c2126a522b1c4f9d5ffbc0b3c7a1ca57b2f711677007a14b376d3a976e892",
+  "results/laundering/probe4_bitcoinotc_s2.json": "59a92cead9f29254f82392e92e3657953009f51f932ccb729281a3d19bb633ec",
+  "results/laundering/probe4_bitcoinotc_s3.json": "6466637dafcf624ea47272afd21a6b651d46f3897deb096eb107549bd8a01f2c",
+  "results/laundering/probe4_bitcoinotc_s4.json": "e2b36b3e6ea94aebb14f3dcb6894219dc9000cc1c7cdf01c3004cb714d020187",
+  "results/laundering/probe4_epinions-dated_s0.json": "13df3e4490f403cfb8ecb6e19c27d4d3132a4caafcd974ac9ef2529dce1ff634",
+  "results/laundering/probe4_epinions-dated_s1.json": "8ab5dbbb6af405bc1a0e42648797921e1358a9b820defb5c19d3f24b2bc15908",
+  "results/laundering/probe4_epinions-dated_s2.json": "14c334759715ec9366e4d92ba51a97dd551b42ee88f0aae806917147b0a15eee",
+  "results/laundering/probe4_epinions-dated_s3.json": "6b5249a0b61202995851690763d22ccdf7f712cb746976a385e3b8fb5984c921",
+  "results/laundering/probe4_epinions-dated_s4.json": "f2bf595c9e2d94eda3a8b3715641ed933a10c889addf4d57573dc895ee57355f",
+  "results/laundering/probe4_wiki-rfa_s0.json": "f972852a7904c7b00866fda81f88a0f03fc48eeb878d659286081019bccaf778",
+  "results/laundering/probe4_wiki-rfa_s1.json": "2a039584f93a203c724b7ddcccaeac869bd92ae2aab853a421def18e8bb483ad",
+  "results/laundering/probe4_wiki-rfa_s2.json": "121860a282cc6ff930249dae5f575a2a221ad55a1cd62457593f0995f1c7be77",
+  "results/laundering/probe4_wiki-rfa_s3.json": "61b53e292d314bb780f167596559b93bee43980965b870779614ca9a401937f4",
+  "results/laundering/probe4_wiki-rfa_s4.json": "a8270186b6fe2739e91376a04cc03b0bc0402373e7f0f747008ca5e9ee540d26",
+  "results/legacy/probe4_aggregate.json": "4fb5044e67566c011ddfb4fc6a8c3893c92faabe3d696c438d3563f243055002"
+ }
+}

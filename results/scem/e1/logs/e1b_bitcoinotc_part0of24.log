@@ -1,0 +1,2 @@
+[taskpool] task=e1b_bitcoinotc_part0of24 attempt=1 host=kc-sse-ml-rn02.umad.umsystem.edu gpu=cpu6 utc=2026-11-11T22:40:01Z
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/scem/e1/e1b_bitcoinotc_part0of24.json (1739.7 s)

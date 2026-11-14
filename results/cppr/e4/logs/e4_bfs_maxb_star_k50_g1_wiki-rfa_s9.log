@@ -1,0 +1,3 @@
+[taskpool] task=e4_bfs_maxb_star_k50_g1_wiki-rfa_s9 attempt=1 host=kc-sse-ml-rn03.umad.umsystem.edu gpu=0 utc=2026-11-12T05:15:11Z
+[wiki-rfa s=9 SCEM] Inject-Erase WW: VPE=None -> CP-VPE=0.4016 (609.4s)
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/cppr/e4/e4_bfs_maxb_star_k50_g1_wiki-rfa_s9.json

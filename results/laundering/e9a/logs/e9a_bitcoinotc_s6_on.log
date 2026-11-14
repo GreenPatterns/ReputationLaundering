@@ -1,0 +1,10 @@
+[taskpool] task=e9a_bitcoinotc_s6_on attempt=1 host=kc-sse-ml-rn04 gpu=0 utc=2026-11-11T23:03:35Z
+  U1 50/180 targets (16s)
+  U1 100/180 targets (32s)
+  U1 150/180 targets (48s)
+  U1 180/180 targets (57s)
+  warning: FutureWarning: `torch.cpu.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cpu', args...)` instead.
+  warning: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/mucbp/PROJECTS/.keeper-worktrees/run-fccc958/configs/bitcoinotc.json' mode='r' encoding='UTF-8'>
+  warning: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/mucbp/PROJECTS/.keeper-worktrees/run-fccc958/results/laundering/calibration_bitcoinotc_s0.json' mode='r' encoding='UTF-8'>
+[E9a bitcoinotc s6 self_term=on] T1 MCC=0.3097687369574203 | 180 targets | drawn mean U1 gain +0.2284 | 3 distinct warnings | dump 4.1 MiB | 158.7s
+wrote /home/mucbp/PROJECTS/FedUnlearning-Argon/results/laundering/e9a/e9a_bitcoinotc_s6_on.json
